@@ -1,0 +1,41 @@
+{
+  "courts": [
+    {
+      "fileid": "gl.ki",
+      "group": "kiev",
+      "namestr": "Голосіївський районний суд міста Києва",
+      "siteurl": "http://gl.ki.court.gov.ua/",
+      "scheduleurl": "http://gl.ki.court.gov.ua/sud2601/csz/",
+      "code": "2601"
+    },
+
+    {
+      "fileid": "dr.ki",
+      "group": "kiev",
+      "namestr": "Дарницький районний суд міста Києва",
+      "siteurl": "http://dr.ki.court.gov.ua/",
+      "scheduleurl": "http://dr.ki.court.gov.ua/sud2602/20/csz/",
+      "code": "2602"
+    },
+
+    {
+      "fileid": "ok.pl",
+      "group": "poltava",
+      "namestr": "Октябрський районний суд м. Полтави",
+      "siteurl": "http://ok.pl.court.gov.ua/",
+      "scheduleurl": "http://ok.pl.court.gov.ua/sud1622/csz/",
+      "code": "1622"
+    },
+
+    {
+      "fileid": "zn.pl",
+      "group": "poltavareg",
+      "namestr": "Зіньківський районний суд Полтавської області",
+      "siteurl": "http://zn.pl.court.gov.ua/",
+      "scheduleurl": "http://zn.pl.court.gov.ua/sud1607/spisok/csz/",
+      "code": "1607"
+    }
+
+
+  ]
+}
