@@ -81,7 +81,7 @@ else
 fi
 
 #-- Courts database (file) ----------------------------------------------------
-courtsFileName=$scriptFolder"/courts.json"
+courtsFileName=$scriptFolder"/visualGroups.json"
 if [ ! -r $courtsFileName ]
 then
 #  echo "Courts settings file not found ($courtsFileName)"

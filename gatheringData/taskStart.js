@@ -3,8 +3,9 @@
 var program = require('commander');
 
 var fs = require('fs');
-var chpro = require('child_process');
 //var chpro = require('child_process');
+var querystring = require('querystring');
+var http = require('http');
 
 //=============================================================================
 
@@ -143,7 +144,7 @@ function transformData(jsonData) {
 
 // ============================================================================
 // Performs all actions needed to process one court
-function processOneCourt(court) {
+function old_processOneCourt(court) {
   console.log("taskStart: processing " + court.fileid);
 
   // download info (with wget)
@@ -175,7 +176,94 @@ function processOneCourt(court) {
 
 }
 
+// ============================================================================
+// Performs all actions needed to process one court
+//Actually we'll onlu send a post request for data here; all other actions will
+//be done in callbacks
+function processOneCourt(court) {
+  console.log("taskStart: processing " + court.fileid);
 
+  var turl = 'http://' + court.fileid + '.court.gov.ua/new.php' ;
+
+  // Build the post string from an object
+  var postData = querystring.stringify({
+    'q_court_id' : court.code
+  });
+
+  // An object of options to indicate where to post to
+  var postOptions = {
+    host: court.fileid + '.court.gov.ua',
+    port: '80',
+    path: '/new.php',
+    method: 'POST',
+    headers: {
+//          'Content-Type': 'application/x-www-form-urlencoded',
+//          'Content-Length': Buffer.byteLength(post_data)
+      'Accept': 'application/json, text/javascript, */*; q=0.01' ,
+      'Accept-Encoding': 'gzip, deflate' ,
+      'Accept-Language': 'en-US,en;q=0.5' ,
+      'Cache-Control': 'no-cache' ,
+      'Connection': 'keep-alive' ,
+      'Content-Length':  postData.length, // was '15' in the browser
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' ,
+      'Pragma': 'no-cache' ,
+      'Referer': court.scheduleurl,
+      'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0' ,
+      'X-Requested-With': 'XMLHttpRequest'
+    }
+  };
+
+  // Set up the request
+  var req = http.request(postOptions, function(res) {
+    var respCourtId = court.fileid ;
+    var respWholeStr = '';
+    res.setEncoding('utf8');
+
+    res.on('data', function (chunk) {
+//      console.log('Response %s chunk received', respCourtId);
+      respWholeStr += chunk ;
+    });
+
+    res.on('end', function() {
+//      console.log('No more data in response for ' + respCourtId)
+
+      var pd = transformData(respWholeStr);
+      var pdstr = JSON.stringify(pd, null, ' ');
+
+      var recentFileName= program.recent + '/' + respCourtId + '.json';
+      fs.writeFile(recentFileName, pdstr, function (err) {
+        if (err) {
+          console.log( 'Failed to write data for %s : %s ', respCourtId, err.toString()) ;
+          return ;
+        };
+        console.log('Saved transformed data as '+recentFileName);
+      });
+
+      // also save a copy of data to archive folder
+      var tsd = new Date();
+      var tss = 'd' + tsd.getFullYear() + tsd.getMonth() + tsd.getDay() +
+                '_' + tsd.getHours() + tsd.getMinutes() + tsd.getSeconds();
+      var afn = program.archive + '/' + tss + '.' + court.fileid + '.json';
+      fs.writeFile(afn, pdstr, function (err) {
+        if (err) {
+          console.log( 'Failed to write data to archive for %s : %s ', respCourtId, err.toString()) ;
+          return ;
+        };
+        console.log('Saved transformed data to archive as '+recentFileName);
+      });
+
+    })
+  });
+
+  req.on('error', function(e) {
+    console.log('problem with request: ' + e.message);
+  });
+
+  // write data to request body
+  req.write(postData);
+  req.end();
+
+}
 
 // ============================================================================
 // Main =======================================================================
@@ -195,8 +283,8 @@ var courts = courtsData.courts;
 console.log ("taskStart: has to process %d courts", courts.length);
 
 courts.forEach(processOneCourt);
-//processOneCourt(courts[0]);
-
+//processOneCourt(courts[0]); // this line is for debug purposes only
+//processOneCourt(courts[1]);
 console.log ("taskStart: done");
 
 
