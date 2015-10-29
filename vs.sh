@@ -32,6 +32,22 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 scriptFolder="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
+#-- Check for nodejs or load it -----------------------------------------------
+nvmPath="$HOME/nodejs/nvm/"
+. $nvmPath"/"nvm.sh
+nvm use 0.12
+
+#node --version
+#echo $PATH
+node --version
+if [ $? -eq 0 ]
+then
+  echo "node was found"
+else
+  echo "There is no nodejs here"
+  exit 1
+fi
+
 #------------------------------------------------------------------------------
 
 makeClean() {
@@ -41,6 +57,16 @@ makeClean() {
   find $scriptFolder"/gatheringData/archive/" -name "*.tgz" | xargs rm -vf
 
 #  find $scriptFolder"/gatheringData/recent/" -name "*.json" | xargs rm -vf
+
+}
+
+#------------------------------------------------------------------------------
+
+makeVisualGroups() {
+  echo "started working (make groups) at " $dateStampStr
+
+  vgf=$scriptFolder"/courtParameters/"
+  node $vgf"/param2json.js" -c $vgf"/ac.yaml" -w $vgf -g $vgf
 
 }
 
@@ -59,6 +85,8 @@ printHelp() {
 
 case "$taskName" in
 "clean")  makeClean
+    ;;
+"groups")  makeVisualGroups
     ;;
 *) printHelp
    ;;

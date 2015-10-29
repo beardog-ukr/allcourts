@@ -1,0 +1,131 @@
+groups:
+ -
+  id: kiev
+  str: "Київ"
+ -
+  id: kievreg
+  str: "Київська область"
+ -
+  id: poltava
+  str: "Полтава"
+ -
+  id: poltavareg
+  str: "Полтавська область"
+ -
+  id: dnipro
+  str: "Дніпропетровськ"
+ -
+  id: dniproreg
+  str: "Дніпропетровська область"
+
+# =========================================================== ===== ===== =====
+# =========================================================== ===== ===== =====
+
+courts:
+
+# Kiev ====================================================== ===== ===== =====
+
+ -
+  fileid: "gl.ki"
+  group: kiev
+  namestr: "Голосіївський районний суд міста Києва"
+  siteurl: "http://gl.ki.court.gov.ua/"
+  scheduleurl: "http://gl.ki.court.gov.ua/sud2601/csz/"
+  code: 2601
+ -
+  fileid: "dr.ki"
+  group: kiev
+  namestr: "Дарницький районний суд міста Києва"
+  siteurl: "http://dr.ki.court.gov.ua/"
+  scheduleurl: "http://dr.ki.court.gov.ua/sud2602/20/csz/"
+  code: 2602
+ -
+  fileid: "ds.ki"
+  group: kiev
+  namestr: "Деснянський районний суд міста Києва"
+  siteurl: "http://ds.ki.court.gov.ua/"
+  scheduleurl: "http://ds.ki.court.gov.ua/sud2603/csz/"
+  code: 2603
+ -
+  fileid: "dn.ki"
+  group: kiev
+  namestr: "Дніпровський районний суд міста Києва"
+  siteurl: "http://dn.ki.court.gov.ua/"
+  scheduleurl: "http://dn.ki.court.gov.ua/sud2604/information/csz/"
+  code: 2604
+ -
+  fileid: "ob.ki"
+  group: kiev
+  namestr: "Оболонський районний суд міста Києва"
+  siteurl: "http://ob.ki.court.gov.ua/"
+  scheduleurl: "http://ob.ki.court.gov.ua/sud2605/spravy/csz/"
+  code: 2605
+ -
+  fileid: "pc.ki"
+  group: kiev
+  namestr: "Печерський районний суд міста Києва"
+  siteurl: "http://pc.ki.court.gov.ua/"
+  scheduleurl: "http://pc.ki.court.gov.ua/sud2606/spysok_sprav/csz/"
+  code: 2606
+ -
+  fileid: "pd.ki"
+  group: kiev
+  namestr: "Подільський районний суд м. Києва"
+  siteurl: "http://pd.ki.court.gov.ua/"
+  scheduleurl: "http://pd.ki.court.gov.ua/sud2607/info_dlya_gromadyan/csz/"
+  code: 2607
+ -
+  fileid: "sv.ki"
+  group: kiev
+  namestr: "Святошинський районний суд міста Києва"
+  siteurl: "http://sv.ki.court.gov.ua/"
+  scheduleurl: "http://sv.ki.court.gov.ua/sud2608/1/csz/"
+  code: 2608
+ -
+  fileid: "sl.ki"
+  group: kiev
+  namestr: "Солом'янський районний суд міста Києва"
+  siteurl: "http://sl.ki.court.gov.ua/"
+  scheduleurl: "http://sl.ki.court.gov.ua/sud2609/information3/csz/"
+  code: 2609
+ -
+  fileid: "sh.ki"
+  group: kiev
+  namestr: "Шевченківський районний суд міста Києва"
+  siteurl: "http://sh.ki.court.gov.ua/"
+  scheduleurl: "http://sh.ki.court.gov.ua/sud2610/csz/"
+  code: 2610
+
+# Poltava =================================================== ===== ===== =====
+
+ -
+  fileid: "ki.pl"
+  group: poltava
+  namestr: "Київський районний суд м. Полтави"
+  siteurl: "http://ki.pl.court.gov.ua/sud1609/sspdr/csz/"
+  scheduleurl: ""
+  code: 1609
+ -
+  fileid: "ln.pl"
+  group: poltava
+  namestr: "Ленінський районний суд м. Полтави"
+  siteurl: "http://ln.pl.court.gov.ua/"
+  scheduleurl: "http://ln.pl.court.gov.ua/sud1616/20/csz/"
+  code: 1616
+ -
+  fileid: "ok.pl"
+  group: poltava
+  namestr: "Октябрський районний суд м. Полтави"
+  siteurl: "http://ok.pl.court.gov.ua/"
+  scheduleurl: "http://ok.pl.court.gov.ua/sud1622/csz/"
+  code: 1622
+
+# Poltava region ============================================ ===== ===== =====
+
+ -
+  fileid: "zn.pl"
+  group: poltavareg
+  namestr: "Зіньківський районний суд Полтавської області"
+  siteurl: "http://zn.pl.court.gov.ua/"
+  scheduleurl: "http://zn.pl.court.gov.ua/sud1607/spisok/csz/"
+  code: 1607
