@@ -1,22 +1,39 @@
 groups:
- -
-  id: "kiev"
-  str: "Київ"
- -
-  id: "kievreg"
-  str: "Київська область"
- -
-  id: "poltava"
-  str: "Полтава"
- -
-  id: "poltavareg"
-  str: "Полтавська область"
+
  -
   id: "dnipro"
   str: "Дніпропетровськ"
  -
   id: "dniproreg"
   str: "Дніпропетровська область"
+
+ -
+  id: "kiev"
+  str: "Київ"
+ -
+  id: "kievreg"
+  str: "Київська область"
+
+ -
+  id: "kharkiv"
+  str: "Харків"
+ -
+  id: "kharkivreg"
+  str: "Харківська область"
+
+ -
+  id: "odesa"
+  str: "Одеса"
+ -
+  id: "odesareg"
+  str: "Одеська область"
+
+ -
+  id: "poltava"
+  str: "Полтава"
+ -
+  id: "poltavareg"
+  str: "Полтавська область"
 
 # =========================================================== ===== ===== =====
 # =========================================================== ===== ===== =====
@@ -26,12 +43,78 @@ courts:
 # Dnipropetrovsk ============================================ ===== ===== =====
 
  -
+  fileid: "an.dp"
+  group: "dnipro"
+  namestr: "Амур-Нижньодніпровський районний суд м. Дніпропетровська"
+  siteurl: "http://an.dp.court.gov.ua/"
+  scheduleurl: "http://an.dp.court.gov.ua/sud0401/gromod/csz/"
+  code: "0401"
+
+ -
+  fileid: "bs.dp"
+  group: "dnipro"
+  namestr: "Бабушкінський районний суд м.Дніпропетровська"
+  siteurl: "http://bs.dp.court.gov.ua/"
+  scheduleurl: "http://bs.dp.court.gov.ua/sud0403/people/csz/"
+  code: "0403"
+
+ -
+  fileid: "gt.dp"
+  group: "dnipro"
+  namestr: "Жовтневий районний суд м. Дніпропетровська"
+  siteurl: "http://gt.dp.court.gov.ua/"
+  scheduleurl: "http://gt.dp.court.gov.ua/sud0412/csz/"
+  code: "0412"
+
+ -
   fileid: "ind.dp"
   group: "dnipro"
   namestr: "Індустріальний районний суд м. Дніпропетровська"
-  siteurl: "http://gl.ki.court.gov.ua/"
-  scheduleurl: "http://gl.ki.court.gov.ua/sud2601/csz/"
-  code: "2601"
+  siteurl: "http://ind.dp.court.gov.ua/"
+  scheduleurl: "http://ind.dp.court.gov.ua/sud0417/tax/"
+  code: "0417"
+
+ -
+  fileid: "kr.dp"
+  group: "dnipro"
+  namestr: "Кіровський районний суд м.Дніпропетровська"
+  siteurl: "http://kr.dp.court.gov.ua/"
+  scheduleurl: "http://kr.dp.court.gov.ua/sud0418/csz/"
+  code: "0418"
+
+ -
+  fileid: "kg.dp"
+  group: "dnipro"
+  namestr: "Красногвардійський районний суд м. Дніпропетровська"
+  siteurl: "http://kg.dp.court.gov.ua/"
+  scheduleurl: "http://kg.dp.court.gov.ua/sud0419/csz/"
+  code: "0419"
+
+ -
+  fileid: "ln.dp"
+  group: "dnipro"
+  namestr: "Ленінський районний суд м. Дніпропетровська"
+  siteurl: "http://ln.dp.court.gov.ua/"
+  scheduleurl: "http://ln.dp.court.gov.ua/sud0422/info/csz/"
+  code: "0422"
+
+ -
+  fileid: "sm.dp"
+  group: "dnipro"
+  namestr: "Самарський районний суд м. Дніпропетровська"
+  siteurl: "http://sm.dp.court.gov.ua/"
+  scheduleurl: "http://sm.dp.court.gov.ua/sud0436/sud_spavi/csz/"
+  code: "0436"
+
+# Dnipropetrovsk region ===================================== ===== ===== =====
+
+ -
+  fileid: "gtk.dp"
+  group: "dniproreg"
+  namestr: "Жовтневий районний суд м. Кривого Рогу"
+  siteurl: "http://gtk.dp.court.gov.ua/"
+  scheduleurl: "http://gtk.dp.court.gov.ua/sud0413/csz/"
+  code: "0413"
 
 # Kiev ====================================================== ===== ===== =====
 
@@ -40,7 +123,7 @@ courts:
   group: "kiev"
   namestr: "Голосіївський районний суд міста Києва"
   siteurl: "http://gl.ki.court.gov.ua/"
-  scheduleurl: "http://ind.dp.court.gov.ua/sud0417/tax/"
+  scheduleurl: "http://gl.ki.court.gov.ua/sud2601/csz/"
   code: "2601"
  -
   fileid: "dr.ki"
@@ -106,15 +189,124 @@ courts:
   scheduleurl: "http://sh.ki.court.gov.ua/sud2610/csz/"
   code: "2610"
 
+# Kharkiv =================================================== ===== ===== =====
+
+ -
+  fileid: "dg.hr"
+  group: "kharkiv"
+  namestr: "Дзержинський районний суд м. Харкова"
+  siteurl: "http://dg.hr.court.gov.ua/"
+  scheduleurl: "http://dg.hr.court.gov.ua/sud2011//csz"
+  code: "2011"
+
+ -
+  fileid: "jv.hr"
+  group: "kharkiv"
+  namestr: "Жовтневий районний суд м. Харкова"
+  siteurl: "http://jv.hr.court.gov.ua/"
+  scheduleurl: "http://jv.hr.court.gov.ua/sud2012/spra/csz/"
+  code: "2012"
+
+ -
+  fileid: "ki.hr"
+  group: "kharkiv"
+  namestr: "Київський районний суд м. Харкова"
+  siteurl: "http://ki.hr.court.gov.ua/"
+  scheduleurl: "http://ki.hr.court.gov.ua/sud2018//csz"
+  code: "2018"
+
+ -
+  fileid: "km.hr"
+  group: "kharkiv"
+  namestr: "Комінтернівський районний суд м. Харкова"
+  siteurl: "http://km.hr.court.gov.ua/"
+  scheduleurl: "http://km.hr.court.gov.ua/sud2020/csz/"
+  code: "2020"
+
+ -
+  fileid: "ln.hr"
+  group: "kharkiv"
+  namestr: "Ленінський районний суд м. Харкова"
+  siteurl: "http://ln.hr.court.gov.ua/"
+  scheduleurl: "http://ln.hr.court.gov.ua/sud2024/csz/"
+  code: "2024"
+
+ -
+  fileid: "ms.hr"
+  group: "kharkiv"
+  namestr: "Московський районний суд м. Харкова"
+  siteurl: "http://ms.hr.court.gov.ua/"
+  scheduleurl: "http://ms.hr.court.gov.ua/sud2027/csz/"
+  code: "2027"
+
+ -
+  fileid: "og.hr"
+  group: "kharkiv"
+  namestr: "Орджонікідзевський районний суд м. Харкова"
+  siteurl: "http://og.hr.court.gov.ua/"
+  scheduleurl: "http://og.hr.court.gov.ua/sud2029/csz/"
+  code: "2029"
+
+ -
+  fileid: "fr.hr"
+  group: "kharkiv"
+  namestr: "Фрунзенський районний суд м. Харкова"
+  siteurl: "http://fr.hr.court.gov.ua/"
+  scheduleurl: "http://fr.hr.court.gov.ua/sud2033/information/csz/"
+  code: "2033"
+
+ -
+  fileid: "cz.hr"
+  group: "kharkiv"
+  namestr: "Червонозаводський районний суд м. Харкова"
+  siteurl: "http://cz.hr.court.gov.ua/"
+  scheduleurl: "http://cz.hr.court.gov.ua/sud2035/csz/"
+  code: "2035"
+
+# Odesa ===================================================== ===== ===== =====
+
+ -
+  fileid: "ki.od"
+  group: "odesa"
+  namestr: "Київський районний суд м. Одеси"
+  siteurl: "http://ki.od.court.gov.ua/"
+  scheduleurl: "http://ki.od.court.gov.ua/sud1512/fghjukl/csz/"
+  code: "1512"
+
+ -
+  fileid: "ml.od"
+  group: "odesa"
+  namestr: "Малиновський районний суд м. Одеси"
+  siteurl: "http://ml.od.court.gov.ua/"
+  scheduleurl: "http://ml.od.court.gov.ua/sud1519/csz/"
+  code: "1519"
+
+ -
+  fileid: "pm.od"
+  group: "odesa"
+  namestr: "Приморський районний суд м. Одеси"
+  siteurl: "http://pm.od.court.gov.ua/"
+  scheduleurl: "http://pm.od.court.gov.ua/sud1522/csz/"
+  code: "1522"
+
+ -
+  fileid: "sv.od"
+  group: "odesa"
+  namestr: "Суворовський районний суд м. Одеси"
+  siteurl: "http://sv.od.court.gov.ua/"
+  scheduleurl: "http://sv.od.court.gov.ua/sud1527/csz/"
+  code: "1527"
+
+
 # Poltava =================================================== ===== ===== =====
 
  -
   fileid: "ki.pl"
   group: "poltava"
   namestr: "Київський районний суд м. Полтави"
-  siteurl: "http://ki.pl.court.gov.ua/sud1609/sspdr/csz/"
-  scheduleurl: ""
-  code: 1609
+  siteurl: "http://ki.pl.court.gov.ua/"
+  scheduleurl: "http://ki.pl.court.gov.ua/sud1609/sspdr/csz/"
+  code: "1609"
  -
   fileid: "ln.pl"
   group: "poltava"
