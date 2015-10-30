@@ -255,8 +255,10 @@ function processOneCourt(court) {
     })
   });
 
-  req.on('error', function(e) {
-    console.log('problem with request: ' + e.message);
+  req.on('error', function(err) {
+    var respCourtId = court.fileid ;
+    console.log('problem with request for %s:' , respCourtId);
+    console.log( err.message);
   });
 
   // write data to request body
