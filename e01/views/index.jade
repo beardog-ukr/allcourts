@@ -24,24 +24,11 @@ block content
             для пошуку та аналізу вигляді
 
         p Поки що дані збираються для таких міст:
-          ul
-            li
-              a(href="#{glSettings.websiteUrl}/dnipro") Дніпропетровськ
-            li
-              a(href="#{glSettings.websiteUrl}/zaporizhia") Запоріжжя  
-            li
-              a(href="#{glSettings.websiteUrl}/kiev") Київ
-            li
-              a(href="#{glSettings.websiteUrl}/odesa") Одеса
-            li
-              a(href="#{glSettings.websiteUrl}/poltava") Полтава
-            li
-              a(href="#{glSettings.websiteUrl}/sumy")  Суми
-            li
-              a(href="#{glSettings.websiteUrl}/kharkiv") Харків
-            li
-              a(href="#{glSettings.websiteUrl}/chernihiv") Чернігів
-
+          ul            
+            each val in regionsArr
+              li
+                a(href="#{glSettings.websiteUrl}/region/#{val.id}") #{val.str}
+              
         p Інші міста і області будуть згодом.
 
 

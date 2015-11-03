@@ -1,12 +1,11 @@
+var fs = require('fs');
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
 
@@ -33,8 +32,25 @@ if (app.get('env') === 'development') {
 
 // ============================================================================
 
+var routes = require('./routes/index');
 app.use('/', routes);
+
+var regionPages = require('./routes/regionPages');
+app.use('/region', regionPages);
+
+var users = require('./routes/users');
 app.use('/users', users); //TODO: remove this line
+
+// ============================================================================
+var ras = {
+    globalTitle: "Can be title fo all pages",
+    websiteUrl: "http://allcourts.tk"
+  } ;
+if (app.get('env') === 'development') {
+  ras.websiteUrl = 'http://localhost:3000'   ;
+}
+app.routingAppSettings=ras;
+//console.log("wsurl %s" , app.routingAppSettings.websiteUrl);
 
 // ============================================================================
 
@@ -52,10 +68,12 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
+    res.render('error', 
+               {
+                 message: err.message,
+                 error: err ,
+                 "glSettings": req.app.routingAppSettings
+               });
   });
 }
 
@@ -70,13 +88,6 @@ app.use(function(err, req, res, next) {
 });
 
 // ============================================================================
-var ras = {
-    globalTitle: "Can be title fo all pages",
-    websiteUrl: "http://allcourts.tk"
-  } ;
-if (app.get('env') === 'development') {
-  ras.websiteUrl = 'http://localhost:3000'   ;
-}
-app.routingAppSettings=ras;
+// ============================================================================
 
 module.exports = app;

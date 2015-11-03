@@ -1,101 +1,24 @@
 var express = require('express');
 var router = express.Router();
 
-//  Well, here we have to deal with some problem. First, the default page for
-// the domain should be rendered from 'index.jade' template
-// Second, there is an url for each region (like 'http://allcourts.tk/kiev') and
-// all this pages should be generated from the same template 'regionPage.jade'
-// but with some changes
+var fs = require('fs');
+
+var vgStr = fs.readFileSync('./visualGroups.json', 'utf8');
+var vg = JSON.parse(vgStr);
 
 // the index page
 router.get('/', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-//  console.log("wsurl %s" , glSettings.websiteUrl);
-  res.render('index', { glSettings, title: 'Розклад'});
+  var ra = vg.groups ;
+  var gls = req.app.routingAppSettings ;
+
+  console.log("Index page rendering  here");
+  
+  console.log("wsurl is  %s" , gls.websiteUrl);
+  res.render('index', 
+             { "title": 'Розклад', 
+		       "regionsArr":ra, 
+		       "glSettings": gls
+		     });
 });
-
-
-// region pages
-router.get('/dnipro', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у ',
-               regionStr: '',
-               regionId:'dnipro',
-               glSettings
-             });
-});
-
-router.get('/kharkiv', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Харкові',
-               regionStr: 'Харків',
-               regionId:'kharkiv',
-               glSettings
-             });
-});
-
-router.get('/kiev', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Києві',
-               regionStr: 'Київ',
-               regionId:'kiev',
-               glSettings
-             });
-});
-
-
-router.get('/odesa', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів в Одесі ',
-               regionStr: 'Одеса',
-               regionId:'odesa',
-               glSettings
-             });
-});
-
-router.get('/poltava', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Полтаві',
-               regionStr: 'Полтава',
-               regionId:'poltava',
-               glSettings
-             });
-});
-
-router.get('/zaporizhia', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Запоріжжі',
-               regionStr: 'Запоріжжя',
-               regionId:'zaporizhia',
-               glSettings
-             });
-});
-
-router.get('/sumy', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Сумах',
-               regionStr: 'Суми',
-               regionId:'sumy',
-               glSettings
-             });
-});
-
-router.get('/chernihiv', function(req, res, next) {
-  var glSettings = req.app.routingAppSettings ;
-  res.render('regionPage',
-             { title: 'Розклад судів у Чернігові',
-               regionStr: 'Чернігів',
-               regionId:'chernihiv',
-               glSettings
-             });
-});
-
 
 module.exports = router;
