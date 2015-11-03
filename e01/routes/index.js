@@ -67,6 +67,35 @@ router.get('/poltava', function(req, res, next) {
              });
 });
 
+router.get('/zaporizhia', function(req, res, next) {
+  var glSettings = req.app.routingAppSettings ;
+  res.render('regionPage',
+             { title: 'Розклад судів у Запоріжжі',
+               regionStr: 'Запоріжжя',
+               regionId:'zaporizhia',
+               glSettings
+             });
+});
+
+router.get('/sumy', function(req, res, next) {
+  var glSettings = req.app.routingAppSettings ;
+  res.render('regionPage',
+             { title: 'Розклад судів у Сумах',
+               regionStr: 'Суми',
+               regionId:'sumy',
+               glSettings
+             });
+});
+
+router.get('/chernihiv', function(req, res, next) {
+  var glSettings = req.app.routingAppSettings ;
+  res.render('regionPage',
+             { title: 'Розклад судів у Чернігові',
+               regionStr: 'Чернігів',
+               regionId:'chernihiv',
+               glSettings
+             });
+});
 
 
 module.exports = router;

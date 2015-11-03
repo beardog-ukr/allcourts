@@ -40,6 +40,23 @@ groups:
 
 courts:
 
+# Chernihiv =================================================== ===== ===== =====
+
+ -
+  fileid: "ds.cn"
+  group: "chernihiv"
+  namestr: "Деснянський районний суд м. Чернігова"
+  siteurl: "http://ds.cn.court.gov.ua/"
+  scheduleurl: "http://ds.cn.court.gov.ua/sud2506/csz/"
+  code: "2506"
+ -
+  fileid: "nz.cn"
+  group: "chernihiv"
+  namestr: "Новозаводський районний суд м.Чернігова"
+  siteurl: "http://nz.cn.court.gov.ua/"
+  scheduleurl: "http://nz.cn.court.gov.ua/sud2515/csz/"
+  code: "2515"
+
 # Dnipropetrovsk ============================================ ===== ===== =====
 
  -
@@ -332,4 +349,80 @@ courts:
   scheduleurl: "http://zn.pl.court.gov.ua/sud1607/spisok/csz/"
   code: "1607"
 
+# Sumy ====================================================== ===== ===== =====
 
+ -
+  fileid: "kv.su"
+  group: "sumy"
+  namestr: "Ковпаківський районний суд м. Сум"
+  siteurl: "http://kv.su.court.gov.ua/"
+  scheduleurl: "http://kv.su.court.gov.ua/sud1806/info_sp/csz/"
+  code: "1806"
+ -
+  fileid: "zr.su"
+  group: "sumy"
+  namestr: "Зарічний районний суд м. Сум"
+  siteurl: "http://zr.su.court.gov.ua/"
+  scheduleurl: "http://zr.su.court.gov.ua/sud1805/inf_spr/csz/"
+  code: "1805"
+
+# Zaporizhia ================================================ ===== ===== =====
+
+ -
+  fileid: "gt.zp"
+  group: "zaporizhia"
+  namestr: "Жовтневий районний суд м.Запоріжжя"
+  siteurl: "http://gt.zp.court.gov.ua/"
+  scheduleurl: "http://gt.zp.court.gov.ua/sud0808/2/csz/"
+  code: "0808"
+
+ -
+  fileid: "zv.zp"
+  group: "zaporizhia"
+  namestr: "Заводський районний суд м. Запоріжжя"
+  siteurl: "http://zv.zp.court.gov.ua/"
+  scheduleurl: "http://zv.zp.court.gov.ua/sud0809/csz/"
+  code: "0809"
+
+ -
+  fileid: "km.zp"
+  group: "zaporizhia"
+  namestr: "Комунарський район міста Запоріжжя"
+  siteurl: "http://km.zp.court.gov.ua/"
+  scheduleurl: "http://km.zp.court.gov.ua/sud0812/sud/csz/"
+  code: "0812"
+
+ -
+  fileid: "ln.zp"
+  group: "zaporizhia"
+  namestr: "Ленінський районний суд м. Запоріжжя"
+  siteurl: "http://ln.zp.court.gov.ua/"
+  scheduleurl: "http://ln.zp.court.gov.ua/sud0814/csz/"
+  code: "0814"
+  
+ -
+  fileid: "og.zp"
+  group: "zaporizhia"
+  namestr: "Орджонікідзевський районний суд м.Запоріжжя"
+  siteurl: "http://og.zp.court.gov.ua/"
+  scheduleurl: "http://og.zp.court.gov.ua/sud0818/csz/"
+  code: "0818"
+ 
+ -
+  fileid: "hr.zp"
+  group: "zaporizhia"
+  namestr: "Хортицький районний суд м. Запоріжжя"
+  siteurl: "http://hr.zp.court.gov.ua/"
+  scheduleurl: "http://hr.zp.court.gov.ua/sud0825/csz/"
+  code: "0825"  
+  
+ -
+  fileid: "sh.zp"
+  group: "zaporizhia"
+  namestr: "Шевченківский районний суд м.Запоріжжя"
+  siteurl: "http://sh.zp.court.gov.ua/"
+  scheduleurl: "http://sh.zp.court.gov.ua/sud0827/causes_list/csz/"
+  code: "0827" 
+  
+    
+  
