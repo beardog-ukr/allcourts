@@ -1,6 +1,10 @@
 groups:
 
  -
+  id: "chernihiv"
+  str: "Чернігів"
+
+ -
   id: "dnipro"
   str: "Дніпропетровськ"
  -
@@ -8,18 +12,18 @@ groups:
   str: "Дніпропетровська область"
 
  -
-  id: "kiev"
-  str: "Київ"
- -
-  id: "kievreg"
-  str: "Київська область"
-
- -
   id: "kharkiv"
   str: "Харків"
  -
   id: "kharkivreg"
   str: "Харківська область"
+
+ -
+  id: "kiev"
+  str: "Київ"
+ -
+  id: "kievreg"
+  str: "Київська область"
 
  -
   id: "odesa"
@@ -34,6 +38,15 @@ groups:
  -
   id: "poltavareg"
   str: "Полтавська область"
+
+ -
+  id: "sumy"
+  str: "Суми"
+
+ -
+  id: "zaporizhia"
+  str: "Запоріжжя"
+
 
 # =========================================================== ===== ===== =====
 # =========================================================== ===== ===== =====
@@ -132,6 +145,293 @@ courts:
   siteurl: "http://gtk.dp.court.gov.ua/"
   scheduleurl: "http://gtk.dp.court.gov.ua/sud0413/csz/"
   code: "0413"
+
+ -
+  fileid: "ap.dp"
+  group: "dniproreg"
+  namestr: "Апостолівський районний суд Дніпропетровської області"
+  siteurl: "http://ap.dp.court.gov.ua/"
+  scheduleurl: "http://ap.dp.court.gov.ua/sud0402/infocivil/csz/"
+  code: "0402"
+
+ -
+  fileid: "vs.dp"
+  group: "dniproreg"
+  namestr: "Васильківський районний суд Дніпропетровської області"
+  siteurl: "http://vs.dp.court.gov.ua/"
+  scheduleurl: "http://vs.dp.court.gov.ua/sud0405/2/csz/"
+  code: "0405"
+
+ -
+  fileid: "vd.dp"
+  group: "dniproreg"
+  namestr: "Верхньодніпровський районний суд Дніпропетровської області"
+  siteurl: "http://vd.dp.court.gov.ua/"
+  scheduleurl: "http://vd.dp.court.gov.ua/sud0406/csz/"
+  code: "0406"
+
+ -
+  fileid: "dp.dp"
+  group: "dniproreg"
+  namestr: "Дніпропетровський районний суд Дніпропетровської області"
+  siteurl: "http://dp.dp.court.gov.ua/"
+  scheduleurl: "http://dp.dp.court.gov.ua/sud0410/info/csz/"
+  code: "0410"
+
+ -
+  fileid: "kv.dp"
+  group: "dniproreg"
+  namestr: "Криворізький районний суд Дніпропетровської області"
+  siteurl: "http://kv.dp.court.gov.ua/"
+  scheduleurl: "http://kv.dp.court.gov.ua/sud0420/spisok_sprav/csz/"
+  code: "0420"
+
+# -
+#  fileid: "md.dp"
+#  group: "dniproreg"
+#  namestr: "Магдалинівський районний суд Дніпропетровської області"
+#  siteurl: "http://md.dp.court.gov.ua/"
+#  scheduleurl: "http://md.dp.court.gov.ua/sud0423/csz/"
+#  code: "0423"
+
+ -
+  fileid: "mg.dp"
+  group: "dniproreg"
+  namestr: "Межівський районний суд Дніпропетровської області"
+  siteurl: "http://mg.dp.court.gov.ua/"
+  scheduleurl: "http://mg.dp.court.gov.ua/sud0425//csz"
+  code: "0425"
+
+ -
+  fileid: "dg.dp"
+  group: "dniproreg"
+  namestr: "Дзержинський районний суд м. Кривого Рогу"
+  siteurl: "http://dg.dp.court.gov.ua/"
+  scheduleurl: "http://dg.dp.court.gov.ua/sud0408/spiski/csz/"
+  code: "0408"
+
+# -
+#  fileid: ""
+#  group: "dniproreg"
+#  namestr: "Нікопольський міськрайонний суд?????"
+#  siteurl: "http://nk.dp.court.gov.ua/"
+#  scheduleurl: ""
+#  code: ""
+
+ -
+  fileid: "dv.dp"
+  group: "dniproreg"
+  namestr: "Довгинцівський районний суд м. Кривого Рогу"
+  siteurl: "http://dv.dp.court.gov.ua/"
+  scheduleurl: "http://dv.dp.court.gov.ua/sud0411/sud/csz/"
+  code: "0411"
+
+ -
+  fileid: "nm.dp"
+  group: "dniproreg"
+  namestr: "Новомосковський міськрайонний суд Дніпропетровської області"
+  siteurl: "http://nm.dp.court.gov.ua/"
+  scheduleurl: "http://nm.dp.court.gov.ua/sud0427/csz/"
+  code: "0427"
+
+# -
+#  fileid: ""
+#  group: "dniproreg"
+#  namestr: "Павлоградський міськрайонний суд???"
+#  siteurl: "http://pg.dp.court.gov.ua/"
+#  scheduleurl: ""
+#  code: ""
+
+ -
+  fileid: "ing.dp"
+  group: "dniproreg"
+  namestr: "Інгулецький районний суд м.Кривого Рогу"
+  siteurl: "http://ing.dp.court.gov.ua/"
+  scheduleurl: "http://ing.dp.court.gov.ua/sud0416/spisok_sprav/csz/"
+  code: "0416"
+
+ -
+  fileid: "ptr.dp"
+  group: "dniproreg"
+  namestr: "Петропавлівський районний суд Дніпропетровської області"
+  siteurl: "http://ptr.dp.court.gov.ua/"
+  scheduleurl: "http://ptr.dp.court.gov.ua/sud0432/csz/"
+  code: "0432"
+
+ -
+  fileid: "kn.dp"
+  group: "dniproreg"
+  namestr: "Криничанський районний суд Дніпропетровської області"
+  siteurl: "http://kn.dp.court.gov.ua/"
+  scheduleurl: "http://kn.dp.court.gov.ua/sud0421/csz/"
+  code: "0421"
+
+ -
+  fileid: "pk.dp"
+  group: "dniproreg"
+  namestr: "Петриківський районний суд Дніпропетровської області"
+  siteurl: "http://pk.dp.court.gov.ua/"
+  scheduleurl: "http://pk.dp.court.gov.ua/sud0431/csz/"
+  code: "0431"
+
+ -
+  fileid: "sk.dp"
+  group: "dniproreg"
+  namestr: "Саксаганський районний суд м. Кривого Рогу"
+  siteurl: "http://sk.dp.court.gov.ua/"
+  scheduleurl: "http://sk.dp.court.gov.ua/sud0435/csz/"
+  code: "0435"
+
+ -
+  fileid: "pok.dp"
+  group: "dniproreg"
+  namestr: "Покровський районний суд Дніпропетровської області"
+  siteurl: "http://pok.dp.court.gov.ua/"
+  scheduleurl: "http://pok.dp.court.gov.ua/sud0433/info/csz/"
+  code: "0433"
+ -
+  fileid: "tr.dp"
+  group: "dniproreg"
+  namestr: "Тернівський районний суд м. Кривого Рогу"
+  siteurl: "http://tr.dp.court.gov.ua/"
+  scheduleurl: "http://tr.dp.court.gov.ua/sud0441/csz/"
+  code: "0441"
+
+ -
+  fileid: "px.dp"
+  group: "dniproreg"
+  namestr: "П'ятихатський районний суд Дніпропетровської області"
+  siteurl: "http://px.dp.court.gov.ua/"
+  scheduleurl: "http://px.dp.court.gov.ua/sud0434/1/csz/"
+  code: "0434"
+
+ -
+  fileid: "cn.dp"
+  group: "dniproreg"
+  namestr: "Центрально-Міський районний суд м. Кривого Рогу"
+  siteurl: "http://cn.dp.court.gov.ua/"
+  scheduleurl: "http://cn.dp.court.gov.ua/sud0444/csz/"
+  code: "0444"
+
+ -
+  fileid: "sl.dp"
+  group: "dniproreg"
+  namestr: "Солонянський районний суд Дніпропетровської області"
+  siteurl: "http://sl.dp.court.gov.ua/"
+  scheduleurl: "http://sl.dp.court.gov.ua/sud0438/csz/"
+  code: "0438"
+
+ -
+  fileid: "bg.dp"
+  group: "dniproreg"
+  namestr: "Баглійський районний суд м. Дніпродзержинська"
+  siteurl: "http://bg.dp.court.gov.ua/"
+  scheduleurl: "http://bg.dp.court.gov.ua/sud0404/csz/"
+  code: "0404"
+
+ -
+  fileid: "sf.dp"
+  group: "dniproreg"
+  namestr: "Софіївський районний суд Дніпропетровської області"
+  siteurl: "http://sf.dp.court.gov.ua/"
+  scheduleurl: "http://sf.dp.court.gov.ua/sud0439/csz/"
+  code: "0439"
+
+ -
+  fileid: "dn.dp"
+  group: "dniproreg"
+  namestr: "Дніпровський районний суд м. Дніпродзержинська"
+  siteurl: "http://dn.dp.court.gov.ua/"
+  scheduleurl: "http://dn.dp.court.gov.ua/sud0409/csz/"
+  code: "0409"
+
+ -
+  fileid: "tm.dp"
+  group: "dniproreg"
+  namestr: "Томаківський районний суд Дніпропетровської області"
+  siteurl: "http://tm.dp.court.gov.ua/"
+  scheduleurl: "http://tm.dp.court.gov.ua/sud0442/gromadyanam/csz/"
+  code: "0442"
+
+ -
+  fileid: "zv.dp"
+  group: "dniproreg"
+  namestr: "Заводський районний суд м. Дніпродзержинська"
+  siteurl: "http://zv.dp.court.gov.ua/"
+  scheduleurl: "http://zv.dp.court.gov.ua/sud0415/csz/"
+  code: "0415"
+
+ -
+  fileid: "cr.dp"
+  group: "dniproreg"
+  namestr: "Царичанський районний суд Дніпропетровської області"
+  siteurl: "http://cr.dp.court.gov.ua/"
+  scheduleurl: "http://cr.dp.court.gov.ua/sud0443/elsud/csz/"
+  code: "0443"
+
+ -
+  fileid: "trm.dp"
+  group: "dniproreg"
+  namestr: "Тернівський міський суд Дніпропетровської області"
+  siteurl: "http://trm.dp.court.gov.ua/"
+  scheduleurl: "http://trm.dp.court.gov.ua/sud0440/csz/"
+  code: "0440"
+
+ -
+  fileid: "yr.dp"
+  group: "dniproreg"
+  namestr: "Юр'ївський районний суд Дніпропетровської області"
+  siteurl: "http://yr.dp.court.gov.ua/"
+  scheduleurl: "http://yr.dp.court.gov.ua/sud0446/inform/csz/"
+  code: "0446"
+
+ -
+  fileid: "pr.dp"
+  group: "dniproreg"
+  namestr: "Першотравенський міський суд Дніпропетровської області"
+  siteurl: "http://pr.dp.court.gov.ua/"
+  scheduleurl: "http://pr.dp.court.gov.ua/sud0430/informacia/csz/"
+  code: "0430"
+
+ -
+  fileid: "shk.dp"
+  group: "dniproreg"
+  namestr: "Широківський районний суд Дніпропетровської області"
+  siteurl: "http://shk.dp.court.gov.ua/"
+  scheduleurl: "http://shk.dp.court.gov.ua/sud0445/124/csz/"
+  code: "0445"
+
+ -
+  fileid: "ogm.dp"
+  group: "dniproreg"
+  namestr: "Орджонікідзевський міський суд Дніпропетровської області"
+  siteurl: "http://ogm.dp.court.gov.ua/"
+  scheduleurl: "http://ogm.dp.court.gov.ua/sud0428/info/csz/"
+  code: "0428"
+
+ -
+  fileid: "vg.dp"
+  group: "dniproreg"
+  namestr: "Вільногірський міський суд Дніпропетровської області"
+  siteurl: "http://vg.dp.court.gov.ua/"
+  scheduleurl: "http://vg.dp.court.gov.ua/sud0407/csz/"
+  code: "0407"
+
+ -
+  fileid: "mn.dp"
+  group: "dniproreg"
+  namestr: "Марганецький міський суд Дніпропетровської області"
+  siteurl: "http://mn.dp.court.gov.ua/"
+  scheduleurl: "http://mn.dp.court.gov.ua/sud0424/2/csz/"
+  code: "0424"
+
+ -
+  fileid: "gv.dp"
+  group: "dniproreg"
+  namestr: "Жовтоводський міський суд Дніпропетровської області"
+  siteurl: "http://gv.dp.court.gov.ua/"
+  scheduleurl: "http://gv.dp.court.gov.ua/sud0414/info1/csz/"
+  code: "0414"
 
 # Kiev ====================================================== ===== ===== =====
 
