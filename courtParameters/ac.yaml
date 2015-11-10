@@ -44,6 +44,10 @@ groups:
   str: "Суми"
 
  -
+  id: "volynreg"
+  str: "Волинська область"
+
+ -
   id: "zaporizhia"
   str: "Запоріжжя"
 
@@ -1335,12 +1339,229 @@ courts:
 # Poltava region ============================================ ===== ===== =====
 
  -
+  fileid: "av.pl"
+  group: "poltavareg"
+  namestr: "Автозаводський районний суд м. Кременчука"
+  siteurl: "http://av.pl.court.gov.ua/"
+  scheduleurl: "http://av.pl.court.gov.ua/sud1601/socialinfo/csz/"
+  code: "1601"
+
+ -
+  fileid: "vb.pl"
+  group: "poltavareg"
+  namestr: "Великобагачанський районний суд Полтавської області"
+  siteurl: "http://vb.pl.court.gov.ua/"
+  scheduleurl: "http://vb.pl.court.gov.ua/sud1602/cause/csz/"
+  code: "1602"
+
+ -
+  fileid: "gd.pl"
+  group: "poltavareg"
+  namestr: "Гадяцький районний суд Полтавської області"
+  siteurl: "http://gd.pl.court.gov.ua/"
+  scheduleurl: "http://gd.pl.court.gov.ua/sud1603/csz/"
+  code: "1603"
+
+ -
+  fileid: "gl.pl"
+  group: "poltavareg"
+  namestr: "Глобинський районний суд Полтавської області"
+  siteurl: "http://gl.pl.court.gov.ua/"
+  scheduleurl: "http://gl.pl.court.gov.ua/sud1604/csz/"
+  code: "1604"
+
+ -
+  fileid: "gr.pl"
+  group: "poltavareg"
+  namestr: "Гребінківський районний суд Полтавської області"
+  siteurl: "http://gr.pl.court.gov.ua/"
+  scheduleurl: "http://gr.pl.court.gov.ua/sud1605/csz/"
+  code: "sud1605"
+
+ -
+  fileid: "dk.pl"
+  group: "poltavareg"
+  namestr: "Диканський районний суд Полтавської області"
+  siteurl: "http://dk.pl.court.gov.ua/"
+  scheduleurl: "http://dk.pl.court.gov.ua/sud1606/csz/csz/"
+  code: "1606"
+
+ -
   fileid: "zn.pl"
-  group: poltavareg
+  group: "poltavareg"
   namestr: "Зіньківський районний суд Полтавської області"
   siteurl: "http://zn.pl.court.gov.ua/"
   scheduleurl: "http://zn.pl.court.gov.ua/sud1607/spisok/csz/"
   code: "1607"
+
+ -
+  fileid: "krl.pl"
+  group: "poltavareg"
+  namestr: "Карлівський районний суд Полтавської області"
+  siteurl: "http://krl.pl.court.gov.ua/"
+  scheduleurl: "http://krl.pl.court.gov.ua/sud1608/spus/csz/"
+  code: "1608"
+
+ -
+  fileid: "kb.pl"
+  group: "poltavareg"
+  namestr: "Кобеляцький районний суд Полтавської області"
+  siteurl: "http://kb.pl.court.gov.ua/"
+  scheduleurl: "http://kb.pl.court.gov.ua/sud1610/csz/"
+  code: "1610"
+
+ -
+  fileid: "kz.pl"
+  group: "poltavareg"
+  namestr: "Козельщинський районний суд Полтавської області"
+  siteurl: "http://kz.pl.court.gov.ua/"
+  scheduleurl: "http://kz.pl.court.gov.ua/sud1611/csz/"
+  code: "1611"
+
+ -
+  fileid: "kom.pl"
+  group: "poltavareg"
+  namestr: "Комсомольський міський суд Полтавської області"
+  siteurl: "http://kom.pl.court.gov.ua/"
+  scheduleurl: "http://kom.pl.court.gov.ua/sud1612/csz/"
+  code: "1612"
+
+ -
+  fileid: "kt.pl"
+  group: "poltavareg"
+  namestr: "Котелевський районний суд Полтавської області"
+  siteurl: "http://kt.pl.court.gov.ua/"
+  scheduleurl: "http://kt.pl.court.gov.ua/sud1613/csz/"
+  code: "1613"
+
+ -
+  fileid: "km.pl"
+  group: "poltavareg"
+  namestr: "Кременчуцький районний суд Полтавської області"
+  siteurl: "http://km.pl.court.gov.ua/"
+  scheduleurl: "http://km.pl.court.gov.ua/sud1614/dorozgl/csz/"
+  code: "1614"
+
+ -
+  fileid: "kr.pl"
+  group: "poltavareg"
+  namestr: ""
+  siteurl: "http://kr.pl.court.gov.ua/"
+  scheduleurl: "http://kr.pl.court.gov.ua/sud1615/csz/"
+  code: "1615"
+
+ -
+  fileid: "lh.pl"
+  group: "poltavareg"
+  namestr: "Лохвицький районний суд Полтавської області"
+  siteurl: "http://lh.pl.court.gov.ua/"
+  scheduleurl: "http://lh.pl.court.gov.ua/sud1617/csz/"
+  code: "1617"
+
+ -
+  fileid: "lbm.pl"
+  group: "poltavareg"
+  namestr: "Лубенський міськрайонний суд Полтавської області"
+  siteurl: "http://lbm.pl.court.gov.ua/"
+# Note: http://lb.pl.court.gov.ua is incorrect
+  scheduleurl: "http://lbm.pl.court.gov.ua/sud1618/perelik/csz/"
+  code: "1618"
+
+ -
+  fileid: "mv.pl"
+  group: "poltavareg"
+  namestr: "Машівський районний суд Полтавської області"
+  siteurl: "http://mv.pl.court.gov.ua/"
+  scheduleurl: "http://mv.pl.court.gov.ua/sud1619/4/csz/"
+  code: "1619"
+
+ -
+  fileid: "mrm.pl"
+  group: "poltavareg"
+  namestr: "Миргородський міськрайонний суд Полтавської області"
+  siteurl: "http://mrm.pl.court.gov.ua/"
+  scheduleurl: "http://mrm.pl.court.gov.ua/sud1620/csz/"
+  code: "1620"
+
+ -
+  fileid: "ns.pl"
+  group: "poltavareg"
+  namestr: "Новосанжарський районний суд Полтавської області"
+  siteurl: "http://ns.pl.court.gov.ua/"
+  scheduleurl: "http://ns.pl.court.gov.ua/sud1621/csz/"
+  code: "1621"
+
+ -
+  fileid: "og.pl"
+  group: "poltavareg"
+  namestr: "Оржицький районний суд Полтавської області"
+  siteurl: "http://og.pl.court.gov.ua/"
+  scheduleurl: "http://og.pl.court.gov.ua/sud1623/csz/"
+  code: "1623"
+
+ -
+  fileid: "pr.pl"
+  group: "poltavareg"
+  namestr: "Пирятинський районний суд Полтавської області"
+  siteurl: "http://pr.pl.court.gov.ua/"
+  scheduleurl: "http://pr.pl.court.gov.ua/sud1624/csz/"
+  code: "1624"
+
+ -
+  fileid: "pl.pl"
+  group: "poltavareg"
+  namestr: "Полтавський районний суд Полтавської області"
+  siteurl: "http://pl.pl.court.gov.ua/"
+  scheduleurl: "http://pl.pl.court.gov.ua/sud1625/spisok_sprav/csz/"
+  code: "1625"
+
+ -
+  fileid: "rsh.pl"
+  group: "poltavareg"
+  namestr: "Решетилівський районний суд Полтавської області"
+  siteurl: "http://rsh.pl.court.gov.ua/"
+  scheduleurl: "http://rsh.pl.court.gov.ua/sud1626/csz/"
+  code: "1626"
+
+ -
+  fileid: "sm.pl"
+  group: "poltavareg"
+  namestr: "Семенівський районний суд Полтавської області"
+  siteurl: "http://sm.pl.court.gov.ua/"
+  scheduleurl: "http://sm.pl.court.gov.ua/sud1627/csz/"
+  code: "1627"
+
+ -
+  fileid: "hr.pl"
+  group: "poltavareg"
+  namestr: "Хорольський районний суд Полтавської області"
+  siteurl: "http://hr.pl.court.gov.ua/"
+  scheduleurl: "http://hr.pl.court.gov.ua/sud1628/infogr/csz/"
+  code: "1628"
+
+ -
+  fileid: "ch.pl"
+  group: "poltavareg"
+  namestr: "Чорнухинський районний суд Полтавської області"
+  siteurl: "http://ch.pl.court.gov.ua/"
+  scheduleurl: "http://ch.pl.court.gov.ua/sud1629//csz"
+  code: "1629"
+
+ -
+  fileid: "ct.pl"
+  group: "poltavareg"
+  namestr: "Чутівський районний суд Полтавської області"
+  siteurl: "http://ct.pl.court.gov.ua/"
+  scheduleurl: "http://ct.pl.court.gov.ua/sud1630/inf/csz/"
+  code: "1630"
+
+ -
+  fileid: "sh.pl"
+  group: "poltavareg"
+  namestr: "Шишацький районний суд Полтавської області"
+  siteurl: "http://sh.pl.court.gov.ua/"
+  scheduleurl: "http://sh.pl.court.gov.ua/sud1631/5/csz/"
+  code: "1631"
 
 # Sumy ====================================================== ===== ===== =====
 
@@ -1358,6 +1579,129 @@ courts:
   siteurl: "http://zr.su.court.gov.ua/"
   scheduleurl: "http://zr.su.court.gov.ua/sud1805/inf_spr/csz/"
   code: "1805"
+
+# Volyn region  ============================================== ===== ===== =====
+
+ -
+  fileid: "vo.vl"
+  group: "volynreg"
+  namestr: "Володимир-Волинський міський суд Волинської області"
+  siteurl: "http://vo.vl.court.gov.ua/"
+  scheduleurl: "http://vo.vl.court.gov.ua/sud0301//csz"
+  code: "0301"
+
+ -
+  fileid: "gr.vl"
+  group: "volynreg"
+  namestr: "Горохівський районний суд Волинської області"
+  siteurl: "http://gr.vl.court.gov.ua/"
+  scheduleurl: "http://gr.vl.court.gov.ua/sud0302/95/csz/"
+  code: "0302"
+
+ -
+  fileid: "iv.vl"
+  group: "volynreg"
+  namestr: "Іваничівський районний суд Волинської області"
+  siteurl: "http://iv.vl.court.gov.ua/"
+  scheduleurl: "http://iv.vl.court.gov.ua/sud0303//csz"
+  code: "0303"
+
+ -
+  fileid: "kv.vl"
+  group: "volynreg"
+  namestr: "Ковельський міськрайонний суд Волинської області"
+  siteurl: "http://kv.vl.court.gov.ua/"
+  scheduleurl: "http://kv.vl.court.gov.ua/sud0306//csz"
+  code: "0306"
+
+ -
+  fileid: "lk.vl"
+  group: "volynreg"
+  namestr: "Локачинський районний суд  Волинської області"
+  siteurl: "http://lk.vl.court.gov.ua/"
+  scheduleurl: "http://lk.vl.court.gov.ua/sud0307/spusok/"
+  code: "0307"
+
+ -
+  fileid: "lc.vl"
+  group: "volynreg"
+  namestr: "Луцький міськрайонний суд Волинської області"
+# Note: http://lcm.vl.court.gov.ua is incorrect
+  siteurl: "http://lc.vl.court.gov.ua/"
+  scheduleurl: "http://lc.vl.court.gov.ua/sud0308/csz/"
+  code: "0308"
+
+ -
+  fileid: "lbs.vl"
+  group: "volynreg"
+  namestr: "Любешівський районний суд Волинської області"
+  siteurl: "http://lbs.vl.court.gov.ua/"
+  scheduleurl: "http://lbs.vl.court.gov.ua/sud0309//csz"
+  code: "0309"
+
+ -
+  fileid: "lb.vl"
+  group: "volynreg"
+  namestr: "Любомльський районний суд Волинської області"
+  siteurl: "http://lb.vl.court.gov.ua/"
+  scheduleurl: "http://lb.vl.court.gov.ua/sud0310/42/csz/"
+  code: "0310"
+
+ -
+  fileid: "mn.vl"
+  group: "volynreg"
+  namestr: "Маневицький районний суд Волинської області"
+  siteurl: "http://mn.vl.court.gov.ua/"
+  scheduleurl: "http://mn.vl.court.gov.ua/sud0311/information/csz/"
+  code: "0311"
+
+ -
+  fileid: "nv.vl"
+  group: "volynreg"
+  namestr: "Нововолинський міський суд Волинської області"
+  siteurl: "http://nv.vl.court.gov.ua/"
+  scheduleurl: "http://nv.vl.court.gov.ua/sud0312/spysky/csz/"
+  code: "0312"
+
+ -
+  fileid: "rt.vl"
+  group: "volynreg"
+  namestr: "Ратнівський районний суд Волинської області"
+  siteurl: "http://rt.vl.court.gov.ua/"
+  scheduleurl: "http://rt.vl.court.gov.ua/sud0313/sz/csz/"
+  code: "0313"
+
+ -
+  fileid: "rg.vl"
+  group: "volynreg"
+  namestr: "Рожищенський районний суд Волинської області"
+  siteurl: "http://rg.vl.court.gov.ua/"
+  scheduleurl: "http://rg.vl.court.gov.ua/sud0314/drrtgd/csz/"
+  code: "0314"
+
+ -
+  fileid: "st.vl"
+  group: "volynreg"
+  namestr: "Старовижівський районний суд Волинської області"
+  siteurl: "http://st.vl.court.gov.ua/"
+  scheduleurl: "http://st.vl.court.gov.ua/sud0315/wsfgwsgfw/csz/"
+  code: "0315"
+
+ -
+  fileid: "tr.vl"
+  group: "volynreg"
+  namestr: "Турійський районний суд Волинської області"
+  siteurl: "http://tr.vl.court.gov.ua/"
+  scheduleurl: "http://tr.vl.court.gov.ua/sud0316/csz/"
+  code: "0316"
+
+ -
+  fileid: "sha.vl"
+  group: "volynreg"
+  namestr: "Шацький районний суд Волинської області"
+  siteurl: "http://sha.vl.court.gov.ua/"
+  scheduleurl: "http://sha.vl.court.gov.ua/sud0317/csz/"
+  code: "0317"
 
 # Zaporizhia ================================================ ===== ===== =====
 
