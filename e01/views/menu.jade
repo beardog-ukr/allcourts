@@ -1,0 +1,20 @@
+nav(class="navbar navbar-default navbar-static-top",role="navigation")
+  div(class="container")
+
+
+    div(class="collapse navbar-collapse")
+      ul(class="nav navbar-nav")
+        li
+          a(href="#{glSettings.websiteUrl}",class="navbar-brand") Розклад
+          
+        li(class="dropdown")
+          a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false") Групи судів
+            span(class="caret")
+  
+          ul(class="dropdown-menu" )
+            each val in regionsArr
+              li
+                a(href="#{glSettings.websiteUrl}/region/#{val.id}") #{val.str}
+
+        li
+          a(href="https://github.com/beardog-ukr/allcourts") Sources

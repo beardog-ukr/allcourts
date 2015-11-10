@@ -43,11 +43,13 @@ app.use('/users', users); //TODO: remove this line
 
 // ============================================================================
 var ras = {
-    globalTitle: "Can be title fo all pages",
-    websiteUrl: "http://allcourts.tk"
+    globalTitle: "Can be title fo all pages"
+  , websiteUrl: "http://allcourts.tk" 
+  , addGa : true
   } ;
 if (app.get('env') === 'development') {
   ras.websiteUrl = 'http://localhost:3000'   ;
+  ras.addGa = false;
 }
 app.routingAppSettings=ras;
 //console.log("wsurl %s" , app.routingAppSettings.websiteUrl);

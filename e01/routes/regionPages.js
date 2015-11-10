@@ -23,6 +23,7 @@ router.get('/:regionStr', function(req, res, next) {
                { title: 'Розклад судів' ,
                  regionStr: vg.groups[fidx].str ,
                  regionId: req.params.regionStr ,
+                 "regionsArr": vg.groups,
                  glSettings : gls
              });
   }

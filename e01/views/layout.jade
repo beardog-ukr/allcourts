@@ -10,11 +10,16 @@ html
     link(rel="icon",href="#{glSettings.websiteUrl}/static/favicon.ico")
 
 
-    title Розклад всіх судів на одній сторінці: #{regionStr}
+    title Розклад всіх судів на одній сторінці.
 
     link(href="#{glSettings.websiteUrl}/static/bootstrap/css/bootstrap.min.css",rel="stylesheet")
   body
+  
+    include menu
+    
     block content
 
 
-  block footer
+    include footer
+    
+    include ga
