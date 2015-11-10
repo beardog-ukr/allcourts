@@ -284,7 +284,11 @@ var courts = courtsData.courts;
 
 console.log ("taskStart: has to process %d courts", courts.length);
 
-courts.forEach(processOneCourt);
+for (var ci=0; ci<courts.length; ci++) {
+  // Some timeout to reduce load of the courts website
+  setTimeout(processOneCourt, 9*1000*(ci+1), courts[ci]);  
+}
+
 //processOneCourt(courts[0]); // this line is for debug purposes only
 //processOneCourt(courts[1]);
 console.log ("taskStart: done");
