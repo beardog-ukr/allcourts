@@ -44,12 +44,20 @@ groups:
   str: "Суми"
 
  -
+  id: "vinnytsiareg"
+  str: "Вінницька область"
+
+ -
   id: "volynreg"
   str: "Волинська область"
 
  -
   id: "zaporizhia"
   str: "Запоріжжя"
+
+ -
+  id: "zhytomyrreg"
+  str: "Житомирська область"
 
 
 # =========================================================== ===== ===== =====
@@ -1580,6 +1588,240 @@ courts:
   scheduleurl: "http://zr.su.court.gov.ua/sud1805/inf_spr/csz/"
   code: "1805"
 
+# Vinnytsia region =========================================== ===== ===== =====
+
+ -
+  fileid: "brs.vn"
+  group: "vinnytsiareg"
+  namestr: "Барський районний суд Вінницької області"
+  siteurl: "http://brs.vn.court.gov.ua/"
+  scheduleurl: "http://brs.vn.court.gov.ua/sud0201/csz/"
+  code: "0201"
+
+ -
+  fileid: "bh.vn"
+  group: "vinnytsiareg"
+  namestr: "Бершадський районний суд Вінницької області"
+  siteurl: "http://bh.vn.court.gov.ua/"
+  scheduleurl: "http://bh.vn.court.gov.ua/sud0202/csz/"
+  code: "0202"
+
+ -
+  fileid: "vnr.vn"
+  group: "vinnytsiareg"
+  namestr: "Вінницький районний суд Вінницької області"
+  siteurl: "http://vnr.vn.court.gov.ua/"
+  scheduleurl: "http://vnr.vn.court.gov.ua/sud0203/ryh_sprav/csz/"
+  code: "0203"
+
+ -
+  fileid: "gs.vn"
+  group: "vinnytsiareg"
+  namestr: "Гайсинський районний суд Вінницької області"
+  siteurl: "http://gs.vn.court.gov.ua/"
+  scheduleurl: "http://gs.vn.court.gov.ua/sud0204/csz/"
+  code: "0204"
+
+ -
+  fileid: "gmm.vn"
+  group: "vinnytsiareg"
+  namestr: "Жмеринський міськрайонний суд Вінницької області"
+  siteurl: "http://gmm.vn.court.gov.ua/"
+  scheduleurl: "http://gmm.vn.court.gov.ua/sud0205/csz/"
+  code: "0205"
+
+ -
+  fileid: "il.vn"
+  group: "vinnytsiareg"
+  namestr: "Іллінецький районний суд Вінницької області"
+  siteurl: "http://il.vn.court.gov.ua/"
+  scheduleurl: "http://il.vn.court.gov.ua/sud0207/csz/"
+  code: "0207"
+
+ -
+  fileid: "kl.vn"
+  group: "vinnytsiareg"
+  namestr: "Калинівський районний суд Вінницької області"
+  siteurl: "http://kl.vn.court.gov.ua/"
+  scheduleurl: "http://kl.vn.court.gov.ua/sud0208/csz/"
+  code: "0208"
+
+ -
+  fileid: "kz.vn"
+  group: "vinnytsiareg"
+  namestr: "Козятинський міськрайонний суд Вінницької області"
+  siteurl: "http://kz.vn.court.gov.ua/"
+  scheduleurl: "http://kz.vn.court.gov.ua/sud0209/csz/"
+  code: "0209"
+
+ -
+  fileid: "kr.vn"
+  group: "vinnytsiareg"
+  namestr: "Крижопільський районний суд Вінницької області"
+  siteurl: "http://kr.vn.court.gov.ua/"
+  scheduleurl: "http://kr.vn.court.gov.ua/sud0210/csz/"
+  code: "0210"
+
+ -
+  fileid: "lgm.vn"
+  group: "vinnytsiareg"
+  namestr: "Ладижинський міський суд Вінницької області"
+  siteurl: "http://lgm.vn.court.gov.ua/"
+  scheduleurl: "http://lgm.vn.court.gov.ua/sud0211/csz/"
+  code: "0211"
+
+ -
+  fileid: "lp.vn"
+  group: "vinnytsiareg"
+  namestr: "Липовецький районний суд Вінницької області"
+  siteurl: "http://lp.vn.court.gov.ua/"
+  scheduleurl: "http://lp.vn.court.gov.ua/sud0213/csz/"
+  code: "0213"
+
+ -
+  fileid: "lit.vn"
+  group: "vinnytsiareg"
+  namestr: "Літинський районний суд Вінницької області"
+  siteurl: "http://lit.vn.court.gov.ua/"
+  scheduleurl: "http://lit.vn.court.gov.ua/sud0214/csz/"
+  code: "0214"
+
+ -
+  fileid: "mpm.vn"
+  group: "vinnytsiareg"
+  namestr: "Могилів-Подільський міськрайонний суд Вінницької області"
+  siteurl: "http://mpm.vn.court.gov.ua/sud0215/csz/"
+  scheduleurl: "http://mpm.vn.court.gov.ua/sud0215/csz/"
+  code: "0215"
+
+ -
+  fileid: "mr.vn"
+  group: "vinnytsiareg"
+  namestr: "Мурованокуриловецький районний суд Вінницької області"
+  siteurl: "http://mr.vn.court.gov.ua/"
+  scheduleurl: "http://mr.vn.court.gov.ua/sud0216/csz/"
+  code: "0216"
+
+ -
+  fileid: "nm.vn"
+  group: "vinnytsiareg"
+  namestr: "Немирівський районний суд Вінницької області"
+  siteurl: "http://nm.vn.court.gov.ua/"
+  scheduleurl: "http://nm.vn.court.gov.ua/sud0217/csz/"
+  code: "0217"
+
+ -
+  fileid: "or.vn"
+  group: "vinnytsiareg"
+  namestr: "Оратівський районний суд Вінницької області"
+  siteurl: "http://or.vn.court.gov.ua/"
+  scheduleurl: "http://or.vn.court.gov.ua/sud0218/csz/"
+  code: "0218"
+
+ -
+  fileid: "psh.vn"
+  group: "vinnytsiareg"
+  namestr: "Піщанський районний суд Вінницької області"
+  siteurl: "http://psh.vn.court.gov.ua/"
+  scheduleurl: "http://psh.vn.court.gov.ua/sud0219/csz/"
+  code: "0219"
+
+ -
+  fileid: "pgb.vn"
+  group: "vinnytsiareg"
+  namestr: "Погребищенський районний суд Вінницької області"
+  siteurl: "http://pgb.vn.court.gov.ua/"
+  scheduleurl: "http://pgb.vn.court.gov.ua/sud0220/csz/"
+  code: "0220"
+
+ -
+  fileid: "tp.vn"
+  group: "vinnytsiareg"
+  namestr: "Теплицький районний суд Вінницької області"
+  siteurl: "http://tp.vn.court.gov.ua/"
+  scheduleurl: "http://tp.vn.court.gov.ua/sud0222/csz/"
+  code: "0222"
+
+ -
+  fileid: "tv.vn"
+  group: "vinnytsiareg"
+  namestr: "Тиврівський районний суд Вінницької області"
+  siteurl: "http://tv.vn.court.gov.ua/"
+  scheduleurl: "http://tv.vn.court.gov.ua/sud0223/csz/"
+  code: "0223"
+
+ -
+  fileid: "tm.vn"
+  group: "vinnytsiareg"
+  namestr: "Томашпільський районний суд Вінницької області"
+  siteurl: "http://tm.vn.court.gov.ua/"
+  scheduleurl: "http://tm.vn.court.gov.ua/sud0224//csz"
+  code: "0224"
+
+ -
+  fileid: "tr.vn"
+  group: "vinnytsiareg"
+  namestr: "Тростянецький районний суд Вінницької області"
+  siteurl: "http://tr.vn.court.gov.ua/"
+  scheduleurl: "http://tr.vn.court.gov.ua/sud0225/csz/"
+  code: "0225"
+
+ -
+  fileid: "tl.vn"
+  group: "vinnytsiareg"
+  namestr: "Тульчинський районний суд Вінницької області"
+  siteurl: "http://tl.vn.court.gov.ua/"
+  scheduleurl: "http://tl.vn.court.gov.ua/sud0226/csz/"
+  code: "0226"
+
+ -
+  fileid: "hm.vn"
+  group: "vinnytsiareg"
+  namestr: "Хмільницький міськрайонний суд Вінницької області"
+  siteurl: "http://hm.vn.court.gov.ua/"
+  scheduleurl: "http://hm.vn.court.gov.ua/sud0227/csz/"
+  code: "0227"
+
+ -
+  fileid: "cr.vn"
+  group: "vinnytsiareg"
+  namestr: "Чернівецький районний суд Вінницької області"
+  siteurl: "http://cr.vn.court.gov.ua/"
+  scheduleurl: "http://cr.vn.court.gov.ua/sud0228/csz/"
+  code: "0228"
+
+ -
+  fileid: "ch.vn"
+  group: "vinnytsiareg"
+  namestr: "Чечельницький районний суд Вінницької області"
+  siteurl: "http://ch.vn.court.gov.ua/"
+  scheduleurl: "http://ch.vn.court.gov.ua/sud0229/csz/"
+  code: "0229"
+
+ -
+  fileid: "sh.vn"
+  group: "vinnytsiareg"
+  namestr: "Шаргородський районний суд Вінницької області"
+  siteurl: "http://sh.vn.court.gov.ua/"
+  scheduleurl: "http://sh.vn.court.gov.ua/sud0230/csz/"
+  code: "0230"
+
+ -
+  fileid: "yam.vn"
+  group: "vinnytsiareg"
+  namestr: "Ямпільський районний суд Вінницької області"
+  siteurl: "http://yam.vn.court.gov.ua/"
+  scheduleurl: "http://yam.vn.court.gov.ua/sud0231/csz/"
+  code: "0231"
+
+ -
+  fileid: "vnm.vn"
+  group: "vinnytsiareg"
+  namestr: "Вінницький міський суд Вінницької області"
+  siteurl: "http://vnm.vn.court.gov.ua/"
+  scheduleurl: "http://vnm.vn.court.gov.ua/sud0232/csz/"
+  code: "0232"
+
 # Volyn region  ============================================== ===== ===== =====
 
  -
@@ -1751,7 +1993,7 @@ courts:
   namestr: "Хортицький районний суд м. Запоріжжя"
   siteurl: "http://hr.zp.court.gov.ua/"
   scheduleurl: "http://hr.zp.court.gov.ua/sud0825/csz/"
-  code: "0825"  
+  code: "0825"
   
  -
   fileid: "sh.zp"
@@ -1761,5 +2003,214 @@ courts:
   scheduleurl: "http://sh.zp.court.gov.ua/sud0827/causes_list/csz/"
   code: "0827" 
   
-    
+# Zhytomyr region ============================================ ===== ===== =====
+
+ -
+  fileid: "an.zt"
+  group: "zhytomyrreg"
+  namestr: "Андрушівський районний суд Житомирської області"
+  siteurl: "http://an.zt.court.gov.ua/"
+  scheduleurl: "http://an.zt.court.gov.ua/sud0601/csz/"
+  code: "0601"
+
+ -
+  fileid: "br.zt"
+  group: "zhytomyrreg"
+  namestr: "Баранівський районний суд Житомирської області"
+  siteurl: "http://br.zt.court.gov.ua/"
+  scheduleurl: "http://br.zt.court.gov.ua/sud0602/risne/csz/"
+  code: "0602"
+
+ -
+  fileid: "bd.zt"
+  group: "zhytomyrreg"
+  namestr: "Бердичівський міськрайонний суд Житомирської області"
+  siteurl: "http://bd.zt.court.gov.ua/"
+  scheduleurl: "http://bd.zt.court.gov.ua/sud0603/info_po_spravam/csz/"
+  code: "0603"
+
+ -
+  fileid: "bs.zt"
+  group: "zhytomyrreg"
+  namestr: "Брусилівський районний суд Житомирської області"
+  siteurl: "http://bs.zt.court.gov.ua/"
+  scheduleurl: "http://bs.zt.court.gov.ua/sud0605/spravu/csz/"
+  code: "0605"
+
+ -
+  fileid: "vv.zt"
+  group: "zhytomyrreg"
+  namestr: "Володарсько-Волинський районний суд Житомирської області"
+  siteurl: "http://vv.zt.court.gov.ua/"
+  scheduleurl: "http://vv.zt.court.gov.ua/sud0606/csz/"
+  code: "0606"
+
+ -
+  fileid: "em.zt"
+  group: "zhytomyrreg"
+  namestr: "Ємільчинський районний суд Житомирської області"
+  siteurl: "http://em.zt.court.gov.ua/"
+  scheduleurl: "http://em.zt.court.gov.ua/sud0607/csz/"
+  code: "0607"
+
+ -
+  fileid: "zt.zt"
+  group: "zhytomyrreg"
+  namestr: "Житомирський районний суд Житомирської області"
+  siteurl: "http://zt.zt.court.gov.ua/"
+  scheduleurl: "http://zt.zt.court.gov.ua/sud0608/csz/"
+  code: "0608"
+
+ -
+  fileid: "krm.zt"
+  group: "zhytomyrreg"
+  namestr: "Коростенський міськрайонний суд Житомирської області"
+  siteurl: "http://krm.zt.court.gov.ua/"
+  scheduleurl: "http://krm.zt.court.gov.ua/sud0610//csz"
+  code: "0610"
+
+ -
+  fileid: "ks.zt"
+  group: "zhytomyrreg"
+  namestr: "Коростишівський районний суд Житомирської області"
+  siteurl: "http://ks.zt.court.gov.ua/"
+  scheduleurl: "http://ks.zt.court.gov.ua/sud0611//csz"
+  code: "0611"
+
+ -
+  fileid: "lg.zt"
+  group: "zhytomyrreg"
+  namestr: "Лугинський районний суд Житомирської області"
+  siteurl: "http://lg.zt.court.gov.ua/"
+  scheduleurl: "http://lg.zt.court.gov.ua/sud0612/2/csz/"
+  code: "0612"
+
+ -
+  fileid: "lb.zt"
+  group: "zhytomyrreg"
+  namestr: "Любарський районний суд Житомирської області"
+  siteurl: "http://lb.zt.court.gov.ua/"
+  scheduleurl: "http://lb.zt.court.gov.ua/sud0613/csz/"
+  code: "0613"
+
+ -
+  fileid: "ml.zt"
+  group: "zhytomyrreg"
+  namestr: "Малинський районний суд Житомирської області"
+  siteurl: "http://ml.zt.court.gov.ua/"
+  scheduleurl: "http://ml.zt.court.gov.ua/sud0614/info/csz/"
+  code: "0614"
+
+ -
+  fileid: "nr.zt"
+  group: "zhytomyrreg"
+  namestr: "Народицький районний суд Житомирської області"
+  siteurl: "http://nr.zt.court.gov.ua/"
+  scheduleurl: "http://nr.zt.court.gov.ua/sud0615/csz/"
+  code: "0615"
+
+ -
+  fileid: "nv.zt"
+  group: "zhytomyrreg"
+  namestr: "Новоград-Волинський міськрайонний суд Житомирської області"
+  siteurl: "http://nv.zt.court.gov.ua/"
+  scheduleurl: "http://nv.zt.court.gov.ua/sud0616/kalendar_sprav/csz/"
+  code: "0616"
+
+ -
+  fileid: "ov.zt"
+  group: "zhytomyrreg"
+  namestr: "Овруцький районний суд Житомирської області"
+  siteurl: "http://ov.zt.court.gov.ua/"
+  scheduleurl: "http://ov.zt.court.gov.ua/sud0617/info_people/csz/"
+  code: "0617"
+
+ -
+  fileid: "pp.zt"
+  group: "zhytomyrreg"
+  namestr: "Попільнянський районний суд Житомирської області"
+  siteurl: "http://pp.zt.court.gov.ua/"
+  scheduleurl: "http://pp.zt.court.gov.ua/sud0619/csz/"
+  code: "0619"
+
+ -
+  fileid: "rd.zt"
+  group: "zhytomyrreg"
+  namestr: "Радомишльський районний суд Житомирської області"
+  siteurl: "http://rd.zt.court.gov.ua/"
+  scheduleurl: "http://rd.zt.court.gov.ua/sud0620/inf_for_citizens/csz/"
+  code: "0620"
+
+ -
+  fileid: "rg.zt"
+  group: "zhytomyrreg"
+  namestr: "Ружинський районний суд Житомирської області"
+  siteurl: "http://rg.zt.court.gov.ua/"
+  scheduleurl: "http://rg.zt.court.gov.ua/sud0622/information/csz/"
+  code: "0622"
+
+ -
+  fileid: "cha.zt"
+  group: "zhytomyrreg"
+  namestr: "Червоноармійський районний суд Житомирської області"
+  siteurl: "http://cha.zt.court.gov.ua/"
+  scheduleurl: "http://cha.zt.court.gov.ua/sud0623/csz/"
+  code: "0623"
+
+ -
+  fileid: "cr.zt"
+  group: "zhytomyrreg"
+  namestr: "Черняхівський районний суд Житомирської області"
+  siteurl: "http://cr.zt.court.gov.ua/"
+  scheduleurl: "http://cr.zt.court.gov.ua/sud0624/csz/"
+  code: "0624"
+
+ -
+  fileid: "cd.zt"
+  group: "zhytomyrreg"
+  namestr: "Чуднівський районний суд Житомирської області"
+  siteurl: "http://cd.zt.court.gov.ua/"
+  scheduleurl: "http://cd.zt.court.gov.ua/sud0625/csz/"
+  code: "0625"
+
+ -
+  fileid: "bg.zt"
+  group: "zhytomyrreg"
+  namestr: "Богунський районний суд м. Житомира"
+  siteurl: "http://bg.zt.court.gov.ua/"
+  scheduleurl: "http://bg.zt.court.gov.ua/sud0604/csz/"
+  code: "0604"
+
+ -
+  fileid: "kl.zt"
+  group: "zhytomyrreg"
+  namestr: "Корольовський районний суд м. Житомира"
+  siteurl: "http://kl.zt.court.gov.ua/"
+  scheduleurl: "http://kl.zt.court.gov.ua/sud0609/spysky/csz/"
+  code: "0609"
+
+ -
+  fileid: "ol.zt"
+  group: "zhytomyrreg"
+  namestr: "Олевський районний суд Житомирської області"
+  siteurl: "http://ol.zt.court.gov.ua/"
+  scheduleurl: "http://ol.zt.court.gov.ua/sud0618/csz/"
+  code: "0618"
+
+ -
+  fileid: ""
+  group: "zhytomyrreg"
+  namestr: ""
+  siteurl: ""
+  scheduleurl: ""
+  code: ""
   
+
+
+
+
+
+
+
+
+
