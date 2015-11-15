@@ -3,6 +3,17 @@ groups:
  -
   id: "chernihiv"
   str: "Чернігів"
+ -
+  id: "chernihivreg"
+  str: "Чернігівська область"
+
+ -
+  id: "сherkasyreg"
+  str: "Черкаська область"
+
+ -
+  id: "сhernivtsireg"
+  str: "Чернівецька область"
 
  -
   id: "dnipro"
@@ -51,6 +62,10 @@ groups:
   id: "volynreg"
   str: "Волинська область"
 
+ - 
+  id: "zakarpattiareg"
+  str: "Закарпатська область"
+
  -
   id: "zaporizhia"
   str: "Запоріжжя"
@@ -65,7 +80,186 @@ groups:
 
 courts:
 
-# Chernihiv =================================================== ===== ===== =====
+# Cherkasy region =========================================== ===== ===== =====
+
+ -
+  fileid: "vt.ck"
+  group: "сherkasyreg"
+  namestr: "Ватутінський міський суд Черкаської області"
+  siteurl: "http://vt.ck.court.gov.ua/"
+  scheduleurl: "http://vt.ck.court.gov.ua/sud2301/1/csz/"
+  code: "2301"
+
+ -
+  fileid: "gd.ck"
+  group: "сherkasyreg"
+  namestr: "Городищенський районний суд Черкаської області"
+  siteurl: "http://gd.ck.court.gov.ua/"
+  scheduleurl: "http://gd.ck.court.gov.ua/sud2302/120/csz/"
+  code: "2302"
+
+ -
+  fileid: "dr.ck"
+  group: "сherkasyreg"
+  namestr: "Драбівський районний суд Черкаської області"
+  siteurl: "http://dr.ck.court.gov.ua/"
+  scheduleurl: "http://dr.ck.court.gov.ua/sud2303/inform/csz/"
+  code: "2303"
+
+ -
+  fileid: "gsh.ck"
+  group: "сherkasyreg"
+  namestr: "Жашківський районний суд Черкаської області"
+  siteurl: "http://gsh.ck.court.gov.ua/"
+  scheduleurl: "http://gsh.ck.court.gov.ua/sud2304/11/csz/"
+  code: "2304"
+
+ -
+  fileid: "zv.ck"
+  group: "сherkasyreg"
+  namestr: "Звенигородський районний суд Черкаської області"
+  siteurl: "http://zv.ck.court.gov.ua/"
+  scheduleurl: "http://zv.ck.court.gov.ua/sud2305/kalendar/csz/"
+  code: "2305"
+
+ -
+  fileid: "zl.ck"
+  group: "сherkasyreg"
+  namestr: "Золотоніський міськрайонний суд Черкаської області"
+  siteurl: "http://zl.ck.court.gov.ua/"
+  scheduleurl: "http://zl.ck.court.gov.ua/sud2306/inf/csz/"
+  code: "2306"
+
+ -
+  fileid: "km.ck"
+  group: "сherkasyreg"
+  namestr: "Кам'янський районний суд Черкаської області"
+  siteurl: "http://km.ck.court.gov.ua/"
+  scheduleurl: "http://km.ck.court.gov.ua/sud2307/inform5/csz/"
+  code: "2307"
+
+ -
+  fileid: "kn.ck"
+  group: "сherkasyreg"
+  namestr: "Канівський міськрайонний суд Черкаської області"
+  siteurl: "http://kn.ck.court.gov.ua/"
+  scheduleurl: "http://kn.ck.court.gov.ua/sud2308/10/csz/"
+  code: "2308"
+
+ -
+  fileid: "kt.ck"
+  group: "сherkasyreg"
+  namestr: "Катеринопільский районний суд Черкаської області"
+  siteurl: "http://kt.ck.court.gov.ua/"
+  scheduleurl: "http://kt.ck.court.gov.ua/sud2309//csz"
+  code: "2309"
+
+ -
+  fileid: "ks.ck"
+  group: "сherkasyreg"
+  namestr: "Корсунь-Шевченківський районний суд Черкаської області"
+  siteurl: "http://ks.ck.court.gov.ua/"
+  scheduleurl: "http://ck.court.gov.ua/sud2310/inform/csz/"
+  code: "2310"
+
+ -
+  fileid: "ls.ck"
+  group: "сherkasyreg"
+  namestr: "Лисянський районний суд Черкаської області"
+  siteurl: "http://ls.ck.court.gov.ua/"
+  scheduleurl: "http://ls.ck.court.gov.ua/sud2311//csz"
+  code: "2311"
+
+ -
+  fileid: "mn.ck"
+  group: "сherkasyreg"
+  namestr: "Маньківський районний суд Черкаської області"
+  siteurl: "http://mn.ck.court.gov.ua/"
+  scheduleurl: "http://mn.ck.court.gov.ua/sud2312/15/csz/"
+  code: "2312"
+
+ -
+  fileid: "ms.ck"
+  group: "сherkasyreg"
+  namestr: "Монастирищенський районний суд Черкаської області"
+  siteurl: "http://ms.ck.court.gov.ua/"
+  scheduleurl: "http://ms.ck.court.gov.ua/sud2313/3/csz/"
+  code: "2313"
+
+ -
+  fileid: "pp.ck"
+  group: "сherkasyreg"
+  namestr: "Придніпровський районний суд м. Черкаси"
+  siteurl: "http://pp.ck.court.gov.ua/"
+  scheduleurl: "http://pp.ck.court.gov.ua/sud2314/calendar/csz/"
+  code: "2314"
+
+ -
+  fileid: "sm.ck"
+  group: "сherkasyreg"
+  namestr: "Смілянський міськрайонний суд Черкаської області"
+  siteurl: "http://sm.ck.court.gov.ua/"
+  scheduleurl: "http://sm.ck.court.gov.ua/sud2315/spisok/csz/"
+  code: "2315"
+
+ -
+  fileid: "sn.ck"
+  group: "сherkasyreg"
+  namestr: "Соснівський районний суд м.Черкаси"
+  siteurl: "http://sn.ck.court.gov.ua/"
+  scheduleurl: "http://sn.ck.court.gov.ua/sud2316/listcause/csz"
+  code: "2316"
+
+ -
+  fileid: "um.ck"
+  group: "сherkasyreg"
+  namestr: "Уманський міськрайонний суд Черкаської області"
+  siteurl: "http://um.ck.court.gov.ua/"
+  scheduleurl: "http://um.ck.court.gov.ua/sud2318/info/csz/"
+  code: "2318"
+
+ -
+  fileid: "hs.ck"
+  group: "сherkasyreg"
+  namestr: "Христинівський районний суд Черкаської області"
+  siteurl: "http://hs.ck.court.gov.ua/"
+  scheduleurl: "http://hs.ck.court.gov.ua/sud2319/inform/csz/"
+  code: "2319"
+
+ -
+  fileid: "ck.ck"
+  group: "сherkasyreg"
+  namestr: "Черкаський районний суд Черкаської області"
+  siteurl: "http://ck.ck.court.gov.ua/"
+  scheduleurl: "http://ck.ck.court.gov.ua/sud2320/about/csz/"
+  code: "2320"
+
+ -
+  fileid: "cg.ck"
+  group: "сherkasyreg"
+  namestr: "Чигиринський районний суд Черкаської області"
+  siteurl: "http://cg.ck.court.gov.ua/"
+  scheduleurl: "http://cg.ck.court.gov.ua/sud2321/cgh/csz/"
+  code: "2321"
+
+ -
+  fileid: "cb.ck"
+  group: "сherkasyreg"
+  namestr: "Чорнобаївський районний суд Черкаської області"
+  siteurl: "http://cb.ck.court.gov.ua/"
+  scheduleurl: "http://cb.ck.court.gov.ua/sud2322/sz/csz/"
+  code: "2322"
+
+ -
+  fileid: "sh.ck"
+  group: "сherkasyreg"
+  namestr: "Шполянський районний суд Черкаської області"
+  siteurl: "http://sh.ck.court.gov.ua/"
+  scheduleurl: "http://sh.ck.court.gov.ua/sud2323/spiski2/csz/"
+  code: "2323"
+
+
+# Chernihiv ================================================= ===== ===== =====
 
  -
   fileid: "ds.cn"
@@ -81,6 +275,274 @@ courts:
   siteurl: "http://nz.cn.court.gov.ua/"
   scheduleurl: "http://nz.cn.court.gov.ua/sud2515/csz/"
   code: "2515"
+
+
+# Chernihiv reg ============================================== ===== ===== =====
+
+ -
+  fileid: "bh.cn"
+  group: "chernihivreg"
+  namestr: "Бахмацький районний суд Чернігівської області"
+  siteurl: "http://bh.cn.court.gov.ua/"
+  scheduleurl: "http://bh.cn.court.gov.ua/sud2501/csz/"
+  code: "2501"
+ -
+  fileid: "bb.cn"
+  group: "chernihivreg"
+  namestr: "Бобровицький районний суд Чернігівської області"
+  siteurl: "http://bb.cn.court.gov.ua/"
+  scheduleurl: "http://bb.cn.court.gov.ua/sud2502/csz/"
+  code: "2502"
+
+ -
+  fileid: "br.cn"
+  group: "chernihivreg"
+  namestr: "Борзнянський районний суд Чернігівської області"
+  siteurl: "http://br.cn.court.gov.ua/"
+  scheduleurl: "http://br.cn.court.gov.ua/sud2503/csz/"
+  code: "2503"
+
+ -
+  fileid: "vr.cn"
+  group: "chernihivreg"
+  namestr: "Варвинський районний суд Чернігівської області"
+  siteurl: "http://vr.cn.court.gov.ua/"
+  scheduleurl: "http://vr.cn.court.gov.ua/sud2504//csz"
+  code: "2504"
+
+ -
+  fileid: "gd.cn"
+  group: "chernihivreg"
+  namestr: "Городнянський районний суд Чернігівської області"
+  siteurl: "http://gd.cn.court.gov.ua/"
+  scheduleurl: "http://gd.cn.court.gov.ua/sud2505/csz/"
+  code: "2505"
+
+ -
+  fileid: "in.cn"
+  group: "chernihivreg"
+  namestr: "Ічнянський районний суд Чернігівської області"
+  siteurl: "http://in.cn.court.gov.ua/"
+  scheduleurl: "http://in.cn.court.gov.ua/sud2507/csz/"
+  code: "2507"
+
+ -
+  fileid: "kz.cn"
+  group: "chernihivreg"
+  namestr: "Козелецький районний суд Чернігівської області"
+  siteurl: "http://kz.cn.court.gov.ua/"
+  scheduleurl: "http://kz.cn.court.gov.ua/sud2508/csz/"
+  code: "2508"
+
+ -
+  fileid: "kp.cn"
+  group: "chernihivreg"
+  namestr: "Коропський районний суд Чернігівської області"
+  siteurl: "http://kp.cn.court.gov.ua/"
+  scheduleurl: "http://kp.cn.court.gov.ua/sud2509/csz/"
+  code: "2509"
+
+ -
+  fileid: "kr.cn"
+  group: "chernihivreg"
+  namestr: "Корюківський районний суд Чернігівської області"
+  siteurl: "http://kr.cn.court.gov.ua/"
+  scheduleurl: "http://kr.cn.court.gov.ua/sud2510/inform/csz/"
+  code: "2510"
+
+ -
+  fileid: "kl.cn"
+  group: "chernihivreg"
+  namestr: "Куликівський районний суд Чернігівської області"
+  siteurl: "http://kl.cn.court.gov.ua/"
+  scheduleurl: "http://kl.cn.court.gov.ua/sud2511/csz/"
+  code: "2511"
+
+ -
+  fileid: "mn.cn"
+  group: "chernihivreg"
+  namestr: "Менський районний суд Чернігівської області"
+  siteurl: "http://mn.cn.court.gov.ua/"
+  scheduleurl: "http://mn.cn.court.gov.ua/sud2512/csz/"
+  code: "2512"
+
+ -
+  fileid: "ng.cn"
+  group: "chernihivreg"
+  namestr: "Ніжинський міськрайонний суд Чернігівської області"
+  siteurl: "http://ng.cn.court.gov.ua/"
+  scheduleurl: "http://ng.cn.court.gov.ua/sud2514/pov/csz/"
+  code: "2514"
+
+ -
+  fileid: "no.cn"
+  group: "chernihivreg"
+  namestr: "Носівський районний суд Чернігівської області"
+  siteurl: "http://no.cn.court.gov.ua/"
+  scheduleurl: "http://no.cn.court.gov.ua/sud2516/csz/"
+  code: "2516"
+
+ -
+  fileid: "pr.cn"
+  group: "chernihivreg"
+  namestr: "Прилуцький міськрайонний суд Чернігівської області"
+  siteurl: "http://pr.cn.court.gov.ua/"
+  scheduleurl: "http://pr.cn.court.gov.ua/sud2517/35/csz/"
+  code: "2517"
+
+ -
+  fileid: "rp.cn"
+  group: "chernihivreg"
+  namestr: "Ріпкинський районний суд Чернігівської області"
+  siteurl: "http://rp.cn.court.gov.ua/"
+  scheduleurl: "http://rp.cn.court.gov.ua/sud2518/csz/"
+  code: "2518"
+
+ -
+  fileid: "sm.cn"
+  group: "chernihivreg"
+  namestr: "Семенівський районний суд Чернігівської області"
+  siteurl: "http://sm.cn.court.gov.ua/"
+  scheduleurl: "http://sm.cn.court.gov.ua/sud2519/csz/"
+  code: "2519"
+
+ -
+  fileid: "sn.cn"
+  group: "chernihivreg"
+  namestr: "Сосницький районний суд Чернігівської області"
+  siteurl: "http://sn.cn.court.gov.ua/"
+  scheduleurl: "http://sn.cn.court.gov.ua/sud2520/csz/"
+  code: "2520"
+
+ -
+  fileid: "sr.cn"
+  group: "chernihivreg"
+  namestr: "Срібнянський районний суд Чернігівської області"
+  siteurl: "http://sr.cn.court.gov.ua/"
+  scheduleurl: "http://sr.cn.court.gov.ua/sud2521//csz"
+  code: "2521"
+
+ -
+  fileid: "tl.cn"
+  group: "chernihivreg"
+  namestr: "Талалаївський районний суд Чернігівської області"
+  siteurl: "http://tl.cn.court.gov.ua/"
+  scheduleurl: "http://tl.cn.court.gov.ua/sud2522/spusok/csz/"
+  code: "2522"
+
+ -
+  fileid: "cn.cn"
+  group: "chernihivreg"
+  namestr: "Чернігівський районний суд Чернігівської області"
+  siteurl: "http://cn.cn.court.gov.ua/"
+  scheduleurl: "http://cn.cn.court.gov.ua/sud2523/inform/csz/"
+  code: "2523"
+
+# Chernivtsi ================================================== ===== ===== =====
+
+ -
+  fileid: "vg.cv"
+  group: "сhernivtsireg"
+  namestr: "Вижницький районний суд Чернівецької області"
+  siteurl: "http://vg.cv.court.gov.ua/"
+  scheduleurl: "http://vg.cv.court.gov.ua/sud2401/csz/"
+  code: "2401"
+
+ -
+  fileid: "gr.cv"
+  group: "сhernivtsireg"
+  namestr: "Герцаївський районний суд Чернівецької області"
+  siteurl: "http://gr.cv.court.gov.ua/"
+  scheduleurl: "http://gr.cv.court.gov.ua/sud2402/csz/"
+  code: "2402"
+
+ -
+  fileid: "gl.cv"
+  group: "сhernivtsireg"
+  namestr: "Глибоцький районний суд Чернівецької області"
+  siteurl: "http://gl.cv.court.gov.ua/"
+  scheduleurl: "http://gl.cv.court.gov.ua/sud2403/csz/"
+  code: "2403"
+
+ -
+  fileid: "zs.cv"
+  group: "сhernivtsireg"
+  namestr: "Заставнівський районний суд Чернівецької області"
+  siteurl: "http://zs.cv.court.gov.ua/"
+  scheduleurl: "http://zs.cv.court.gov.ua/sud2404/csz/"
+  code: "2404"
+
+ -
+  fileid: "kl.cv"
+  group: "сhernivtsireg"
+  namestr: "Кельменецький районний суд Чернівецької області"
+  siteurl: "http://kl.cv.court.gov.ua/"
+  scheduleurl: "http://kl.cv.court.gov.ua/sud2405/csz/"
+  code: "2405"
+
+ -
+  fileid: "km.cv"
+  group: "сhernivtsireg"
+  namestr: "Кіцманський районний суд Чернівецької області"
+  siteurl: "http://km.cv.court.gov.ua/"
+  scheduleurl: "http://km.cv.court.gov.ua/sud2406/csz/"
+  code: "2406"
+
+ -
+  fileid: "nv.cv"
+  group: "сhernivtsireg"
+  namestr: "Новоселицький районний суд Чернівецької області"
+  siteurl: "http://nv.cv.court.gov.ua/"
+  scheduleurl: "http://nv.cv.court.gov.ua/sud2407/csz/"
+  code: "2407"
+
+ -
+  fileid: "ptr.cv"
+  group: "сhernivtsireg"
+  namestr: "Першотравневий районний суд м. Чернівців"
+  siteurl: "http://ptr.cv.court.gov.ua/"
+  scheduleurl: "http://ptr.cv.court.gov.ua/sud2408/csz/"
+  code: "2408"
+
+ -
+  fileid: "put.cv"
+  group: "сhernivtsireg"
+  namestr: "Путильський районний суд Чернівецької області"
+  siteurl: "http://put.cv.court.gov.ua/"
+  scheduleurl: "http://put.cv.court.gov.ua/sud2409/csz/"
+  code: "2409"
+
+ -
+  fileid: "sg.cv"
+  group: "сhernivtsireg"
+  namestr: "Садгірський районний суд м. Чернівців"
+  siteurl: "http://sg.cv.court.gov.ua/"
+  scheduleurl: "http://sg.cv.court.gov.ua/sud2410/csz/"
+  code: "2410"
+
+ -
+  fileid: "sk.cv"
+  group: "сhernivtsireg"
+  namestr: "Сокирянський районний суд Чернівецької області"
+  siteurl: "http://sk.cv.court.gov.ua/"
+  scheduleurl: "http://sk.cv.court.gov.ua/sud2411/csz/"
+  code: "2411"
+
+ -
+  fileid: "st.cv"
+  group: "сhernivtsireg"
+  namestr: "Сторожинецький районний суд Чернівецької області"
+  siteurl: "http://st.cv.court.gov.ua/"
+  scheduleurl: "http://st.cv.court.gov.ua/sud2412/csz/"
+  code: "2412"
+
+ -
+  fileid: "ht.cv"
+  group: "сhernivtsireg"
+  namestr: "Хотинський районний суд Чернівецької області"
+  siteurl: "http://ht.cv.court.gov.ua/"
+  scheduleurl: "http://ht.cv.court.gov.ua/sud2413/csz/"
+  code: "2413"
 
 # Dnipropetrovsk ============================================ ===== ===== =====
 
@@ -1945,6 +2407,113 @@ courts:
   scheduleurl: "http://sha.vl.court.gov.ua/sud0317/csz/"
   code: "0317"
 
+# Zakarpattia =============================================== ===== ===== =====
+
+ -
+  fileid: "br.zk"
+  group: "zakarpattiareg"
+  namestr: "Берегівський районний суд Закарпатської області"
+  siteurl: "http://br.zk.court.gov.ua/"
+  scheduleurl: "http://br.zk.court.gov.ua/sud0701/csz/"
+  code: "0701"
+
+ -
+  fileid: "vb.zk"
+  group: "zakarpattiareg"
+  namestr: "Великоберезнянський районний суд Закарпатської області"
+  siteurl: "http://vb.zk.court.gov.ua/"
+  scheduleurl: "http://vb.zk.court.gov.ua/sud0702/csz/"
+  code: "0702"
+
+ -
+  fileid: "vn.zk"
+  group: "zakarpattiareg"
+  namestr: "Виноградівський районний суд Закарпатської області"
+  siteurl: "http://vn.zk.court.gov.ua/"
+  scheduleurl: "http://vn.zk.court.gov.ua/sud0703/csz/"
+  code: "0703"
+
+ -
+  fileid: "vl.zk"
+  group: "zakarpattiareg"
+  namestr: "Воловецький районний суд Закарпатської області"
+  siteurl: "http://vl.zk.court.gov.ua/"
+  scheduleurl: "http://vl.zk.court.gov.ua/sud0704//csz"
+  code: "0704"
+
+ -
+  fileid: "ir.zk"
+  group: "zakarpattiareg"
+  namestr: "Іршавський районний суд Закарпатської області"
+  siteurl: "http://ir.zk.court.gov.ua/"
+  scheduleurl: "http://ir.zk.court.gov.ua/sud0705/csz/"
+  code: "0705"
+
+ -
+  fileid: "mg.zk"
+  group: "zakarpattiareg"
+  namestr: "Міжгірський районний суд Закарпатської області"
+  siteurl: "http://mg.zk.court.gov.ua/"
+  scheduleurl: "http://mg.zk.court.gov.ua/sud0706/means/csz/"
+  code: "0706"
+
+ -
+  fileid: "mkm.zk"
+  group: "zakarpattiareg"
+  namestr: "Мукачівський міськрайонний суд Закарпатської області"
+  siteurl: "http://mkm.zk.court.gov.ua/"
+  scheduleurl: "http://mkm.zk.court.gov.ua/sud0707/publish/csz/"
+  code: "0707"
+
+ -
+  fileid: "pr.zk"
+  group: "zakarpattiareg"
+  namestr: "Перечинський районний суд Закарпатської області"
+  siteurl: "http://pr.zk.court.gov.ua/"
+  scheduleurl: "http://pr.zk.court.gov.ua/sud0708/csz/"
+  code: "0708"
+
+ -
+  fileid: "rh.zk"
+  group: "zakarpattiareg"
+  namestr: "Рахівський районний суд Закарпатської області"
+  siteurl: "http://rh.zk.court.gov.ua/"
+  scheduleurl: "http://rh.zk.court.gov.ua/sud0709/csz/"
+  code: "0709"
+
+ -
+  fileid: "sv.zk"
+  group: "zakarpattiareg"
+  namestr: "Свалявський районний суд Закарпатської області"
+  siteurl: "http://sv.zk.court.gov.ua/"
+  scheduleurl: "http://sv.zk.court.gov.ua/sud0710/inf/csz/"
+  code: "0710"
+
+ -
+  fileid: "tc.zk"
+  group: "zakarpattiareg"
+  namestr: "Тячівський районний суд Закарпатської області"
+  siteurl: "http://tc.zk.court.gov.ua/"
+  scheduleurl: "http://tc.zk.court.gov.ua/sud0711/csz/"
+  code: "0711"
+
+ -
+  fileid: "ug.zk"
+  group: "zakarpattiareg"
+  namestr: "Ужгородський міськрайонний суд Закарпатської області"
+  siteurl: "http://ug.zk.court.gov.ua/"
+  scheduleurl: "http://ug.zk.court.gov.ua/sud0712/gromadjanam/csz/"
+  code: "0712"
+
+ -
+  fileid: "hs.zk"
+  group: "zakarpattiareg"
+  namestr: "Хустський районний суд Закарпатської області"
+  siteurl: "http://hs.zk.court.gov.ua/"
+  scheduleurl: "http://hs.zk.court.gov.ua/sud0713/csz/"
+  code: "sud0713"
+
+
 # Zaporizhia ================================================ ===== ===== =====
 
  -
@@ -2197,14 +2766,6 @@ courts:
   scheduleurl: "http://ol.zt.court.gov.ua/sud0618/csz/"
   code: "0618"
 
- -
-  fileid: ""
-  group: "zhytomyrreg"
-  namestr: ""
-  siteurl: ""
-  scheduleurl: ""
-  code: ""
-  
 
 
 
