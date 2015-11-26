@@ -62,13 +62,16 @@ groups:
   id: "volynreg"
   str: "Волинська область"
 
- - 
+ -
   id: "zakarpattiareg"
   str: "Закарпатська область"
 
  -
   id: "zaporizhia"
   str: "Запоріжжя"
+ -
+  id: "zaporizhiareg"
+  str: "Запорізька область"
 
  -
   id: "zhytomyrreg"
@@ -2571,7 +2574,177 @@ courts:
   siteurl: "http://sh.zp.court.gov.ua/"
   scheduleurl: "http://sh.zp.court.gov.ua/sud0827/causes_list/csz/"
   code: "0827" 
-  
+
+# Zaporizhia region ================================================ ===== ===== =====
+
+ -
+  fileid: "bd.zp"
+  group: "zaporizhiareg"
+  namestr: "Бердянський міськрайонний суд Запорізької області"
+  siteurl: "http://bd.zp.court.gov.ua/"
+  scheduleurl: "http://bd.zp.court.gov.ua/sud0801/csz/"
+  code: "0801"
+
+ -
+  fileid: "vs.zp"
+  group: "zaporizhiareg"
+  namestr: "Василівський районний суд Запорізької області"
+  siteurl: "http://vs.zp.court.gov.ua/"
+  scheduleurl: "http://vs.zp.court.gov.ua/sud0802/csz/"
+  code: "0802"
+
+ -
+  fileid: "vb.zp"
+  group: "zaporizhiareg"
+  namestr: "Великобілозерський районний суд Запорізької області"
+  siteurl: "http://vb.zp.court.gov.ua/"
+  scheduleurl: "http://vb.zp.court.gov.ua/sud0803/dostup/csz/"
+  code: "0803"
+
+ -
+  fileid: "vsl.zp"
+  group: "zaporizhiareg"
+  namestr: "Веселівський районний суд Запорізької області"
+  siteurl: "http://vsl.zp.court.gov.ua/"
+  scheduleurl: "http://vsl.zp.court.gov.ua/sud0804/csz/"
+  code: "0804"
+
+ -
+  fileid: "vl.zp"
+  group: "zaporizhiareg"
+  namestr: "Вільнянський районний суд Запорізької області"
+  siteurl: "http://vl.zp.court.gov.ua/"
+  scheduleurl: "http://vl.zp.court.gov.ua/sud0805/sud/csz/"
+  code: "0805"
+
+ -
+  fileid: "gp.zp"
+  group: "zaporizhiareg"
+  namestr: "Гуляйпільський районний суд Запорізької області"
+  siteurl: "http://gp.zp.court.gov.ua/"
+  scheduleurl: "http://gp.zp.court.gov.ua/sud0806/csz/csz/"
+  code: "0806"
+
+ -
+  fileid: "zp.zp"
+  group: "zaporizhiareg"
+  namestr: "Запорізький районний суд Запорізької області"
+  siteurl: "http://zp.zp.court.gov.ua/"
+  scheduleurl: "http://zp.zp.court.gov.ua/sud0810/csz/"
+  code: "0810"
+
+ -
+  fileid: "kd.zp"
+  group: "zaporizhiareg"
+  namestr: "Кам'янсько-Дніпровський районний суд"
+  siteurl: "http://kd.zp.court.gov.ua/"
+  scheduleurl: "http://kd.zp.court.gov.ua/sud0811/csz/"
+  code: "0811"
+
+ -
+  fileid: "kb.zp"
+  group: "zaporizhiareg"
+  namestr: "Куйбишевський районний суд Запорізької області"
+  siteurl: "http://kb.zp.court.gov.ua/"
+  scheduleurl: "http://kb.zp.court.gov.ua/sud0813/sud0813/csz/"
+  code: "0813"
+
+ -
+  fileid: "ml.zp"
+  group: "zaporizhiareg"
+  namestr: "Мелітопольський міськрайонний суд Запорізької області"
+  siteurl: "http://ml.zp.court.gov.ua/"
+  scheduleurl: "http://ml.zp.court.gov.ua/sud0815/sprava/csz/"
+  code: "0815"
+
+ -
+  fileid: "mh.zp"
+  group: "zaporizhiareg"
+  namestr: "Михайлівський районний суд Запорізької області"
+  siteurl: "http://mh.zp.court.gov.ua/"
+  scheduleurl: "http://mh.zp.court.gov.ua/sud0816/calendar/csz/"
+  code: "0816"
+
+ -
+  fileid: "nm.zp"
+  group: "zaporizhiareg"
+  namestr: "Новомиколаївський районний суд Запорізької області"
+  siteurl: "http://nm.zp.court.gov.ua/"
+  scheduleurl: "http://nm.zp.court.gov.ua/sud0817/csz/"
+  code: "0817"
+
+ -
+  fileid: "or.zp"
+  group: "zaporizhiareg"
+  namestr: "Оріхівський районний суд Запорізької області"
+  siteurl: "http://or.zp.court.gov.ua/"
+  scheduleurl: "http://or.zp.court.gov.ua/sud0819/csz/"
+  code: "0819"
+
+ -
+  fileid: "pl.zp"
+  group: "zaporizhiareg"
+  namestr: "Пологівський районний суд Запорізької області"
+  siteurl: "http://pl.zp.court.gov.ua/"
+  scheduleurl: "http://pl.zp.court.gov.ua/sud0820/csz/"
+  code: "0820"
+
+ -
+  fileid: "pm.zp"
+  group: "zaporizhiareg"
+  namestr: "Приморський районний суд Запорізької області"
+  siteurl: "http://pm.zp.court.gov.ua/"
+  scheduleurl: "http://pm.zp.court.gov.ua/sud0822/csz/"
+  code: "0822"
+
+ -
+  fileid: "tm.zp"
+  group: "zaporizhiareg"
+  namestr: "Токмацький районний суд Запорізької області"
+  siteurl: "http://tm.zp.court.gov.ua/"
+  scheduleurl: "http://tm.zp.court.gov.ua/sud0824/csz/"
+  code: "0824"
+
+ -
+  fileid: "paz.zp"
+  group: "zaporizhiareg"
+  namestr: "Приазовський районний суд Запорізької області"
+  siteurl: "http://paz.zp.court.gov.ua/"
+  scheduleurl: "http://paz.zp.court.gov.ua/sud0821/doc/csz/"
+  code: "0821"
+
+ -
+  fileid: "cr.zp"
+  group: "zaporizhiareg"
+  namestr: "Чернігівський районний суд Запорізької області"
+  siteurl: "http://cr.zp.court.gov.ua/"
+  scheduleurl: "http://cr.zp.court.gov.ua/sud0826/csz/"
+  code: "0826"
+
+ -
+  fileid: "yk.zp"
+  group: "zaporizhiareg"
+  namestr: "Якимівський районний суд Запорізької області"
+  siteurl: "http://yk.zp.court.gov.ua/"
+  scheduleurl: "http://yk.zp.court.gov.ua/sud0828/spravi/csz/"
+  code: "0828"
+
+ -
+  fileid: "ed.zp"
+  group: "zaporizhiareg"
+  namestr: "Енергодарський міський суд Запорізької області"
+  siteurl: "http://ed.zp.court.gov.ua/"
+  scheduleurl: "http://ed.zp.court.gov.ua/sud0807/spisoksprav/csz/"
+  code: "0807"
+
+ -
+  fileid: "rz.zp"
+  group: "zaporizhiareg"
+  namestr: "Розівський районний суд Запорізької області"
+  siteurl: "http://rz.zp.court.gov.ua/"
+  scheduleurl: "http://rz.zp.court.gov.ua/sud0823/spisok_sprav/csz/"
+  code: "0823"
+
 # Zhytomyr region ============================================ ===== ===== =====
 
  -
