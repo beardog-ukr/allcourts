@@ -271,6 +271,7 @@ courts:
   siteurl: "http://ds.cn.court.gov.ua/"
   scheduleurl: "http://ds.cn.court.gov.ua/sud2506/csz/"
   code: "2506"
+
  -
   fileid: "nz.cn"
   group: "chernihiv"
@@ -279,6 +280,13 @@ courts:
   scheduleurl: "http://nz.cn.court.gov.ua/sud2515/csz/"
   code: "2515"
 
+ -
+  fileid: "adm.cn"
+  group: "chernihiv"
+  namestr: "Чернігівський окружний адміністративний суд"
+  siteurl: "http://adm.cn.court.gov.ua/"
+  scheduleurl: "http://adm.cn.court.gov.ua/sud2570/csz/"
+  code: "2570"
 
 # Chernihiv reg ============================================== ===== ===== =====
 
@@ -547,6 +555,14 @@ courts:
   scheduleurl: "http://ht.cv.court.gov.ua/sud2413/csz/"
   code: "2413"
 
+ -
+  fileid: "adm.cv"
+  group: "сhernivtsireg"
+  namestr: "Чернівецький окружний адміністративний суд"
+  siteurl: "http://adm.cv.court.gov.ua/"
+  scheduleurl: "http://adm.cv.court.gov.ua/sud2470/4/csz/"
+  code: "2470"
+
 # Dnipropetrovsk ============================================ ===== ===== =====
 
  -
@@ -612,6 +628,15 @@ courts:
   siteurl: "http://sm.dp.court.gov.ua/"
   scheduleurl: "http://sm.dp.court.gov.ua/sud0436/sud_spavi/csz/"
   code: "0436"
+
+ -
+  fileid: "adm.dp"
+  group: "dnipro"
+  namestr: "Дніпропетровський окружний адміністративний суд"
+  siteurl: "http://adm.dp.court.gov.ua/"
+  scheduleurl: "http://adm.dp.court.gov.ua/sud0470/149/"
+  code: "0470"
+
 
 # Dnipropetrovsk region ===================================== ===== ===== =====
 
@@ -919,6 +944,7 @@ courts:
   siteurl: "http://gl.ki.court.gov.ua/"
   scheduleurl: "http://gl.ki.court.gov.ua/sud2601/csz/"
   code: "2601"
+
  -
   fileid: "dr.ki"
   group: "kiev"
@@ -926,6 +952,7 @@ courts:
   siteurl: "http://dr.ki.court.gov.ua/"
   scheduleurl: "http://dr.ki.court.gov.ua/sud2602/20/csz/"
   code: "2602"
+
  -
   fileid: "ds.ki"
   group: "kiev"
@@ -933,6 +960,7 @@ courts:
   siteurl: "http://ds.ki.court.gov.ua/"
   scheduleurl: "http://ds.ki.court.gov.ua/sud2603/csz/"
   code: "2603"
+
  -
   fileid: "dn.ki"
   group: "kiev"
@@ -940,6 +968,7 @@ courts:
   siteurl: "http://dn.ki.court.gov.ua/"
   scheduleurl: "http://dn.ki.court.gov.ua/sud2604/information/csz/"
   code: "2604"
+
  -
   fileid: "ob.ki"
   group: kiev
@@ -947,6 +976,7 @@ courts:
   siteurl: "http://ob.ki.court.gov.ua/"
   scheduleurl: "http://ob.ki.court.gov.ua/sud2605/spravy/csz/"
   code: "2605"
+
  -
   fileid: "pc.ki"
   group: "kiev"
@@ -954,6 +984,7 @@ courts:
   siteurl: "http://pc.ki.court.gov.ua/"
   scheduleurl: "http://pc.ki.court.gov.ua/sud2606/spysok_sprav/csz/"
   code: "2606"
+
  -
   fileid: "pd.ki"
   group: "kiev"
@@ -961,6 +992,7 @@ courts:
   siteurl: "http://pd.ki.court.gov.ua/"
   scheduleurl: "http://pd.ki.court.gov.ua/sud2607/info_dlya_gromadyan/csz/"
   code: "2607"
+
  -
   fileid: "sv.ki"
   group: "kiev"
@@ -968,6 +1000,7 @@ courts:
   siteurl: "http://sv.ki.court.gov.ua/"
   scheduleurl: "http://sv.ki.court.gov.ua/sud2608/1/csz/"
   code: "2608"
+
  -
   fileid: "sl.ki"
   group: "kiev"
@@ -975,6 +1008,7 @@ courts:
   siteurl: "http://sl.ki.court.gov.ua/"
   scheduleurl: "http://sl.ki.court.gov.ua/sud2609/information3/csz/"
   code: "2609"
+
  -
   fileid: "sh.ki"
   group: "kiev"
@@ -982,6 +1016,14 @@ courts:
   siteurl: "http://sh.ki.court.gov.ua/"
   scheduleurl: "http://sh.ki.court.gov.ua/sud2610/csz/"
   code: "2610"
+
+ -
+  fileid: "adm.ki"
+  group: "kiev"
+  namestr: "Окружний адміністративний суд міста Києва"
+  siteurl: "http://adm.ki.court.gov.ua/"
+  scheduleurl: "http://adm.ki.court.gov.ua/sud2670/csz/"
+  code: "2670"
 
 # Kiev region =================================================== ===== ===== =====
 
@@ -1297,6 +1339,15 @@ courts:
   siteurl: "http://cz.hr.court.gov.ua/"
   scheduleurl: "http://cz.hr.court.gov.ua/sud2035/csz/"
   code: "2035"
+
+ -
+  fileid: "adm.hr"
+  group: "kharkiv"
+  namestr: "Харківський окружний адміністративний суд"
+  siteurl: "http://adm.hr.court.gov.ua/"
+  scheduleurl: "http://adm.hr.court.gov.ua/sud2070/csz/"
+  code: "2070"
+
 
 # Kharkiv region ============================================ ===== ===== =====
 
@@ -2045,6 +2096,7 @@ courts:
   siteurl: "http://kv.su.court.gov.ua/"
   scheduleurl: "http://kv.su.court.gov.ua/sud1806/info_sp/csz/"
   code: "1806"
+
  -
   fileid: "zr.su"
   group: "sumy"
@@ -2052,6 +2104,14 @@ courts:
   siteurl: "http://zr.su.court.gov.ua/"
   scheduleurl: "http://zr.su.court.gov.ua/sud1805/inf_spr/csz/"
   code: "1805"
+
+ -
+  fileid: "adm.su"
+  group: "sumy"
+  namestr: "Сумський окружний адміністративний суд"
+  siteurl: "http://adm.su.court.gov.ua/"
+  scheduleurl: "http://adm.su.court.gov.ua/sud1870/csz/"
+  code: "1870"
 
 # Vinnytsia region =========================================== ===== ===== =====
 
@@ -2287,6 +2347,14 @@ courts:
   scheduleurl: "http://vnm.vn.court.gov.ua/sud0232/csz/"
   code: "0232"
 
+ -
+  fileid: "adm.vn"
+  group: "vinnytsiareg"
+  namestr: "Вінницький окружний адміністративний суд"
+  siteurl: "http://adm.vn.court.gov.ua/"
+  scheduleurl: "http://adm.vn.court.gov.ua/sud0270/csz/"
+  code: "0270"
+
 # Volyn region  ============================================== ===== ===== =====
 
  -
@@ -2410,6 +2478,14 @@ courts:
   scheduleurl: "http://sha.vl.court.gov.ua/sud0317/csz/"
   code: "0317"
 
+ -
+  fileid: "adm.vl"
+  group: "volynreg"
+  namestr: "Волинський окружний адміністративний суд"
+  siteurl: "http://adm.vl.court.gov.ua/"
+  scheduleurl: "http://adm.vl.court.gov.ua/sud0370/csz/"
+  code: "0370"
+
 # Zakarpattia =============================================== ===== ===== =====
 
  -
@@ -2514,8 +2590,15 @@ courts:
   namestr: "Хустський районний суд Закарпатської області"
   siteurl: "http://hs.zk.court.gov.ua/"
   scheduleurl: "http://hs.zk.court.gov.ua/sud0713/csz/"
-  code: "sud0713"
+  code: "0713"
 
+ -
+  fileid: "adm.zk"
+  group: "zakarpattiareg"
+  namestr: "Закарпатський окружний адміністративний суд"
+  siteurl: "http://adm.zk.court.gov.ua/"
+  scheduleurl: "http://adm.zk.court.gov.ua/sud0770/general/csz/"
+  code: "0770"
 
 # Zaporizhia ================================================ ===== ===== =====
 
