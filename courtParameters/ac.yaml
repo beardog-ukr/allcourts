@@ -48,6 +48,10 @@ groups:
   str: "Київська область"
 
  -
+  id: "lviv"
+  str: "Львів"
+
+ -
   id: "odesa"
   str: "Одеса"
  -
@@ -1968,6 +1972,64 @@ courts:
   siteurl: "http://sh.hr.court.gov.ua/"
   scheduleurl: "http://sh.hr.court.gov.ua/sud2037/csz/"
   code: "2037"
+
+# Lviv ====================================================== ===== ===== =====
+
+ -
+  fileid: "gl.lv"
+  group: "lviv"
+  namestr: "Галицький районний суд м.Львова"
+  siteurl: "http://gl.lv.court.gov.ua/"
+  scheduleurl: "http://gl.lv.court.gov.ua/sud1304/csz/"
+  code: "1304"
+
+ -
+  fileid: "zl.lv"
+  group: "lviv"
+  namestr: "Залізничний районний суд м. Львова"
+  siteurl: "http://zl.lv.court.gov.ua/"
+  scheduleurl: "http://zl.lv.court.gov.ua/sud1309/csz/"
+  code: "1309"
+
+ -
+  fileid: "lk.lv"
+  group: "lviv"
+  namestr: "Личаківський районний суд м. Львова"
+  siteurl: "http://lk.lv.court.gov.ua/"
+  scheduleurl: "http://lk.lv.court.gov.ua/sud1312/csz/"
+  code: "1312"
+
+ -
+  fileid: "shi.lv"
+  group: "lviv"
+  namestr: "Сихівський районний суд м. Львова"
+  siteurl: "http://shi.lv.court.gov.ua/"
+  scheduleurl: "http://shi.lv.court.gov.ua/sud1319/csz/"
+  code: "1319"
+
+ -
+  fileid: "fk.lv"
+  group: "lviv"
+  namestr: "Франківський районний суд м. Львова"
+  siteurl: "http://fk.lv.court.gov.ua/"
+  scheduleurl: "http://fk.lv.court.gov.ua/sud1326/csz/"
+  code: "1326"
+
+ -
+  fileid: "sh.lv"
+  group: "lviv"
+  namestr: "Шевченківський районний суд м. Львова"
+  siteurl: "http://sh.lv.court.gov.ua/"
+  scheduleurl: "http://sh.lv.court.gov.ua/sud1328/csz/"
+  code: "1328"
+
+ -
+  fileid: "adm.lv"
+  group: "lviv"
+  namestr: "Львівський окружний адміністративний суд"
+  siteurl: "http://adm.lv.court.gov.ua/"
+  scheduleurl: "http://adm.lv.court.gov.ua/sud1370//csz"
+  code: "1370"
 
 # Odesa ===================================================== ===== ===== =====
 
