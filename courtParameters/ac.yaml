@@ -23,6 +23,17 @@ groups:
   str: "Дніпропетровська область"
 
  -
+  id: "ivanofrankivsk"
+  str: "Івано-Франківська область"
+
+ -
+  id: "kirovohrad"
+  str: "Кіровоград"
+ -
+  id: "kirovohradreg"
+  str: "Кіровоградська область"
+
+ -
   id: "kharkiv"
   str: "Харків"
  -
@@ -943,6 +954,160 @@ courts:
   scheduleurl: "http://gv.dp.court.gov.ua/sud0414/info1/csz/"
   code: "0414"
 
+# Ivano-Frankivsk =========================================== ===== ===== =====
+
+ -
+  fileid: "bg.if"
+  group: "ivanofrankivsk"
+  namestr: "Богородчанський районний суд Івано-Франківської області"
+  siteurl: "http://bg.if.court.gov.ua/"
+  scheduleurl: "http://bg.if.court.gov.ua/"
+  code: "0901"
+
+ -
+  fileid: "blm.if"
+  group: "ivanofrankivsk"
+  namestr: "Болехівський міський суд Івано-Франківської області"
+  siteurl: "http://blm.if.court.gov.ua/"
+  scheduleurl: "http://blm.if.court.gov.ua/sud0902/csz/"
+  code: "0902"
+
+ -
+  fileid: "vr.if"
+  group: "ivanofrankivsk"
+  namestr: "Верховинський районний суд Івано-Франківської області"
+  siteurl: "http://vr.if.court.gov.ua/"
+  scheduleurl: "http://vr.if.court.gov.ua/sud0903/csz/"
+  code: "0903"
+
+ -
+  fileid: "gl.if"
+  group: "ivanofrankivsk"
+  namestr: "Галицький районний суд Івано-Франківської області"
+  siteurl: "http://gl.if.court.gov.ua/"
+  scheduleurl: "http://gl.if.court.gov.ua/sud0904/csz/"
+  code: "0904"
+
+ -
+  fileid: "gd.if"
+  group: "ivanofrankivsk"
+  namestr: "Городенківський районний суд Івано-Франківської області"
+  siteurl: "http://gd.if.court.gov.ua/"
+  scheduleurl: "http://gd.if.court.gov.ua/sud0905/csz/"
+  code: "0905"
+
+ -
+  fileid: "dl.if"
+  group: "ivanofrankivsk"
+  namestr: "Долинський районний суд Івано-Франківської області"
+  siteurl: "http://dl.if.court.gov.ua/"
+  scheduleurl: "http://dl.if.court.gov.ua/sud0906/csz/"
+  code: "0906"
+
+ -
+  fileid: "ifm.if"
+  group: "ivanofrankivsk"
+  namestr: "Івано-Франківський міський суд Івано-Франківської області"
+  siteurl: "http://ifm.if.court.gov.ua/"
+  scheduleurl: "http://ifm.if.court.gov.ua/sud0907/csz/"
+  code: "0907"
+
+ -
+  fileid: "klm.if"
+  group: "ivanofrankivsk"
+  namestr: "Калуський міськрайонний суд Івано-Франківської області"
+  siteurl: "http://klm.if.court.gov.ua/"
+  scheduleurl: "http://klm.if.court.gov.ua/sud0908/csz/"
+  code: "0908"
+
+ -
+  fileid: "kmm.if"
+  group: "ivanofrankivsk"
+  namestr: "Коломийський міськрайонний суд Івано-Франківської області"
+  siteurl: "http://kmm.if.court.gov.ua/"
+  scheduleurl: "http://kmm.if.court.gov.ua/sud0909/gromad/csz/"
+  code: "0909"
+
+ -
+  fileid: "ks.if"
+  group: "ivanofrankivsk"
+  namestr: "Косівський районний суд Івано-Франківської області"
+  siteurl: "http://ks.if.court.gov.ua/"
+  scheduleurl: "http://ks.if.court.gov.ua/sud0910/csz/"
+  code: "0910"
+
+ -
+  fileid: "nd.if"
+  group: "ivanofrankivsk"
+  namestr: "Надвірнянський районний суд Івано-Франківської області"
+  siteurl: "http://nd.if.court.gov.ua/"
+  scheduleurl: "http://nd.if.court.gov.ua/sud0911/posulania/csz/"
+  code: "0911"
+
+ -
+  fileid: "rt.if"
+  group: "ivanofrankivsk"
+  namestr: "Рогатинський районний суд Івано-Франківської області"
+  siteurl: "http://rt.if.court.gov.ua/"
+  scheduleurl: "http://rt.if.court.gov.ua/sud0912/170/"
+  code: "0912"
+
+ -
+  fileid: "rg.if"
+  group: "ivanofrankivsk"
+  namestr: "Рожнятівський районний суд Івано-Франківської області"
+  siteurl: "http://rg.if.court.gov.ua/"
+  scheduleurl: "http://rg.if.court.gov.ua/sud0913/csz/"
+  code: "0913"
+
+ -
+  fileid: "sn.if"
+  group: "ivanofrankivsk"
+  namestr: "Снятинський районний суд Івано-Франківської області"
+  siteurl: "http://sn.if.court.gov.ua/"
+  scheduleurl: "http://sn.if.court.gov.ua/sud0914/csz/"
+  code: "0914"
+
+ -
+  fileid: "ts.if"
+  group: "ivanofrankivsk"
+  namestr: "Тисменицький районний суд Івано-Франківської області"
+  siteurl: "http://ts.if.court.gov.ua/"
+  scheduleurl: "http://ts.if.court.gov.ua/sud0915/csz/"
+  code: "0915"
+
+ -
+  fileid: "tl.if"
+  group: "ivanofrankivsk"
+  namestr: "Тлумацький районний суд Івано-Франківської області"
+  siteurl: "http://tl.if.court.gov.ua/"
+  scheduleurl: "http://tl.if.court.gov.ua/sud0916/csz/"
+  code: "0916"
+
+ -
+  fileid: "yr.if"
+  group: "ivanofrankivsk"
+  namestr: "Яремчанський міський суд Івано-Франківської області"
+  siteurl: "http://yr.if.court.gov.ua/"
+  scheduleurl: "http://yr.if.court.gov.ua/sud0917/csz/"
+  code: "0917"
+
+ -
+  fileid: "if.arbitr"
+  group: "ivanofrankivsk"
+  namestr: "Господарський суд Івано-Франківської області"
+  siteurl: "http://if.arbitr.gov.ua/"
+  scheduleurl: "http://if.arbitr.gov.ua/sud5010/700/csz/"
+  code: "5010"
+
+ -
+  fileid: "adm.if"
+  group: "ivanofrankivsk"
+  namestr: "Івано-Франківський окружний адміністративний суд"
+  siteurl: "http://adm.if.court.gov.ua/"
+  scheduleurl: "http://adm.if.court.gov.ua/sud0970/menu_2/csz/"
+  code: "0970"
+
 # Kiev ====================================================== ===== ===== =====
 
  -
@@ -1273,6 +1438,202 @@ courts:
   siteurl: "http://yg.ko.court.gov.ua/"
   scheduleurl: "http://yg.ko.court.gov.ua/sud1028//csz"
   code: "1028"
+
+# Kirovohrad =============================================== ===== ===== =====
+
+ -
+  fileid: "kr.kr"
+  group: "kirovohrad"
+  namestr: "Кіровський районний суд м. Кіровограда"
+  siteurl: "http://kr.kr.court.gov.ua/"
+  scheduleurl: "http://kr.kr.court.gov.ua/sud1109/stadrozgliadu/csz/"
+  code: "1109"
+
+ -
+  fileid: "ln.kr"
+  group: "kirovohrad"
+  namestr: "Ленінський районний суд м. Кіровограда"
+  siteurl: "http://ln.kr.court.gov.ua/"
+  scheduleurl: "http://ln.kr.court.gov.ua/sud1111/csz/"
+  code: "1111"
+
+ -
+  fileid: "adm.kr"
+  group: "kirovohrad"
+  namestr: "Кіровоградський окружний адміністративний суд"
+  siteurl: "http://adm.kr.court.gov.ua/"
+  scheduleurl: "http://adm.kr.court.gov.ua/sud1170/csz/"
+  code: "1170"
+
+# Kirovohrad region ========================================= ===== ===== =====
+
+ -
+  fileid: "bb.kr"
+  group: "kirovohradreg"
+  namestr: "Бобринецький районний суд в Кіровоградській області"
+  siteurl: "http://bb.kr.court.gov.ua/"
+  scheduleurl: "http://bb.kr.court.gov.ua/sud1101/info_gr/csz/"
+  code: "1101"
+
+ -
+  fileid: "vl.kr"
+  group: "kirovohradreg"
+  namestr: "Вільшанський районний суд Кіровоградської області"
+  siteurl: "http://vl.kr.court.gov.ua/"
+  scheduleurl: "http://vl.kr.court.gov.ua/sud1102/inform/csz/"
+  code: "1102"
+
+ -
+  fileid: "gv.kr"
+  group: "kirovohradreg"
+  namestr: "Гайворонський районний суд Кіровоградської області"
+  siteurl: "http://gv.kr.court.gov.ua/"
+  scheduleurl: "http://gv.kr.court.gov.ua/sud1103/spusok_sprav_na_rozglyadi/csz/"
+  code: "1103"
+
+ -
+  fileid: "gl.kr"
+  group: "kirovohradreg"
+  namestr: "Голованівський районний суд Кіровоградської області"
+  siteurl: "http://gl.kr.court.gov.ua/"
+  scheduleurl: "http://gl.kr.court.gov.ua/sud1104/csz/"
+  code: "1104"
+
+ -
+  fileid: "dv.kr"
+  group: "kirovohradreg"
+  namestr: "Добровеличківський районний суд Кіровоградської області"
+  siteurl: "http://dv.kr.court.gov.ua/"
+  scheduleurl: "http://dv.kr.court.gov.ua/sud1105/csz/"
+  code: "1105"
+
+ -
+  fileid: "dl.kr"
+  group: "kirovohradreg"
+  namestr: "Долинський районний суд Кіровоградської області"
+  siteurl: "http://dl.kr.court.gov.ua/"
+  scheduleurl: "http://dl.kr.court.gov.ua/sud1106/csz/"
+  code: "1106"
+
+ -
+  fileid: "zn.kr"
+  group: "kirovohradreg"
+  namestr: "Знам'янський міськрайонний суд Кіровоградської області"
+  siteurl: "http://zn.kr.court.gov.ua/"
+  scheduleurl: "http://zn.kr.court.gov.ua/sud1107/info/csz/"
+  code: "1107"
+
+ -
+  fileid: "kd.kr"
+  group: "kirovohradreg"
+  namestr: "Кіровоградський районний суд Кіровоградської області"
+  siteurl: "http://kd.kr.court.gov.ua/"
+  scheduleurl: "http://kd.kr.court.gov.ua/sud1108/inform/csz/"
+  code: "1108"
+
+ -
+  fileid: "km.kr"
+  group: "kirovohradreg"
+  namestr: "Компаніївський районний суд Кіровоградської області"
+  siteurl: "http://km.kr.court.gov.ua/"
+  scheduleurl: "http://km.kr.court.gov.ua/sud1110/gromadyanu/csz/"
+  code: "1110"
+
+ -
+  fileid: "mv.kr"
+  group: "kirovohradreg"
+  namestr: "Маловисківський районний суд Кіровоградської області"
+  siteurl: "http://mv.kr.court.gov.ua/"
+  scheduleurl: "http://mv.kr.court.gov.ua/sud1112/info_dlya_gromadyan/csz/"
+  code: "1112"
+
+ -
+  fileid: "ng.kr"
+  group: "kirovohradreg"
+  namestr: "Новгородківський районний суд Кіровоградської області"
+  siteurl: "http://ng.kr.court.gov.ua/"
+  scheduleurl: "http://ng.kr.court.gov.ua/sud1113/info-for-people/csz/"
+  code: "1113"
+
+ -
+  fileid: "na.kr"
+  group: "kirovohradreg"
+  namestr: "Новоархангельський районний Суд Кіровоградської області"
+  siteurl: "http://na.kr.court.gov.ua/"
+  scheduleurl: "http://na.kr.court.gov.ua/sud1114/info/csz/"
+  code: "1114"
+
+ -
+  fileid: "nm.kr"
+  group: "kirovohradreg"
+  namestr: "Новомиргородський районний суд Кіровоградської області"
+  siteurl: "http://nm.kr.court.gov.ua/"
+  scheduleurl: "http://nm.kr.court.gov.ua/sud1115/csz/"
+  code: "1115"
+
+ -
+  fileid: "nu.kr"
+  group: "kirovohradreg"
+  namestr: "Новоукраїнський районний суд Кіровоградської області"
+  siteurl: "http://nu.kr.court.gov.ua/"
+  scheduleurl: "http://nu.kr.court.gov.ua/sud1116/n11/csz/"
+  code: "1116"
+
+ -
+  fileid: "ol.kr"
+  group: "kirovohradreg"
+  namestr: "Олександрівський районний суд Кіровоградської області"
+  siteurl: "http://ol.kr.court.gov.ua/"
+  scheduleurl: "http://ol.kr.court.gov.ua/sud1117/spravudorozglyadu/csz/"
+  code: "1117"
+
+ -
+  fileid: "od.kr"
+  group: "kirovohradreg"
+  namestr: "Олександрійський міськрайонний суд Кіровоградської області"
+  siteurl: "http://od.kr.court.gov.ua/"
+  scheduleurl: "http://od.kr.court.gov.ua/sud1118/csz/"
+  code: "1118"
+
+ -
+  fileid: "on.kr"
+  group: "kirovohradreg"
+  namestr: "Онуфріївський районний суд Кіровоградської області"
+  siteurl: "http://on.kr.court.gov.ua/"
+  scheduleurl: "http://on.kr.court.gov.ua/sud1119/4/"
+  code: "1119"
+
+ -
+  fileid: "pt.kr"
+  group: "kirovohradreg"
+  namestr: "Петрівський районний суд Кіровоградської області"
+  siteurl: "http://pt.kr.court.gov.ua/"
+  scheduleurl: "http://pt.kr.court.gov.ua/sud1120/spisok/csz/"
+  code: "1120"
+
+ -
+  fileid: "sv.kr"
+  group: "kirovohradreg"
+  namestr: "Світловодський міськрайонний суд Кіровоградської області"
+  siteurl: "http://sv.kr.court.gov.ua/"
+  scheduleurl: "http://sv.kr.court.gov.ua/sud1121/csz/"
+  code: "1121"
+
+ -
+  fileid: "ul.kr"
+  group: "kirovohradreg"
+  namestr: "Ульяновський районний суд Кіровоградської області"
+  siteurl: "http://ul.kr.court.gov.ua/"
+  scheduleurl: "http://ul.kr.court.gov.ua/sud1122/spiski_sprav/csz/"
+  code: "1122"
+
+ -
+  fileid: "us.kr"
+  group: "kirovohradreg"
+  namestr: "Устинівський районний суд Кіровоградської області"
+  siteurl: "http://us.kr.court.gov.ua/"
+  scheduleurl: "http://us.kr.court.gov.ua/sud1123/3/csz/"
+  code: "1123"
 
 # Kharkiv =================================================== ===== ===== =====
 
