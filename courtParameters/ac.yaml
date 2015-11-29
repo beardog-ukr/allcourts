@@ -261,6 +261,14 @@ courts:
   scheduleurl: "http://sh.ck.court.gov.ua/sud2323/spiski2/csz/"
   code: "2323"
 
+ -
+  fileid: "adm.ck"
+  group: "сherkasyreg"
+  namestr: "Черкаський окружний адміністративний суд"
+  siteurl: "http://adm.ck.court.gov.ua/"
+  scheduleurl: "http://adm.ck.court.gov.ua/sud2370/csz/"
+  code: "2370"
+
 
 # Chernihiv ================================================= ===== ===== =====
 
@@ -1634,6 +1642,14 @@ courts:
   scheduleurl: "http://sv.od.court.gov.ua/sud1527/csz/"
   code: "1527"
 
+ -
+  fileid: "http://adm.od.court.gov.ua/sud1570/menu3/csz/"
+  group: "odesa"
+  namestr: "Одеський окружний адміністративний суд"
+  siteurl: "http://adm.od.court.gov.ua/"
+  scheduleurl: "http://adm.od.court.gov.ua/sud1570/menu3/csz/"
+  code: "1570"
+
 # Odesa region  ============================================= ===== ===== =====
 
  -
@@ -1845,6 +1861,7 @@ courts:
   siteurl: "http://ki.pl.court.gov.ua/"
   scheduleurl: "http://ki.pl.court.gov.ua/sud1609/sspdr/csz/"
   code: "1609"
+
  -
   fileid: "ln.pl"
   group: "poltava"
@@ -1852,6 +1869,7 @@ courts:
   siteurl: "http://ln.pl.court.gov.ua/"
   scheduleurl: "http://ln.pl.court.gov.ua/sud1616/20/csz/"
   code: "1616"
+
  -
   fileid: "ok.pl"
   group: "poltava"
@@ -1859,6 +1877,14 @@ courts:
   siteurl: "http://ok.pl.court.gov.ua/"
   scheduleurl: "http://ok.pl.court.gov.ua/sud1622/csz/"
   code: "1622"
+
+ -
+  fileid: "adm.pl"
+  group: "poltava"
+  namestr: "Полтавський окружний адміністративний суд"
+  siteurl: "http://adm.pl.court.gov.ua/"
+  scheduleurl: "http://adm.pl.court.gov.ua/sud1670/csz/"
+  code: "1670"
 
 # Poltava region ============================================ ===== ===== =====
 
@@ -2658,6 +2684,15 @@ courts:
   scheduleurl: "http://sh.zp.court.gov.ua/sud0827/causes_list/csz/"
   code: "0827" 
 
+ -
+  fileid: "adm.zp"
+  group: "zaporizhia"
+  namestr: "Запорізький окружний адміністративний суд"
+  siteurl: "http://adm.zp.court.gov.ua/"
+  scheduleurl: "http://adm.zp.court.gov.ua/sud0870/csz/"
+  code: "0870" 
+
+
 # Zaporizhia region ================================================ ===== ===== =====
 
  -
@@ -3022,6 +3057,13 @@ courts:
   scheduleurl: "http://ol.zt.court.gov.ua/sud0618/csz/"
   code: "0618"
 
+ -
+  fileid: "adm.zt"
+  group: "zhytomyrreg"
+  namestr: "Житомирський окружний адміністративний суд"
+  siteurl: "http://adm.zt.court.gov.ua/"
+  scheduleurl: "http://adm.zt.court.gov.ua/sud0670/csz/"
+  code: "0670"
 
 
 
