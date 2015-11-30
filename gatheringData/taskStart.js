@@ -47,9 +47,10 @@ function makeTypeShort(caseStr) {
   var admCaseStr="Адміністративні справи";
   var adm2CaseStr="Справи про адмінправопорушення";
 
-  var result = caseStr;
+  var trimmedCaseStr = caseStr.trim();
+  var result = trimmedCaseStr ;
 
-  switch (caseStr) {
+  switch (trimmedCaseStr) {
     case civCaseStr:
       result = "ЦС" ;
       break;
@@ -59,6 +60,9 @@ function makeTypeShort(caseStr) {
     case admCaseStr:
       result = "АС" ;
       break;
+    case admCaseStrV2:
+      result = "АС2" ;
+      break;
     case adm2CaseStr:
       result = "СпАП" ;
       break;
@@ -66,6 +70,7 @@ function makeTypeShort(caseStr) {
       //
   }
 
+  //console.log("makeTypeShort: Returning \'"+result+"\' for \'" + caseStr + "\'");
   return result;
 }
 
@@ -291,7 +296,7 @@ for (var ci=0; ci<courts.length; ci++) {
 
 //processOneCourt(courts[0]); // this line is for debug purposes only
 //processOneCourt(courts[1]);
-console.log ("taskStart: done");
+//console.log ("taskStart: done");
 
 
 
