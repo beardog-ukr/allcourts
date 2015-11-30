@@ -50,6 +50,9 @@ groups:
  -
   id: "lviv"
   str: "Львів"
+ -
+  id: "lvivreg"
+  str: "Львівська область"
 
  -
   id: "odesa"
@@ -1213,7 +1216,7 @@ courts:
   code: "1001"
 
  -
-  fileid: ""
+  fileid: "be.ko"
   group: "kievreg"
   namestr: "Березанський міський суд Київської області"
   siteurl: "http://be.ko.court.gov.ua/"
@@ -2031,6 +2034,192 @@ courts:
   scheduleurl: "http://adm.lv.court.gov.ua/sud1370//csz"
   code: "1370"
 
+# Lviv region =============================================== ===== ===== =====
+
+ -
+  fileid: "brm.lv"
+  group: "lvivreg"
+  namestr: "Бориславський міський суд Львівської області"
+  siteurl: "http://brm.lv.court.gov.ua/"
+  scheduleurl: "http://brm.lv.court.gov.ua/sud1301/csz/"
+  code: "1301"
+
+ -
+  fileid: "bd.lv"
+  group: "lvivreg"
+  namestr: "Бродівський районний суд Львівської області"
+  siteurl: "http://bd.lv.court.gov.ua/"
+  scheduleurl: "http://bd.lv.court.gov.ua/sud1302/csz/"
+  code: "1302"
+
+ -
+  fileid: "bs.lv"
+  group: "lvivreg"
+  namestr: "Буський районний суд Львівської області"
+  siteurl: "http://bs.lv.court.gov.ua/"
+  scheduleurl: "http://bs.lv.court.gov.ua/sud1303/sudovezasidannya/csz/"
+  code: "1303"
+
+ -
+  fileid: "gr.lv"
+  group: "lvivreg"
+  namestr: "Городоцький районний суд Львівської області"
+  siteurl: "http://gr.lv.court.gov.ua/"
+  scheduleurl: "http://gr.lv.court.gov.ua/sud1305/csz/"
+  code: "1305"
+
+ -
+  fileid: "dgm.lv"
+  group: "lvivreg"
+  namestr: "Дрогобицький міськрайонний суд Львівської області"
+  siteurl: "http://dgm.lv.court.gov.ua/"
+  scheduleurl: "http://dgm.lv.court.gov.ua/sud1306/csz/"
+  code: "1306"
+
+ -
+  fileid: "gd.lv"
+  group: "lvivreg"
+  namestr: "Жидачівський районний суд Львівської області"
+  siteurl: "http://gd.lv.court.gov.ua/"
+  scheduleurl: "http://gd.lv.court.gov.ua/sud1307/csz/"
+  code: "1307"
+
+ -
+  fileid: "gv.lv"
+  group: "lvivreg"
+  namestr: "Жовківський районний суд Львівської області"
+  siteurl: "http://gv.lv.court.gov.ua/"
+  scheduleurl: "http://gv.lv.court.gov.ua/sud1308/csz/"
+  code: "1308"
+
+ -
+  fileid: "zol.lv"
+  group: "lvivreg"
+  namestr: "Золочівський районний суд Львівської області"
+  siteurl: "http://zol.lv.court.gov.ua/"
+  scheduleurl: "http://zol.lv.court.gov.ua/sud1310/csz/"
+  code: "1310"
+
+ -
+  fileid: "kb.lv"
+  group: "lvivreg"
+  namestr: "Кам'янка-Бузький районний суд Львівської області"
+  siteurl: "http://kb.lv.court.gov.ua/"
+  scheduleurl: "http://kb.lv.court.gov.ua/sud1311/csz/"
+  code: "1311"
+
+ -
+  fileid: "mk.lv"
+  group: "lvivreg"
+  namestr: "Миколаївський районний суд Львівської області"
+  siteurl: "http://mk.lv.court.gov.ua/"
+  scheduleurl: "http://mk.lv.court.gov.ua/sud1313/csz"
+  code: "1313"
+
+ -
+  fileid: "ms.lv"
+  group: "lvivreg"
+  namestr: "Мостиський районний суд Львівської області"
+  siteurl: "http://ms.lv.court.gov.ua/"
+  scheduleurl: "http://ms.lv.court.gov.ua/sud1314/csz/"
+  code: "1314"
+
+ -
+  fileid: "pm.lv"
+  group: "lvivreg"
+  namestr: "Перемишлянський районний суд Львівської області"
+  siteurl: "http://pm.lv.court.gov.ua/"
+  scheduleurl: "http://pm.lv.court.gov.ua/sud1315/csz/"
+  code: "1315"
+
+ -
+  fileid: "pu.lv"
+  group: "lvivreg"
+  namestr: "Пустомитівський районний суд Львівської області"
+  siteurl: "http://pu.lv.court.gov.ua/"
+  scheduleurl: "http://pu.lv.court.gov.ua/sud1316/csz/"
+  code: "1316"
+
+ -
+  fileid: "rh.lv"
+  group: "lvivreg"
+  namestr: "Радехівський районний суд Львівської області"
+  siteurl: "http://rh.lv.court.gov.ua/"
+  scheduleurl: "http://rh.lv.court.gov.ua/sud1317/csz/"
+  code: "1317"
+
+ -
+  fileid: "sb.lv"
+  group: "lvivreg"
+  namestr: "Самбірський міськрайонний суд Львівської області"
+  siteurl: "http://sb.lv.court.gov.ua/"
+  scheduleurl: "http://sb.lv.court.gov.ua/sud1318/csz/"
+  code: "1318"
+
+ -
+  fileid: "sv.lv"
+  group: "lvivreg"
+  namestr: "Сколівський районний суд Львівської області"
+  siteurl: "http://sv.lv.court.gov.ua/"
+  scheduleurl: "http://sv.lv.court.gov.ua/sud1320/77/csz/"
+  code: "1320"
+
+ -
+  fileid: "sk.lv"
+  group: "lvivreg"
+  namestr: "Сокальський районний суд Львівської області"
+  siteurl: "http://sk.lv.court.gov.ua/"
+  scheduleurl: "http://sk.lv.court.gov.ua/sud1321/csz/"
+  code: "1321"
+
+ -
+  fileid: "ssb.lv"
+  group: "lvivreg"
+  namestr: "Старосамбірський районний суд Львівської області"
+  siteurl: "http://ssb.lv.court.gov.ua/"
+  scheduleurl: "http://ssb.lv.court.gov.ua/sud1322/csz/"
+  code: "1322"
+
+ -
+  fileid: "stm.lv"
+  group: "lvivreg"
+  namestr: "Стрийський міськрайонний суд Львівської області"
+  siteurl: "http://stm.lv.court.gov.ua/"
+  scheduleurl: "http://stm.lv.court.gov.ua/sud1323/csz/"
+  code: "1323"
+
+ -
+  fileid: "trm.lv"
+  group: "lvivreg"
+  namestr: "Трускавецький міський суд Львівської області"
+  siteurl: "http://trm.lv.court.gov.ua/"
+  scheduleurl: "http://trm.lv.court.gov.ua/sud1324/csz/"
+  code: "1324"
+
+ -
+  fileid: "tk.lv"
+  group: "lvivreg"
+  namestr: "Турківський районний суд Львівської області"
+  siteurl: "http://tk.lv.court.gov.ua/"
+  scheduleurl: "http://tk.lv.court.gov.ua/sud1325/csz/"
+  code: "1325"
+
+ -
+  fileid: "cgm.lv"
+  group: "lvivreg"
+  namestr: "Червоноградський міський суд Львівської області"
+  siteurl: "http://cgm.lv.court.gov.ua/"
+  scheduleurl: "http://cgm.lv.court.gov.ua/sud1327/csz/"
+  code: "1327"
+
+ -
+  fileid: "yr.lv"
+  group: "lvivreg"
+  namestr: "Яворівський районний суд Львівської області"
+  siteurl: "http://yr.lv.court.gov.ua/"
+  scheduleurl: "http://yr.lv.court.gov.ua/sud1329/csz/"
+  code: "1329"
+
 # Odesa ===================================================== ===== ===== =====
 
  -
@@ -2418,7 +2607,7 @@ courts:
  -
   fileid: "kr.pl"
   group: "poltavareg"
-  namestr: ""
+  namestr: "Крюківський районний суд м. Кременчука"
   siteurl: "http://kr.pl.court.gov.ua/"
   scheduleurl: "http://kr.pl.court.gov.ua/sud1615/csz/"
   code: "1615"
