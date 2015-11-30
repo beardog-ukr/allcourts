@@ -1096,13 +1096,13 @@ courts:
   scheduleurl: "http://yr.if.court.gov.ua/sud0917/csz/"
   code: "0917"
 
- -
-  fileid: "if.arbitr"
-  group: "ivanofrankivsk"
-  namestr: "Господарський суд Івано-Франківської області"
-  siteurl: "http://if.arbitr.gov.ua/"
-  scheduleurl: "http://if.arbitr.gov.ua/sud5010/700/csz/"
-  code: "5010"
+# -
+#  fileid: "if.arbitr"
+#  group: "ivanofrankivsk"
+#  namestr: "Господарський суд Івано-Франківської області"
+#  siteurl: "http://if.arbitr.gov.ua/"
+#  scheduleurl: "http://if.arbitr.gov.ua/sud5010/700/csz/"
+#  code: "5010"
 
  -
   fileid: "adm.if"
