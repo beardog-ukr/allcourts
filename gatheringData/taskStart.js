@@ -60,9 +60,6 @@ function makeTypeShort(caseStr) {
     case admCaseStr:
       result = "АС" ;
       break;
-    case admCaseStrV2:
-      result = "АС2" ;
-      break;
     case adm2CaseStr:
       result = "СпАП" ;
       break;
