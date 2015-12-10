@@ -55,6 +55,13 @@ groups:
   str: "Львівська область"
 
  -
+  id: "mykolaiv"
+  str: "Миколаїв"
+ -
+  id: "mykolaivreg"
+  str: "Миколаївська область"
+
+ -
   id: "odesa"
   str: "Одеса"
  -
@@ -2219,6 +2226,211 @@ courts:
   siteurl: "http://yr.lv.court.gov.ua/"
   scheduleurl: "http://yr.lv.court.gov.ua/sud1329/csz/"
   code: "1329"
+
+
+# Mykolaiv ================================================== ===== ===== =====
+
+ -
+  fileid: "zv.mk"
+  group: "mykolaiv"
+  namestr: "Заводський районний суд м. Миколаєва"
+  siteurl: "http://zv.mk.court.gov.ua/"
+  scheduleurl: "http://zv.mk.court.gov.ua/sud1412/csz/"
+  code: "1412"
+
+ -
+  fileid: "kb.mk"
+  group: "mykolaiv"
+  namestr: "Корабельний районний суд м.Миколаєва"
+  siteurl: "http://kb.mk.court.gov.ua/"
+  scheduleurl: "http://kb.mk.court.gov.ua/sud1414/csz/"
+  code: "1414"
+
+ -
+  fileid: "ln.mk"
+  group: "mykolaiv"
+  namestr: "Ленінський районний суд м. Миколаєва"
+  siteurl: "http://ln.mk.court.gov.ua/"
+  scheduleurl: "http://ln.mk.court.gov.ua/sud1416/csz/"
+  code: "1416"
+
+ -
+  fileid: "ct.mk"
+  group: "mykolaiv"
+  namestr: "Центральний районний суд м. Миколаєва"
+  siteurl: "http://ct.mk.court.gov.ua/"
+  scheduleurl: "http://ct.mk.court.gov.ua/sud1423/people/csz/"
+  code: "1423"
+
+ -
+  fileid: "adm.mk"
+  group: "mykolaiv"
+  namestr: "Миколаївський окружний адміністративний суд"
+  siteurl: "http://adm.mk.court.gov.ua/"
+  scheduleurl: "http://adm.mk.court.gov.ua/sud1470/csz/"
+  code: "1470"
+
+# Mykolaiv region =========================================== ===== ===== =====
+
+ -
+  fileid: "ab.mk"
+  group: "mykolaivreg"
+  namestr: "Арбузинський районний суд Миколаївської області"
+  siteurl: "http://ab.mk.court.gov.ua/"
+  scheduleurl: "http://ab.mk.court.gov.ua/sud1401/csz/"
+  code: "1401"
+
+ -
+  fileid: "bsh.mk"
+  group: "mykolaivreg"
+  namestr: "Баштанський районний суд Миколаївської області"
+  siteurl: "http://bsh.mk.court.gov.ua/"
+  scheduleurl: "http://bsh.mk.court.gov.ua/sud1402/csz/"
+  code: "1402"
+
+ -
+  fileid: "br.mk"
+  group: "mykolaivreg"
+  namestr: "Березанський районний суд Миколаївської області"
+  siteurl: "http://br.mk.court.gov.ua/"
+  scheduleurl: "http://br.mk.court.gov.ua/sud1403/csz/"
+  code: "1403"
+
+ -
+  fileid: "bg.mk"
+  group: "mykolaivreg"
+  namestr: "Березнегуватський районний суд Миколаївської області"
+  siteurl: "http://bg.mk.court.gov.ua/"
+  scheduleurl: "http://bg.mk.court.gov.ua/sud1404/19/csz/"
+  code: "1404"
+
+ -
+  fileid: "bt.mk"
+  group: "mykolaivreg"
+  namestr: "Братський районний суд Миколаївської області"
+  siteurl: "http://bt.mk.court.gov.ua/"
+  scheduleurl: "http://bt.mk.court.gov.ua/sud1405/csz/"
+  code: "1405"
+
+ -
+  fileid: "vl.mk"
+  group: "mykolaivreg"
+  namestr: "Веселинівський районний суд Миколаївської області"
+  siteurl: "http://vl.mk.court.gov.ua/"
+  scheduleurl: "http://vl.mk.court.gov.ua/sud1406/csz/"
+  code: "1406"
+
+ -
+  fileid: "vr.mk"
+  group: "mykolaivreg"
+  namestr: "Врадіївський районний суд Миколаївської області"
+  siteurl: "http://vr.mk.court.gov.ua/"
+  scheduleurl: "http://vr.mk.court.gov.ua/sud1408/1/csz/"
+  code: "1408"
+
+ -
+  fileid: "dm.mk"
+  group: "mykolaivreg"
+  namestr: "Доманівський районний суд Миколаївської області"
+  siteurl: "http://dm.mk.court.gov.ua/"
+  scheduleurl: "http://dm.mk.court.gov.ua/sud1409/spisokrsdd/csz/"
+  code: "1409"
+
+ -
+  fileid: "el.mk"
+  group: "mykolaivreg"
+  namestr: "Єланецький районний суд Миколаївської області"
+  siteurl: "http://el.mk.court.gov.ua/"
+  scheduleurl: "http://el.mk.court.gov.ua/sud1410/roz_sp/csz/"
+  code: "1410"
+
+ -
+  fileid: "gt.mk"
+  group: "mykolaivreg"
+  namestr: "Жовтневий районний суд Миколаївської області"
+  siteurl: "http://gt.mk.court.gov.ua/"
+  scheduleurl: "http://gt.mk.court.gov.ua/sud1411/b/csz/"
+  code: "1411"
+
+ -
+  fileid: "kz.mk"
+  group: "mykolaivreg"
+  namestr: "Казанківський районний суд Миколаївської області"
+  siteurl: "http://kz.mk.court.gov.ua/"
+  scheduleurl: "http://kz.mk.court.gov.ua/sud1413/csz/"
+  code: "1413"
+
+ -
+  fileid: "ko.mk"
+  group: "mykolaivreg"
+  namestr: "Кривоозерський районний суд Миколаївської області"
+  siteurl: "http://ko.mk.court.gov.ua/"
+  scheduleurl: "http://ko.mk.court.gov.ua/sud1415/spusok/csz/"
+  code: "1415"
+
+ -
+  fileid: "mk.mk"
+  group: "mykolaivreg"
+  namestr: "Миколаївський районний суд Миколаївської області"
+  siteurl: "http://mk.mk.court.gov.ua/"
+  scheduleurl: "http://mk.mk.court.gov.ua/sud1417/spr_rozg/csz/"
+  code: "1417"
+
+ -
+  fileid: "nb.mk"
+  group: "mykolaivreg"
+  namestr: "Новобузький районний суд Миколаївської області"
+  siteurl: "http://nb.mk.court.gov.ua/"
+  scheduleurl: "http://nb.mk.court.gov.ua/sud1418/csz/"
+  code: "1418"
+
+ -
+  fileid: "no.mk"
+  group: "mykolaivreg"
+  namestr: "Новоодеський районний суд Миколаївської області"
+  siteurl: "http://no.mk.court.gov.ua/"
+  scheduleurl: "http://no.mk.court.gov.ua/sud1419/csz/"
+  code: "1419"
+
+ -
+  fileid: "sn.mk"
+  group: "mykolaivreg"
+  namestr: "Снігурівський районний суд Миколаївської області"
+  siteurl: "http://sn.mk.court.gov.ua/"
+  scheduleurl: "http://sn.mk.court.gov.ua/sud1422/345/csz/"
+  code: "1422"
+
+ -
+  fileid: "vs.mk"
+  group: "mykolaivreg"
+  namestr: "Вознесенський міськрайонний суд Миколаївської області"
+  siteurl: "http://vs.mk.court.gov.ua/"
+  scheduleurl: "http://vs.mk.court.gov.ua/sud1407/index3/csz/"
+  code: "1407"
+
+ -
+  fileid: "oc.mk"
+  group: "mykolaivreg"
+  namestr: "Очаківський міськрайонний суд Миколаївської області"
+  siteurl: "http://oc.mk.court.gov.ua/"
+  scheduleurl: "http://oc.mk.court.gov.ua/sud1420/csz/"
+  code: "1420"
+
+ -
+  fileid: "pm.mk"
+  group: "mykolaivreg"
+  namestr: "Первомайський міськрайонний суд Миколаївської області"
+  siteurl: "http://pm.mk.court.gov.ua/"
+  scheduleurl: "http://pm.mk.court.gov.ua/sud1421/spisok_sprav_skarg/csz/"
+  code: "1421"
+
+ -
+  fileid: "yum.mk"
+  group: "mykolaivreg"
+  namestr: "Южноукраїнський міський суд Миколаївської області"
+  siteurl: "http://yum.mk.court.gov.ua/"
+  scheduleurl: "http://yum.mk.court.gov.ua/sud1424/csz/"
+  code: "1424"
 
 # Odesa ===================================================== ===== ===== =====
 
