@@ -1,0 +1,4 @@
+Please note:
+ - 'favicon.ico' should go to build/web/static/
+ - 'bootstrap.tar.gz' should be extracted to build/web/static/
+ - 'node_modules.tar.gz' should be extracted to build/web/expressWeb/

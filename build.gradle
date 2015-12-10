@@ -1,0 +1,260 @@
+
+//============================================================================
+apply plugin: 'groovy'
+import allcourts.greeting.GreetingTask
+
+// Customize the greeting
+// It's just example, no real work here
+task greeting(type: GreetingTask) << {
+  greeting = 'greetings from Brno'
+  println greeting
+}
+
+//============================================================================
+//============================================================================
+import com.moowork.gradle.node.NodePlugin
+apply plugin: com.moowork.gradle.node.NodePlugin
+
+node {
+  // Version of node to use.
+  version = '4.2.1'
+
+  // Version of npm to use.
+//  npmVersion = '2.1.5'
+
+  // Base URL for fetching node distributions (change if you have a mirror).
+  distBaseUrl = 'https://nodejs.org/dist'
+
+  // If true, it will download node using above parameters.
+  // If false, it will try to use globally installed node.
+  download = false
+
+  // Set the work directory for unpacking node
+//  workDir = file("${project.buildDir}/nodejs")
+
+  // Set the work directory where node_modules should be located
+//  nodeModulesDir = file("${project.projectDir}")
+}
+
+task testNodeTask(type: NodeTask) {
+  script = file('src/main/nodejs/testNode/t1.js')
+}
+
+//============================================================================
+//============================================================================
+
+def genSrcCourtParametersFolderStr = buildDir.getName() + '/gen-src/courtParameters'
+def genSrcVisualGroupsFilename = genSrcCourtParametersFolderStr + '/visualGroups.json'
+
+task generateVisualGroupsFolder() << {
+  def gf = new File(genSrcCourtParametersFolderStr)
+
+  if( !gf.exists() ) {
+    gf.mkdirs()
+  }
+}
+
+//
+task copyVisualGroupsSrc(type: Copy, dependsOn: generateVisualGroupsFolder) {
+  from 'src/main/nodejs/courtParameters/'
+  include '**/*.yaml'
+  include '**/*.js'
+
+  into genSrcCourtParametersFolderStr
+}
+
+task copyVisualGroupsNM(type: Copy, dependsOn: generateVisualGroupsFolder) {
+  FileTree nmTree = tarTree('src/main/resources/courtParameters/node_modules.tar.gz')
+  from nmTree
+
+  into genSrcCourtParametersFolderStr
+}
+
+
+//  This task generates visualGroups.json file.
+//  The file will b placed in build/gen-src folder and some other tasks will
+// copy it to other destinations
+task generateCourtParams( type: NodeTask,
+                          dependsOn: ['copyVisualGroupsSrc'
+                                     ,'copyVisualGroupsNM']) {
+  script = file(genSrcCourtParametersFolderStr + '/param2json.js')
+
+  args = ['-c', genSrcCourtParametersFolderStr+'/ac.yaml',
+          '-w', genSrcCourtParametersFolderStr,
+          '-g', genSrcCourtParametersFolderStr]
+
+
+}
+
+//============================================================================
+//== Gathering data ==========================================================
+//============================================================================
+
+def dataGatheringSystemFolder = buildDir.getName() + '/dist/dgs'
+
+//  Main task for data gathering system
+task dataGatheringSystem(dependsOn: ['dataGatheringSystemNM'
+                                    ,'dataGatheringSystemVG'
+                                    ,'dataGatheringSystemSrc']) << {
+  // nothing to do here
+}
+
+// This task copies 'visualGroups.json' file
+task dataGatheringSystemVG(type:Copy, dependsOn: ['generateCourtParams'
+                                                 ,'generateDataGatheringFolders']) {
+  from genSrcVisualGroupsFilename
+  into dataGatheringSystemFolder
+}
+
+//
+task dataGatheringSystemNM(type:Copy, dependsOn:'generateDataGatheringFolders') {
+  FileTree nmTree = tarTree('src/main/resources/dataGathering/node_modules.tar.gz')
+  from nmTree
+
+  into dataGatheringSystemFolder
+}
+
+//
+task dataGatheringSystemSrc(type:Copy,
+                            dependsOn: 'generateDataGatheringFolders') {
+  from 'src/main/nodejs/dataGathering'
+  include '**/*.sh'
+  include '**/*.js'
+
+  into dataGatheringSystemFolder
+}
+
+//  This task creates the result folder for data gathering system
+// Also it creates two more folders inside result.
+task generateDataGatheringFolders() << {
+  def dgsFolder = new File(dataGatheringSystemFolder);
+  def recent = new File(dataGatheringSystemFolder+'/recent')
+  def archive = new File(dataGatheringSystemFolder+'/archive')
+
+  def folders = [dgsFolder, recent, archive]
+
+  folders.each {File folder ->
+    if( !folder.exists() ) {
+      folder.mkdirs()
+    }
+  }
+}
+
+//============================================================================
+//== Express Web app  ========================================================
+//============================================================================
+task buildWebApp(dependsOn:['webExpressNM'
+                           ,'webExpressSrc'
+                           ,'webExpressVG'
+                           ,'webBootstrap'
+                           ,'webFaviconPublic'
+                           ,'webSrcPublic'
+                           ,'webRecentVG'
+                           ]) {
+  //  nothing to do here
+}
+
+def expressWebAppFolder = buildDir.getName() + '/dist/web/expressWeb'
+
+task prepareExpressWebFolder() << {
+  def ewf = new File(expressWebAppFolder)
+
+  if( !ewf.exists() ) {
+    ewf.mkdirs()
+  }
+}
+
+task webExpressSrc(type: Copy, dependsOn:'prepareExpressWebFolder') {
+  from 'src/main/nodejs/expressWeb'
+  exclude '**/public/**' // contents of 'public' folder should go to another place
+
+  into expressWebAppFolder
+}
+
+task webSrcPublic(type: Copy) {
+  from 'src/main/nodejs/expressWeb/public'
+  into (buildDir.getName()+'/dist/web/')
+}
+
+// Copy favicon
+task webFaviconPublic(type: Copy, dependsOn:'webSrcPublic') {
+  from 'src/main/resources/expressWeb/favicon.ico'
+  into (buildDir.getName()+'/dist/web/static')
+}
+
+//
+task webBootstrap(type:Copy, dependsOn:'webSrcPublic') {
+  FileTree nmTree = tarTree('src/main/resources/expressWeb/bootstrap.tar.gz')
+  from nmTree
+
+  into (buildDir.getName()+'/dist/web/static')
+}
+
+//
+task webExpressNM(type:Copy, dependsOn:'prepareExpressWebFolder') {
+  FileTree nmTree = tarTree('src/main/resources/expressWeb/node_modules.tar.gz')
+  from nmTree
+
+  into expressWebAppFolder
+}
+
+// This task copies 'visualGroups.json' file
+task webExpressVG(type:Copy, dependsOn: ['generateCourtParams'
+                                        ,'prepareExpressWebFolder']) {
+  from genSrcVisualGroupsFilename
+  into expressWebAppFolder
+}
+
+// recent folder and copy vg
+task webRecentVG(type: Copy, dependsOn:'generateCourtParams') {
+  from genSrcVisualGroupsFilename
+  into (buildDir.getName()+'/dist/web/recent')
+}
+
+//============================================================================
+//== Clear all ===============================================================
+//============================================================================
+// This task deletes all folders (with all files) in buildDir
+task clearBuildDir(type: Delete ) << {
+  buildDir.listFiles().each {
+//    println 'Will delete file: ' + it.getName()
+    delete(it)
+  }
+}
+
+//============================================================================
+//== Build all ===============================================================
+//============================================================================
+task buildAll(name:'buildAll', dependsOn:['buildWebApp', 'dataGatheringSystem'] )
+
+
+//============================================================================
+//== Various =================================================================
+//============================================================================
+task makeDistFolders(dependsOn:clearBuildDir) << {
+  def bdstr = buildDir.getName();
+  def expressFolder = new File(bdstr+'/express')
+  expressFolder.mkdirs()
+
+}
+
+task prepareDistFolders( dependsOn:makeDistFolders )
+
+
+
+//============================================================================
+task checkGenSrcFolder() << {
+  def gf = new File(buildDir.getName() + '/gen-src')
+
+  if( !gf.exists() ) {
+    gf.mkdirs()
+  }
+}
+
+
+
+
+
+
+
+
