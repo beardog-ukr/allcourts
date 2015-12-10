@@ -6,8 +6,8 @@
 case $USER in
   "houser" )
     basicDataPath="/home/houser/allcourts/gdata"
-    archiveDataPath="/home/houser/allcourts/archive"
-    recentDataPath="/home/houser/allcourts/recent"
+    archiveDataPath="/home/houser/allcourts/dgs/archive"
+    recentDataPath="/home/houser/allcourts/web/recent"
     nvmPath="/home/houser/.nvm"
     ;;
 
