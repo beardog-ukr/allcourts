@@ -1,14 +1,4 @@
 
-//============================================================================
-apply plugin: 'groovy'
-import allcourts.greeting.GreetingTask
-
-// Customize the greeting
-// It's just example, no real work here
-task greeting(type: GreetingTask) << {
-  greeting = 'greetings from Brno'
-  println greeting
-}
 
 //============================================================================
 //============================================================================
