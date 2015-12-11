@@ -146,41 +146,7 @@ function transformData(jsonData) {
 
 // ============================================================================
 // Performs all actions needed to process one court
-function old_processOneCourt(court) {
-  console.log("taskStart: processing " + court.fileid);
-
-  // download info (with wget)
-  var expectedJsonFilename = program.recent + '/newp.json';
-  console.log( "%s",
-               chpro.execFileSync('./wgetOneCourt.sh',
-                                  [court.fileid, court.code, expectedJsonFilename])
-             );
-
-  // transform newly loaded data into a form used by website
-  var rawDataStr = "";
-  rawDataStr = fs.readFileSync(expectedJsonFilename, 'utf8');
-
-  var pd = transformData(rawDataStr);
-  var pdstr = JSON.stringify(pd, null, ' ');
-
-  var recentFileName= program.recent + '/' + court.fileid + '.json';
-  fs.writeFile(recentFileName, pdstr, function (err) {
-    if (err) throw err;
-    console.log('Saved transformed data as '+recentFileName);
-  });
-
-  // move the newly downloaded file to archive folder
-  var tsd = new Date();
-  var tss = 'd' + tsd.getFullYear() + tsd.getMonth() + tsd.getDay() +
-            '_' + tsd.getHours() + tsd.getMinutes() + tsd.getSeconds();
-  var afn = program.archive + '/' + tss + '.' + court.fileid + '.json';
-  fs.renameSync(expectedJsonFilename, afn);
-
-}
-
-// ============================================================================
-// Performs all actions needed to process one court
-//Actually we'll onlu send a post request for data here; all other actions will
+//Actually we'll only send a post request for data here; all other actions will
 //be done in callbacks
 function processOneCourt(court) {
   console.log("taskStart: processing " + court.fileid);
