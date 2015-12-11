@@ -13,8 +13,15 @@ program
   .version('0.0.1')
   .option('-c, --courts [filename]', 'File containing list of courts')
   .option('-a, --archive [dirname]', 'Folder for archived files')
-  .option('-r, --recent [dirname]', 'Folder for recent files (actually used by website)')
-
+  .option('-r, --recent [dirname]'
+         ,'Folder for recent files (actually used by website)')
+  .option('-g, --regionId [regionId]'
+         ,'(optional) Script will request data only for specified region'
+          + ' (like \'lviv\')')
+  .option('-i, --courtId [courtId]'
+         ,'(optional) Script will request data only for specified court'
+          + '(like \'pc.ki\')')
+  
   .parse(process.argv);
 
 if (!program.courts) {
@@ -232,11 +239,10 @@ function processOneCourt(court) {
   // write data to request body
   req.write(postData);
   req.end();
-
 }
 
 // ============================================================================
-// Main =======================================================================
+// == Main ====================================================================
 // ============================================================================
 
 var courtsFileName = program.courts ;
@@ -247,16 +253,44 @@ var courtsStr = "";
 courtsStr = fs.readFileSync(courtsFileName, 'utf8');
 
 var courtsData = JSON.parse(courtsStr);
-
 var courts = courtsData.courts;
 
-console.log ("taskStart: has to process %d courts", courts.length);
+console.log ("taskStart: There are %d courts", courts.length);
+//console.log('Court id as %s', program.courtId);
 
-for (var ci=0; ci<courts.length; ci++) {
-  // Some timeout to reduce load of the courts website
-  setTimeout(processOneCourt, 9*1000*(ci+1), courts[ci]);  
+//
+if (program.courtId) {
+  console.log('Court id was specified');
+  var cidx = -1;
+  for (var ci=0; ci<courts.length; ci++) {
+    if (courts[ci].fileid == program.courtId) {
+      cidx = ci;
+      break;
+    }
+  }
+  
+  if (cidx>=0) {
+    console.log('Court paramaters found, starting processing for %s',
+                program.courtId);
+    processOneCourt(courts[cidx]) ;
+  }
+  else {
+    console.log('Court paramaters were not found for %s', program.courtId);
+  }
 }
-
+else {
+  var timeoutIndex = 0;
+  for (var ci=0; ci<courts.length; ci++) {
+    if ( ((program.regionId)&&(courts[ci].group== program.regionId)) 
+         || (!program.regionId) ) {
+      // Some timeout to reduce load of the courts website
+      setTimeout(processOneCourt, 9*1000*timeoutIndex, courts[ci]);
+      timeoutIndex++;
+      console.log('Will process %s', courts[ci].fileid);
+    }
+  }
+}     
+  
 //processOneCourt(courts[0]); // this line is for debug purposes only
 //processOneCourt(courts[1]);
 //console.log ("taskStart: done");
