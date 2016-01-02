@@ -84,6 +84,10 @@ groups:
   str: "Полтавська область"
 
  -
+  id: "rivnereg"
+  str: "Рівненська область"
+
+ -
   id: "sumy"
   str: "Суми"
 
@@ -3235,6 +3239,160 @@ courts:
   scheduleurl: "http://sh.pl.court.gov.ua/sud1631/5/csz/"
   code: "1631"
 
+# Rivne region ============================================== ===== ===== =====
+
+ -
+  fileid: "br.rv"
+  group: "rivnereg"
+  namestr: "Березнівський районний суд Рівненської області"
+  siteurl: "http://br.rv.court.gov.ua/"
+  scheduleurl: "http://br.rv.court.gov.ua/sud1701/csz/"
+  code: "1701"
+
+ -
+  fileid: "vl.rv"
+  group: "rivnereg"
+  namestr: "Володимирецький районний суд Рівненської області"
+  siteurl: "http://vl.rv.court.gov.ua/"
+  scheduleurl: "http://vl.rv.court.gov.ua/sud1702/csz/"
+  code: "1702"
+
+ -
+  fileid: "gsh.rv"
+  group: "rivnereg"
+  namestr: "Гощанський районний суд Рівненської області"
+  siteurl: "http://gsh.rv.court.gov.ua/"
+  scheduleurl: "http://gsh.rv.court.gov.ua/sud1703/csz/"
+  code: "1703"
+
+ -
+  fileid: "dm.rv"
+  group: "rivnereg"
+  namestr: "Демидівський районний суд Рівненської області"
+  siteurl: "http://dm.rv.court.gov.ua/"
+  scheduleurl: "http://dm.rv.court.gov.ua/sud1704/csz/"
+  code: "1704"
+
+ -
+  fileid: "db.rv"
+  group: "rivnereg"
+  namestr: "Дубенський міськрайонний суд Рівненської області"
+  siteurl: "http://db.rv.court.gov.ua/"
+  scheduleurl: "http://db.rv.court.gov.ua/sud1705/csz/"
+  code: "1705"
+
+ -
+  fileid: "dr.rv"
+  group: "rivnereg"
+  namestr: "Дубровицький районний суд Рівненської області"
+  siteurl: "http://dr.rv.court.gov.ua/"
+  scheduleurl: "http://dr.rv.court.gov.ua/sud1706/csz/"
+  code: "1706"
+
+ -
+  fileid: "zr.rv"
+  group: "rivnereg"
+  namestr: "Зарічненський районний суд Рівненської області"
+  siteurl: "http://zr.rv.court.gov.ua/"
+  scheduleurl: "http://zr.rv.court.gov.ua/sud1707/grafik/csz/"
+  code: "1707"
+
+ -
+  fileid: "zd.rv"
+  group: "rivnereg"
+  namestr: "Здолбунівський районний суд Рівненської області"
+  siteurl: "http://zd.rv.court.gov.ua/"
+  scheduleurl: "http://zd.rv.court.gov.ua/sud1708/publ_info/csz/"
+  code: "1708"
+
+ -
+  fileid: "kr.rv"
+  group: "rivnereg"
+  namestr: "Корецький районний суд Рівненської області"
+  siteurl: "http://kr.rv.court.gov.ua/"
+  scheduleurl: "http://kr.rv.court.gov.ua/sud1709/info/csz/"
+  code: "1709"
+
+ -
+  fileid: "ks.rv"
+  group: "rivnereg"
+  namestr: "Костопільський районний суд Рівненської області"
+  siteurl: "http://ks.rv.court.gov.ua/"
+  scheduleurl: "http://ks.rv.court.gov.ua/sud1710/csz/"
+  code: "1710"
+
+ -
+  fileid: "kzm.rv"
+  group: "rivnereg"
+  namestr: "Кузнецовський міський суд Рівненської області"
+  siteurl: "http://kzm.rv.court.gov.ua/"
+  scheduleurl: "http://kzm.rv.court.gov.ua/sud1711/csz/"
+  code: "1711"
+
+ -
+  fileid: "ml.rv"
+  group: "rivnereg"
+  namestr: "Млинівський районний суд Рівненської області"
+  siteurl: "http://ml.rv.court.gov.ua/"
+  scheduleurl: "http://ml.rv.court.gov.ua/sud1712/for_citizen/csz/"
+  code: "1712"
+
+ -
+  fileid: "ost.rv"
+  group: "rivnereg"
+  namestr: "Острозький районний суд Рівненської області"
+  siteurl: "http://ost.rv.court.gov.ua/"
+  scheduleurl: "http://ost.rv.court.gov.ua/sud1713/csz/"
+  code: "1713"
+
+ -
+  fileid: "rdv.rv"
+  group: "rivnereg"
+  namestr: "Радивилівський районний суд Рівненської області"
+  siteurl: "http://rdv.rv.court.gov.ua/"
+  scheduleurl: "http://rdv.rv.court.gov.ua/sud1714/spusok/csz/"
+  code: "1714"
+
+ -
+  fileid: "rvm.rv"
+  group: "rivnereg"
+  namestr: "Рівненський міський суд Рівненської області"
+  siteurl: "http://rvm.rv.court.gov.ua/"
+  scheduleurl: "http://rvm.rv.court.gov.ua/sud1715//csz"
+  code: "1715"
+
+ -
+  fileid: "rv.rv"
+  group: "rivnereg"
+  namestr: "Рівненський районний суд Рівненської області"
+  siteurl: "http://rv.rv.court.gov.ua/"
+  scheduleurl: "http://rv.rv.court.gov.ua/sud1716/gt/csz/"
+  code: "1716"
+
+ -
+  fileid: "rk.rv"
+  group: "rivnereg"
+  namestr: "Рокитнівський районний суд Рівненської області"
+  siteurl: "http://rk.rv.court.gov.ua/"
+  scheduleurl: "http://rk.rv.court.gov.ua/sud1717/5/csz/"
+  code: "1717"
+
+ -
+  fileid: "sr.rv"
+  group: "rivnereg"
+  namestr: "Сарненський районний суд Рівненської області"
+  siteurl: "http://sr.rv.court.gov.ua/"
+  scheduleurl: "http://sr.rv.court.gov.ua/sud1718/information/csz/"
+  code: "1718"
+
+ -
+  fileid: "adm.rv"
+  group: "rivnereg"
+  namestr: "Рівненський окружний адміністративний суд"
+  siteurl: "http://adm.rv.court.gov.ua/"
+  scheduleurl: "http://adm.rv.court.gov.ua/sud1770/csz/"
+  code: "1770"
+
 # Sumy ====================================================== ===== ===== =====
 
  -
@@ -3261,7 +3419,153 @@ courts:
   scheduleurl: "http://adm.su.court.gov.ua/sud1870/csz/"
   code: "1870"
 
-# Vinnytsia region =========================================== ===== ===== =====
+# Sumy region =============================================== ===== ===== =====
+
+ -
+  fileid: "bl.su"
+  group: "sumyreg"
+  namestr: "Білопільський районний суд Сумської області"
+  siteurl: "http://bl.su.court.gov.ua/"
+  scheduleurl: "http://bl.su.court.gov.ua/sud1801/works/designed/"
+  code: "1801"
+
+ -
+  fileid: "br.su"
+  group: "sumyreg"
+  namestr: "Буринський районний суд Сумської області"
+  siteurl: "http://br.su.court.gov.ua/"
+  scheduleurl: "http://br.su.court.gov.ua/sud1802/csz/"
+  code: "1802"
+
+ -
+  fileid: "vp.su"
+  group: "sumyreg"
+  namestr: "Великописарівський районний суд Сумської області"
+  siteurl: "http://vp.su.court.gov.ua/"
+  scheduleurl: "http://vp.su.court.gov.ua/sud1803/csz/"
+  code: "1803"
+
+ -
+  fileid: "gl.su"
+  group: "sumyreg"
+  namestr: "Глухівський міськрайонний суд Сумської області"
+  siteurl: "http://gl.su.court.gov.ua/"
+  scheduleurl: "http://gl.su.court.gov.ua/sud1804/info_po_spravam/csz/"
+  code: "1804"
+
+ -
+  fileid: "kp.su"
+  group: "sumyreg"
+  namestr: "Краснопільський районний суд Сумської області"
+  siteurl: "http://kp.su.court.gov.ua/"
+  scheduleurl: "http://kp.su.court.gov.ua/sud1808/csz/"
+  code: "1808"
+
+ -
+  fileid: "kr.su"
+  group: "sumyreg"
+  namestr: "Кролевецький районний суд Сумської області"
+  siteurl: "http://kr.su.court.gov.ua/"
+  scheduleurl: "http://kr.su.court.gov.ua/sud1809/infsudsp/csz/"
+  code: "1809"
+
+ -
+  fileid: "lb.su"
+  group: "sumyreg"
+  namestr: "Лебединський районний суд Сумської області"
+  siteurl: "http://lb.su.court.gov.ua/"
+  scheduleurl: "http://lb.su.court.gov.ua/sud1810/inf/csz/"
+  code: "1810"
+
+ -
+  fileid: "lv.su"
+  group: "sumyreg"
+  namestr: "Липоводолинський районний суд Сумської області"
+  siteurl: "http://lv.su.court.gov.ua/"
+  scheduleurl: "http://lv.su.court.gov.ua/sud1811/inf/csz/"
+  code: "1811"
+
+ -
+  fileid: "ng.su"
+  group: "sumyreg"
+  namestr: "Недригайлівський районний суд Сумської області"
+  siteurl: "http://ng.su.court.gov.ua/"
+  scheduleurl: "http://ng.su.court.gov.ua/sud1812/spravy/csz/"
+  code: "1812"
+
+ -
+  fileid: "pt.su"
+  group: "sumyreg"
+  namestr: "Путивльський районний суд Сумської області"
+  siteurl: "http://pt.su.court.gov.ua/"
+  scheduleurl: "http://pt.su.court.gov.ua/sud1814/for_people/csz/"
+  code: "1814"
+
+ -
+  fileid: "sb.su"
+  group: "sumyreg"
+  namestr: "Середино-Будський районний суд Сумської області"
+  siteurl: "http://sb.su.court.gov.ua/"
+  scheduleurl: "http://sb.su.court.gov.ua/sud1816/csz/"
+  code: "1816"
+
+ -
+  fileid: "su.su"
+  group: "sumyreg"
+  namestr: "Сумський районний суд Сумської області"
+  siteurl: "http://su.su.court.gov.ua/"
+  scheduleurl: "http://su.su.court.gov.ua/sud1817/csz/"
+  code: "1817"
+
+ -
+  fileid: "tr.su"
+  group: "sumyreg"
+  namestr: "Тростянецький районний суд Сумської області"
+  siteurl: "http://tr.su.court.gov.ua/"
+  scheduleurl: "http://tr.su.court.gov.ua/sud1818/2/csz/"
+  code: "1818"
+
+ -
+  fileid: "ymp.su"
+  group: "sumyreg"
+  namestr: "Ямпільський районний суд Сумської області"
+  siteurl: "http://ymp.su.court.gov.ua/"
+  scheduleurl: "http://ymp.su.court.gov.ua/sud1820/ipss/csz/"
+  code: "1820"
+
+ -
+  fileid: "kn.su"
+  group: "sumyreg"
+  namestr: "Конотопський міськрайонний суд Сумської області"
+  siteurl: "http://kn.su.court.gov.ua/"
+  scheduleurl: "http://kn.su.court.gov.ua/sud1807/informgromad/csz/"
+  code: "1807"
+
+ -
+  fileid: "oh.su"
+  group: "sumyreg"
+  namestr: "Охтирський міськрайонний суд Сумської області"
+  siteurl: "http://oh.su.court.gov.ua/"
+  scheduleurl: "http://oh.su.court.gov.ua/sud1813/csz/"
+  code: "1813"
+
+ -
+  fileid: "rmm.su"
+  group: "sumyreg"
+  namestr: "Роменський міськрайонний суд Сумської області"
+  siteurl: "http://rmm.su.court.gov.ua/"
+  scheduleurl: "http://rmm.su.court.gov.ua/sud1815/spysky_sprav_all/csz/"
+  code: "1815"
+
+ -
+  fileid: "shm.su"
+  group: "sumyreg"
+  namestr: "Шосткинський міськрайонний суд Сумської області"
+  siteurl: "http://shm.su.court.gov.ua/"
+  scheduleurl: "http://shm.su.court.gov.ua/sud1819/csz/"
+  code: "1819"
+
+# Vinnytsia region ========================================== ===== ===== =====
 
  -
   fileid: "brs.vn"
