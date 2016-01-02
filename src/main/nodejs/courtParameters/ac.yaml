@@ -23,6 +23,10 @@ groups:
   str: "Дніпропетровська область"
 
  -
+  id: "donetskreg"
+  str: "Донецька область"
+
+ -
   id: "ivanofrankivsk"
   str: "Івано-Франківська область"
 
@@ -967,6 +971,183 @@ courts:
   siteurl: "http://gv.dp.court.gov.ua/"
   scheduleurl: "http://gv.dp.court.gov.ua/sud0414/info1/csz/"
   code: "0414"
+
+# Donetsk region ============================================ ===== ===== =====
+
+ -
+  fileid: "vk.dn"
+  group: "donetskreg"
+  namestr: "Великоновосілківський районний суд Донецької області"
+  siteurl: "http://vk.dn.court.gov.ua/"
+  scheduleurl: "http://vk.dn.court.gov.ua/sud0505//csz"
+  code: "0505"
+
+ -
+  fileid: "vv.dn"
+  group: "donetskreg"
+  namestr: "Волноваський районний суд Донецької області"
+  siteurl: "http://vv.dn.court.gov.ua/"
+  scheduleurl: "http://vv.dn.court.gov.ua/sud0506/csz/"
+  code: "0506"
+
+ -
+  fileid: "vl.dn"
+  group: "donetskreg"
+  namestr: "Володарський районний суд Донецької області"
+  siteurl: "http://vl.dn.court.gov.ua/"
+  scheduleurl: "http://vl.dn.court.gov.ua/sud0507/csz/"
+  code: "0507"
+
+ -
+  fileid: "ol.dn"
+  group: "donetskreg"
+  namestr: "Олександрівський районний суд Донецької області"
+  siteurl: "http://ol.dn.court.gov.ua/"
+  scheduleurl: "http://ol.dn.court.gov.ua/sud0537/csz/"
+  code: "0537"
+
+ -
+  fileid: "ptr.dn"
+  group: "donetskreg"
+  namestr: "Першотравневий районний суд Донецької області"
+  siteurl: "http://ptr.dn.court.gov.ua/"
+  scheduleurl: "http://ptr.dn.court.gov.ua/sud0539/csz/"
+  code: "0539"
+
+ -
+  fileid: "arm.dn"
+  group: "donetskreg"
+  namestr: "Артемівський міськрайонний суд Донецької області"
+  siteurl: "http://arm.dn.court.gov.ua/"
+  scheduleurl: "http://arm.dn.court.gov.ua/sud0503/csz/"
+  code: "0503"
+
+ -
+  fileid: "dpm.dn"
+  group: "donetskreg"
+  namestr: "Добропільський міськрайонний суд Донецької області"
+  siteurl: "http://dpm.dn.court.gov.ua/"
+  scheduleurl: "http://dpm.dn.court.gov.ua/sud0514/csz/"
+  code: "0514"
+
+ -
+  fileid: "ksm.dn"
+  group: "donetskreg"
+  namestr: "Костянтинівський міськрайонний суд Донецької області"
+  siteurl: "http://ksm.dn.court.gov.ua/"
+  scheduleurl: "http://ksm.dn.court.gov.ua/sud0527/kms/csz/"
+  code: "0527"
+
+ -
+  fileid: "ka.dn"
+  group: "donetskreg"
+  namestr: "Красноармійський міськрайонний суд Донецької області"
+  siteurl: "http://ka.dn.court.gov.ua/"
+  scheduleurl: "http://ka.dn.court.gov.ua/sud0529/csz/"
+  code: "0529"
+
+ -
+  fileid: "sl.dn"
+  group: "donetskreg"
+  namestr: "Слов'янський міськрайонний суд Донецької області"
+  siteurl: "http://sl.dn.court.gov.ua/"
+  scheduleurl: "http://sl.dn.court.gov.ua/sud0544/csz/"
+  code: "0544"
+
+ -
+  fileid: "vd.dn"
+  group: "donetskreg"
+  namestr: "Вугледарський міський суд Донецької області"
+  siteurl: "http://vd.dn.court.gov.ua/"
+  scheduleurl: "http://vd.dn.court.gov.ua/sud0509/csz/"
+  code: "0509"
+
+ -
+  fileid: "dgm.dn"
+  group: "donetskreg"
+  namestr: "Дзержинський міський суд Донецької області"
+  siteurl: "http://dgm.dn.court.gov.ua/"
+  scheduleurl: "http://dgm.dn.court.gov.ua/sud0512/csz/"
+  code: "0512"
+
+ -
+  fileid: "dmm.dn"
+  group: "donetskreg"
+  namestr: "Димитровський міський суд Донецької області"
+  siteurl: "http://dmm.dn.court.gov.ua/"
+  scheduleurl: "http://dmm.dn.court.gov.ua/sud0513/csz/"
+  code: "0513"
+
+ -
+  fileid: "dr.dn"
+  group: "donetskreg"
+  namestr: "Дружкiвський мiський суд Донецькой областi"
+  siteurl: "http://dr.dn.court.gov.ua/"
+  scheduleurl: "http://dr.dn.court.gov.ua/sud0516/infor/csz/"
+  code: "0516"
+
+ -
+  fileid: "kt.dn"
+  group: "donetskreg"
+  namestr: "Краматорський міський суд Донецької області"
+  siteurl: "http://kt.dn.court.gov.ua/"
+  scheduleurl: "http://kt.dn.court.gov.ua/sud0528/csz/"
+  code: "0528"
+
+ -
+  fileid: "km.dn"
+  group: "donetskreg"
+  namestr: "Краснолиманський міський суд Донецької області"
+  siteurl: "http://km.dn.court.gov.ua/"
+  scheduleurl: "http://km.dn.court.gov.ua/sud0530/csz/"
+  code: "0530"
+ -
+  fileid: "nvm.dn"
+  group: "donetskreg"
+  namestr: "Новогродівський міський суд Донецької області"
+  siteurl: "http://nvm.dn.court.gov.ua/"
+  scheduleurl: "http://nvm.dn.court.gov.ua/sud0536/csz/"
+  code: "0536"
+
+ -
+  fileid: "sdm.dn"
+  group: "donetskreg"
+  namestr: "Селидівський міський суд Донецької області"
+  siteurl: "http://sdm.dn.court.gov.ua/"
+  scheduleurl: "http://sdm.dn.court.gov.ua/sud0543/csz/"
+  code: "0543"
+
+ -
+  fileid: "gvt.dn"
+  group: "donetskreg"
+  namestr: "Жовтневий районний суд міста Маріуполя"
+  siteurl: "http://gvt.dn.court.gov.ua/"
+  scheduleurl: "http://gvt.dn.court.gov.ua/sud0519/csz/"
+  code: "0519"
+
+ -
+  fileid: "ill.dn"
+  group: "donetskreg"
+  namestr: "Іллічівський районний суд м. Маріуполя"
+  siteurl: "http://ill.dn.court.gov.ua/"
+  scheduleurl: "http://ill.dn.court.gov.ua/sud0520/csz/"
+  code: "0520"
+
+ -
+  fileid: "org.dn"
+  group: "donetskreg"
+  namestr: "Орджонікідзевський районний суд міста Маріуполя"
+  siteurl: "http://org.dn.court.gov.ua/"
+  scheduleurl: "http://org.dn.court.gov.ua/sud0538/index/csz/"
+  code: "0538"
+
+ -
+  fileid: "pr.dn"
+  group: "donetskreg"
+  namestr: "Приморський районний суд м. Маріуполя"
+  siteurl: "http://pr.dn.court.gov.ua/"
+  scheduleurl: "http://pr.dn.court.gov.ua/sud0541/csz/"
+  code: "0541"
 
 # Ivano-Frankivsk =========================================== ===== ===== =====
 
@@ -3483,7 +3664,7 @@ courts:
   siteurl: "http://ln.zp.court.gov.ua/"
   scheduleurl: "http://ln.zp.court.gov.ua/sud0814/csz/"
   code: "0814"
-  
+
  -
   fileid: "og.zp"
   group: "zaporizhia"
@@ -3491,7 +3672,7 @@ courts:
   siteurl: "http://og.zp.court.gov.ua/"
   scheduleurl: "http://og.zp.court.gov.ua/sud0818/csz/"
   code: "0818"
- 
+
  -
   fileid: "hr.zp"
   group: "zaporizhia"
@@ -3499,14 +3680,14 @@ courts:
   siteurl: "http://hr.zp.court.gov.ua/"
   scheduleurl: "http://hr.zp.court.gov.ua/sud0825/csz/"
   code: "0825"
-  
+
  -
   fileid: "sh.zp"
   group: "zaporizhia"
   namestr: "Шевченківский районний суд м.Запоріжжя"
   siteurl: "http://sh.zp.court.gov.ua/"
   scheduleurl: "http://sh.zp.court.gov.ua/sud0827/causes_list/csz/"
-  code: "0827" 
+  code: "0827"
 
  -
   fileid: "adm.zp"
@@ -3514,7 +3695,7 @@ courts:
   namestr: "Запорізький окружний адміністративний суд"
   siteurl: "http://adm.zp.court.gov.ua/"
   scheduleurl: "http://adm.zp.court.gov.ua/sud0870/csz/"
-  code: "0870" 
+  code: "0870"
 
 
 # Zaporizhia region ================================================ ===== ===== =====
@@ -3888,12 +4069,3 @@ courts:
   siteurl: "http://adm.zt.court.gov.ua/"
   scheduleurl: "http://adm.zt.court.gov.ua/sud0670/csz/"
   code: "0670"
-
-
-
-
-
-
-
-
-
