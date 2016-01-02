@@ -59,6 +59,10 @@ groups:
   str: "Львівська область"
 
  -
+  id:"luhanskreg"
+  str:"Луганська область"
+
+ -
   id: "mykolaiv"
   str: "Миколаїв"
  -
@@ -2408,6 +2412,119 @@ courts:
   scheduleurl: "http://yr.lv.court.gov.ua/sud1329/csz/"
   code: "1329"
 
+# Luhansk region ============================================ ===== ===== =====
+
+ -
+  fileid: "bv.lg"
+  group: "luhanskreg"
+  namestr: "Біловодський районний суд Луганської області"
+  siteurl: "http://bv.lg.court.gov.ua/"
+  scheduleurl: "http://bv.lg.court.gov.ua/sud1204/csz/"
+  code: "1204"
+
+ -
+  fileid: "bl.lg"
+  group: "luhanskreg"
+  namestr: "Білокуракинський районний суд Луганської області"
+  siteurl: "http://bl.lg.court.gov.ua/"
+  scheduleurl: "http://bl.lg.court.gov.ua/sud1205/csz/"
+  code: "1205"
+
+ -
+  fileid: "km.lg"
+  group: "luhanskreg"
+  namestr: "Кремінський районний суд Луганської області"
+  siteurl: "http://km.lg.court.gov.ua/"
+  scheduleurl: "http://km.lg.court.gov.ua/sud1212/spbs/csz/"
+  code: "1212"
+
+ -
+  fileid: "mk.lg"
+  group: "luhanskreg"
+  namestr: "Марківський районний суд Луганської області"
+  siteurl: "http://mk.lg.court.gov.ua/"
+  scheduleurl: "http://mk.lg.court.gov.ua/sud1216/csz/"
+  code: "1216"
+
+ -
+  fileid: "ml.lg"
+  group: "luhanskreg"
+  namestr: "Міловський районний суд Луганської області"
+  siteurl: "http://ml.lg.court.gov.ua/"
+  scheduleurl: "http://ml.lg.court.gov.ua/sud1217/csz/"
+  code: "1217"
+
+ -
+  fileid: "na.lg"
+  group: "luhanskreg"
+  namestr: "Новоайдарський районний суд Луганської області"
+  siteurl: "http://na.lg.court.gov.ua/"
+  scheduleurl: "http://na.lg.court.gov.ua/sud1218/stadii_rozglyadu_sprav/csz/"
+  code: "1218"
+
+ -
+  fileid: "np.lg"
+  group: "luhanskreg"
+  namestr: "Новопсковський районний суд Луганської області"
+  siteurl: "http://np.lg.court.gov.ua/"
+  scheduleurl: "http://np.lg.court.gov.ua/sud1219/csz/"
+  code: "1219"
+
+ -
+  fileid: "pp.lg"
+  group: "luhanskreg"
+  namestr: "Попаснянський районний суд Луганської області"
+  siteurl: "http://pp.lg.court.gov.ua/"
+  scheduleurl: "http://pp.lg.court.gov.ua/sud1222/csz/"
+  code: "1222"
+
+ -
+  fileid: "sv.lg"
+  group: "luhanskreg"
+  namestr: "Сватівський районний суд Луганської області"
+  siteurl: "http://sv.lg.court.gov.ua/"
+  scheduleurl: "http://sv.lg.court.gov.ua/sud1225/inform/csz/"
+  code: "1225"
+
+ -
+  fileid: "sb.lg"
+  group: "luhanskreg"
+  namestr: "Старобільський районний суд Луганської області"
+  siteurl: "http://sb.lg.court.gov.ua/"
+  scheduleurl: "http://sb.lg.court.gov.ua/sud1230/csz/"
+  code: "1230"
+
+ -
+  fileid: "tr.lg"
+  group: "luhanskreg"
+  namestr: "Троїцький районний суд Луганської області"
+  siteurl: "http://tr.lg.court.gov.ua/"
+  scheduleurl: "http://tr.lg.court.gov.ua/sud1232/mkj/csz/"
+  code: "1232"
+
+ -
+  fileid: "lsm.lg"
+  group: "luhanskreg"
+  namestr: "Лисичанський міський суд Луганської області"
+  siteurl: "http://lsm.lg.court.gov.ua/"
+  scheduleurl: "http://lsm.lg.court.gov.ua/sud1214/csz/"
+  code: "1214"
+
+ -
+  fileid: "rbm.lg"
+  group: "luhanskreg"
+  namestr: "Рубіжанський міський суд Луганської області"
+  siteurl: "http://rbm.lg.court.gov.ua/"
+  scheduleurl: "http://rbm.lg.court.gov.ua/sud1224/csz/"
+  code: "1224"
+
+ -
+  fileid: "sdm.lg"
+  group: "luhanskreg"
+  namestr: "Сєверодонецький міський суд Луганської області"
+  siteurl: "http://sdm.lg.court.gov.ua/"
+  scheduleurl: "http://sdm.lg.court.gov.ua/sud1227/spisok_sprav/csz/"
+  code: "1227"
 
 # Mykolaiv ================================================== ===== ===== =====
 
