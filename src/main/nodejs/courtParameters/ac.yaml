@@ -45,6 +45,17 @@ groups:
   str: "Харківська область"
 
  -
+  id: "kherson"
+  str: "Херсон"
+ -
+  id: "khersonreg"
+  str: "Херсонська область"
+
+ -
+  id: "khmelnytskyireg"
+  str: "Хмельницька область"
+
+ -
   id: "kiev"
   str: "Київ"
  -
@@ -59,8 +70,8 @@ groups:
   str: "Львівська область"
 
  -
-  id:"luhanskreg"
-  str:"Луганська область"
+  id: "luhanskreg"
+  str: "Луганська область"
 
  -
   id: "mykolaiv"
@@ -90,6 +101,13 @@ groups:
  -
   id: "sumy"
   str: "Суми"
+ -
+  id: "sumyreg"
+  str: "Сумська область"
+
+ -
+  id: "ternopilreg"
+  str: "Тернопільська область"
 
  -
   id: "vinnytsiareg"
@@ -1311,6 +1329,697 @@ courts:
   scheduleurl: "http://adm.if.court.gov.ua/sud0970/menu_2/csz/"
   code: "0970"
 
+# Kharkiv =================================================== ===== ===== =====
+
+ -
+  fileid: "dg.hr"
+  group: "kharkiv"
+  namestr: "Дзержинський районний суд м. Харкова"
+  siteurl: "http://dg.hr.court.gov.ua/"
+  scheduleurl: "http://dg.hr.court.gov.ua/sud2011//csz"
+  code: "2011"
+
+ -
+  fileid: "jv.hr"
+  group: "kharkiv"
+  namestr: "Жовтневий районний суд м. Харкова"
+  siteurl: "http://jv.hr.court.gov.ua/"
+  scheduleurl: "http://jv.hr.court.gov.ua/sud2012/spra/csz/"
+  code: "2012"
+
+ -
+  fileid: "ki.hr"
+  group: "kharkiv"
+  namestr: "Київський районний суд м. Харкова"
+  siteurl: "http://ki.hr.court.gov.ua/"
+  scheduleurl: "http://ki.hr.court.gov.ua/sud2018//csz"
+  code: "2018"
+
+ -
+  fileid: "km.hr"
+  group: "kharkiv"
+  namestr: "Комінтернівський районний суд м. Харкова"
+  siteurl: "http://km.hr.court.gov.ua/"
+  scheduleurl: "http://km.hr.court.gov.ua/sud2020/csz/"
+  code: "2020"
+
+ -
+  fileid: "ln.hr"
+  group: "kharkiv"
+  namestr: "Ленінський районний суд м. Харкова"
+  siteurl: "http://ln.hr.court.gov.ua/"
+  scheduleurl: "http://ln.hr.court.gov.ua/sud2024/csz/"
+  code: "2024"
+
+ -
+  fileid: "ms.hr"
+  group: "kharkiv"
+  namestr: "Московський районний суд м. Харкова"
+  siteurl: "http://ms.hr.court.gov.ua/"
+  scheduleurl: "http://ms.hr.court.gov.ua/sud2027/csz/"
+  code: "2027"
+
+ -
+  fileid: "og.hr"
+  group: "kharkiv"
+  namestr: "Орджонікідзевський районний суд м. Харкова"
+  siteurl: "http://og.hr.court.gov.ua/"
+  scheduleurl: "http://og.hr.court.gov.ua/sud2029/csz/"
+  code: "2029"
+
+ -
+  fileid: "fr.hr"
+  group: "kharkiv"
+  namestr: "Фрунзенський районний суд м. Харкова"
+  siteurl: "http://fr.hr.court.gov.ua/"
+  scheduleurl: "http://fr.hr.court.gov.ua/sud2033/information/csz/"
+  code: "2033"
+
+ -
+  fileid: "cz.hr"
+  group: "kharkiv"
+  namestr: "Червонозаводський районний суд м. Харкова"
+  siteurl: "http://cz.hr.court.gov.ua/"
+  scheduleurl: "http://cz.hr.court.gov.ua/sud2035/csz/"
+  code: "2035"
+
+ -
+  fileid: "adm.hr"
+  group: "kharkiv"
+  namestr: "Харківський окружний адміністративний суд"
+  siteurl: "http://adm.hr.court.gov.ua/"
+  scheduleurl: "http://adm.hr.court.gov.ua/sud2070/csz/"
+  code: "2070"
+
+# Kharkiv region ============================================ ===== ===== =====
+
+ -
+  fileid: "bll.hr"
+  group: "kharkivreg"
+  namestr: "Балаклійський районний суд Харківскої області"
+  siteurl: "http://bll.hr.court.gov.ua/"
+  scheduleurl: "http://bll.hr.court.gov.ua/sud2001/inf_for/csz/"
+  code: "2001"
+
+ -
+  fileid: "brv.hr"
+  group: "kharkivreg"
+  namestr: "Барвінківський районний суд Харківської області"
+  siteurl: "http://brv.hr.court.gov.ua/"
+  scheduleurl: "http://brv.hr.court.gov.ua/sud2002/csz/"
+  code: "2002"
+
+ -
+  fileid: "blk.hr"
+  group: "kharkivreg"
+  namestr: "Близнюківський районний суд Харківської області"
+  siteurl: "http://blk.hr.court.gov.ua/"
+  scheduleurl: "http://blk.hr.court.gov.ua/sud2003/csz/"
+  code: "2003"
+
+ -
+  fileid: "bg.hr"
+  group: "kharkivreg"
+  namestr: "Богодухівський районний суд Харківської області"
+  siteurl: "http://bg.hr.court.gov.ua/"
+  scheduleurl: "http://bg.hr.court.gov.ua/sud2004/do_rozgliadu/csz/"
+  code: "2004"
+
+ -
+  fileid: "br.hr"
+  group: "kharkivreg"
+  namestr: "Борівський районний суд Харківської області"
+  siteurl: "http://br.hr.court.gov.ua/"
+  scheduleurl: "http://br.hr.court.gov.ua/sud2005/csz/"
+  code: "2005"
+
+ -
+  fileid: "vl.hr"
+  group: "kharkivreg"
+  namestr: "Валківський районний суд Харківської області"
+  siteurl: "http://vl.hr.court.gov.ua/"
+  scheduleurl: "http://vl.hr.court.gov.ua/sud2006/info/csz/"
+  code: "2006"
+
+ -
+  fileid: "vb.hr"
+  group: "kharkivreg"
+  namestr: "Великобурлуцький районний суд Харківської області"
+  siteurl: "http://vb.hr.court.gov.ua/"
+  scheduleurl: "http://vb.hr.court.gov.ua/sud2007/csz/"
+  code: "2007"
+
+ -
+  fileid: "vv.hr"
+  group: "kharkivreg"
+  namestr: "Вовчанський районний суд Харківської області"
+  siteurl: "http://vv.hr.court.gov.ua/"
+  scheduleurl: "http://vv.hr.court.gov.ua/sud2008/csz/"
+  code: "2008"
+
+ -
+  fileid: "dv.hr"
+  group: "kharkivreg"
+  namestr: "Дворічанський районний суд Харківської області"
+  siteurl: "http://dv.hr.court.gov.ua/"
+  scheduleurl: "http://dv.hr.court.gov.ua/sud2009/csz/"
+  code: "2009"
+
+ -
+  fileid: "dr.hr"
+  group: "kharkivreg"
+  namestr: "Дергачівський районний суд Харківської області"
+  siteurl: "http://dr.hr.court.gov.ua/"
+  scheduleurl: "http://dr.hr.court.gov.ua/sud2010/spis_sprav/csz/"
+  code: "2010"
+
+ -
+  fileid: "zc.hr"
+  group: "kharkivreg"
+  namestr: "Зачепилівський районний суд Харківської області"
+  siteurl: "http://zc.hr.court.gov.ua/"
+  scheduleurl: "http://zc.hr.court.gov.ua/sud2013/csz/"
+  code: "2013"
+
+ -
+  fileid: "zm.hr"
+  group: "kharkivreg"
+  namestr: "Зміївський районний суд Харківської області"
+  siteurl: "http://zm.hr.court.gov.ua/"
+  scheduleurl: "http://zm.hr.court.gov.ua/sud2014/csz/"
+  code: "2014"
+
+ -
+  fileid: "zl.hr"
+  group: "kharkivreg"
+  namestr: "Золочівський районний суд Харківської області"
+  siteurl: "http://zl.hr.court.gov.ua/"
+  scheduleurl: "http://zl.hr.court.gov.ua/sud2015/csz/"
+  code: "2015"
+
+# -
+#  fileid: ""
+#  group: "kharkivreg"
+#  namestr: ""
+#  siteurl: "http://iz.hr.court.gov.ua/216894/"
+#  NOTE: maybe this should be "izm.hr" really
+#  scheduleurl: ""
+#  code: ""
+
+ -
+  fileid: "izm.hr"
+  group: "kharkivreg"
+  namestr: "Ізюмський міськрайонний суд Харківської області"
+  siteurl: "http://izm.hr.court.gov.ua/"
+  scheduleurl: "http://izm.hr.court.gov.ua/sud2016/csz/"
+  code: "2016"
+
+ -
+  fileid: "kg.hr"
+  group: "kharkivreg"
+  namestr: "Кегичівський районний суд Харківської області"
+  siteurl: "http://kg.hr.court.gov.ua/"
+  scheduleurl: "http://kg.hr.court.gov.ua/sud2017/csz/"
+  code: "2017"
+
+ -
+  fileid: "kl.hr"
+  group: "kharkivreg"
+  namestr: "Коломацький районний суд Харківської області"
+  siteurl: "http://kl.hr.court.gov.ua/"
+  scheduleurl: "http://kl.hr.court.gov.ua/sud2019/cpisok/csz/"
+  code: "2019"
+
+ -
+  fileid: "kr.hr"
+  group: "kharkivreg"
+  namestr: "Красноградський районний суд Харківської області"
+  siteurl: "http://kr.hr.court.gov.ua/"
+  scheduleurl: "http://kr.hr.court.gov.ua/sud2021/list_of_cases_assigned_to_review/csz/"
+  code: "2021"
+
+ -
+  fileid: "kk.hr"
+  group: "kharkivreg"
+  namestr: "Краснокутський районний суд Харківської області"
+  siteurl: "http://kk.hr.court.gov.ua/"
+  scheduleurl: "http://kk.hr.court.gov.ua/sud2022/csz/"
+  code: "2022"
+
+# -
+#  fileid: ""
+#  group: "kharkivreg"
+#  namestr: ""
+#  siteurl: "http://kp.hr.court.gov.ua/"
+#  scheduleurl: ""
+#  code: ""
+#  NOTE: see the court below
+ -
+  fileid: "kpm.hr"
+  group: "kharkivreg"
+  namestr: "Куп'янський міськрайонний суд Харківської області"
+  siteurl: "http://kpm.hr.court.gov.ua/"
+  scheduleurl: "http://kpm.hr.court.gov.ua/sud2023/csz/"
+  code: "2023"
+
+# -
+#  fileid: ""
+#  group: "kharkivreg"
+#  namestr: ""
+#  siteurl: "http://lz.hr.court.gov.ua/"
+#  scheduleurl: ""
+#  code: ""
+#  NOTE: see the court below
+ -
+  fileid: "lzm.hr"
+  group: "kharkivreg"
+  namestr: "Лозівський міськрайонний суд Харківської області"
+  siteurl: "http://lzm.hr.court.gov.ua/"
+  scheduleurl: "http://lzm.hr.court.gov.ua/sud2025/csz/"
+  code: "2025"
+
+ -
+  fileid: "lbt.hr"
+  group: "kharkivreg"
+  namestr: "Люботинський міський суд Харківської області"
+  siteurl: "http://lbt.hr.court.gov.ua/"
+  scheduleurl: "http://lbt.hr.court.gov.ua/sud2026/info/csz/"
+  code: "2026"
+
+ -
+  fileid: "nv.hr"
+  group: "kharkivreg"
+  namestr: "Нововодолазький районний суд Харківської області"
+  siteurl: "http://nv.hr.court.gov.ua/"
+  scheduleurl: "http://nv.hr.court.gov.ua/sud2028/csz/"
+  code: "2028"
+
+ -
+  fileid: "pm.hr"
+  group: "kharkivreg"
+  namestr: "Первомайський міськрайонний суд Харківської області"
+  siteurl: "http://pm.hr.court.gov.ua/"
+  scheduleurl: "http://pm.hr.court.gov.ua/sud2030/csz/"
+  code: "2030"
+
+ -
+  fileid: "pc.hr"
+  group: "kharkivreg"
+  namestr: "Печенізький районний суд Харківської області"
+  siteurl: "http://pc.hr.court.gov.ua/"
+  scheduleurl: "http://pc.hr.court.gov.ua/sud2031/spravi/csz/"
+  code: "2031"
+
+ -
+  fileid: "sv.hr"
+  group: "kharkivreg"
+  namestr: "Сахновщинський районний суд Харківської області"
+  siteurl: "http://sv.hr.court.gov.ua/"
+  scheduleurl: "http://sv.hr.court.gov.ua/sud2032/info/csz/"
+  code: "2032"
+
+ -
+  fileid: "hr.hr"
+  group: "kharkivreg"
+  namestr: "Харківський районний суд Харківської області"
+  siteurl: "http://hr.hr.court.gov.ua/"
+  scheduleurl: "http://hr.hr.court.gov.ua/sud2034/csz/"
+  code: "2034"
+
+ -
+  fileid: "cg.hr"
+  group: "kharkivreg"
+  namestr: "Чугуївський міський суд Харківської області"
+  siteurl: "http://cg.hr.court.gov.ua/"
+  scheduleurl: "http://cg.hr.court.gov.ua/sud2036/info/csz/"
+  code: "2036"
+
+ -
+  fileid: "sh.hr"
+  group: "kharkivreg"
+  namestr: "Шевченківський  районний суд  Харківської області"
+  siteurl: "http://sh.hr.court.gov.ua/"
+  scheduleurl: "http://sh.hr.court.gov.ua/sud2037/csz/"
+  code: "2037"
+
+# Kherson =================================================== ===== ===== =====
+
+ -
+  fileid: "dn.ks"
+  group: "kherson"
+  namestr: "Дніпровський районний суд м. Херсона"
+  siteurl: "http://dn.ks.court.gov.ua/"
+  scheduleurl: "http://dn.ks.court.gov.ua/sud2110/csz/"
+  code: "2110"
+
+ -
+  fileid: "km.ks"
+  group: "kherson"
+  namestr: "Комсомольський районний суд м. Херсона"
+  siteurl: "http://km.ks.court.gov.ua/"
+  scheduleurl: "http://km.ks.court.gov.ua/sud2114/csz/"
+  code: "2114"
+
+ -
+  fileid: "sv.ks"
+  group: "kherson"
+  namestr: "Суворовський районний суд м. Херсона"
+  siteurl: "http://sv.ks.court.gov.ua/"
+  scheduleurl: "http://sv.ks.court.gov.ua/sud2120/csz/"
+  code: "2120"
+
+ -
+  fileid: "adm.ks"
+  group: "kherson"
+  namestr: "Херсонський окружний адміністративний суд"
+  siteurl: "http://adm.ks.court.gov.ua/"
+  scheduleurl: "http://adm.ks.court.gov.ua/sud2170/csz/"
+  code: "2170"
+
+# Kherson region ============================================ ===== ===== =====
+
+ -
+  fileid: "bs.ks"
+  group: "khersonreg"
+  namestr: "Бериславський районний суд Херсонської області"
+  siteurl: "http://bs.ks.court.gov.ua/"
+  scheduleurl: "http://bs.ks.court.gov.ua/sud2101/csz/"
+  code: "2101"
+
+ -
+  fileid: "bz.ks"
+  group: "khersonreg"
+  namestr: "Білозерський районний суд Херсонської області"
+  siteurl: "http://bz.ks.court.gov.ua/"
+  scheduleurl: "http://bz.ks.court.gov.ua/sud2102/csz/"
+  code: "2102"
+
+ -
+  fileid: "vpt.ks"
+  group: "khersonreg"
+  namestr: "Великолепетиський районний суд Херсонської області"
+  siteurl: "http://vpt.ks.court.gov.ua/"
+  scheduleurl: "http://vpt.ks.court.gov.ua/sud2103/csz/"
+  code: "2103"
+
+ -
+  fileid: "vo.ks"
+  group: "khersonreg"
+  namestr: "Велико-олександрівський районний суд Херсонської області"
+  siteurl: "http://vo.ks.court.gov.ua/"
+  scheduleurl: "http://vo.ks.court.gov.ua/sud2104/index_1/csz/"
+  code: "2104"
+
+ -
+  fileid: "vr.ks"
+  group: "khersonreg"
+  namestr: "Верхньорогачицький районний суд Херсонської області"
+  siteurl: "http://vr.ks.court.gov.ua/"
+  scheduleurl: "http://vr.ks.court.gov.ua/sud2105/spisok/csz/"
+  code: "2105"
+
+ -
+  fileid: "vps.ks"
+  group: "khersonreg"
+  namestr: "Високопільський районний суд Херсонської області"
+  siteurl: "http://vps.ks.court.gov.ua/"
+  scheduleurl: "http://vps.ks.court.gov.ua/sud2106/csz/"
+  code: "2106"
+
+ -
+  fileid: "gn.ks"
+  group: "khersonreg"
+  namestr: "Генічеський районний суд Херсонської області"
+  siteurl: "http://gn.ks.court.gov.ua/"
+  scheduleurl: "http://gn.ks.court.gov.ua/sud2107/spisoksp/csz/"
+  code: "2107"
+
+ -
+  fileid: "gp.ks"
+  group: "khersonreg"
+  namestr: "Голопристанський районний суд Херсонської області"
+  siteurl: "http://gp.ks.court.gov.ua/"
+  scheduleurl: "http://gp.ks.court.gov.ua/sud2108/csz/"
+  code: "2108"
+
+ -
+  fileid: "gs.ks"
+  group: "khersonreg"
+  namestr: "Горностаївський районний суд Херсонської області"
+  siteurl: "http://gs.ks.court.gov.ua/"
+  scheduleurl: "http://gs.ks.court.gov.ua/sud2109/csz/"
+  code: "2109"
+
+ -
+  fileid: "iv.ks"
+  group: "khersonreg"
+  namestr: "Іванівський районний суд Херсонської області"
+  siteurl: "http://iv.ks.court.gov.ua/"
+  scheduleurl: "http://iv.ks.court.gov.ua/sud2111/csz/"
+  code: "2111"
+
+ -
+  fileid: "kl.ks"
+  group: "khersonreg"
+  namestr: "Каланчацький районний суд Херсонської області"
+  siteurl: "http://kl.ks.court.gov.ua/"
+  scheduleurl: "http://kl.ks.court.gov.ua/sud2112/csz/"
+  code: "2112"
+
+ -
+  fileid: "kh.ks"
+  group: "khersonreg"
+  namestr: "Каховський міськрайонний суд Херсонської області"
+  siteurl: "http://kh.ks.court.gov.ua/"
+  scheduleurl: "http://kh.ks.court.gov.ua/sud2113/csz/"
+  code: "2113"
+
+ -
+  fileid: "ns.ks"
+  group: "khersonreg"
+  namestr: "Нижньосірогозький районний суд Херсонської област"
+  siteurl: "http://ns.ks.court.gov.ua/"
+  scheduleurl: "http://ns.ks.court.gov.ua/sud2115/csz/"
+  code: "2115"
+
+ -
+  fileid: "nv.ks"
+  group: "khersonreg"
+  namestr: "Нововоронцовський районний суд Херсонської області"
+  siteurl: "http://nv.ks.court.gov.ua/"
+  scheduleurl: "http://nv.ks.court.gov.ua/sud2116/csz/"
+  code: "2116"
+
+ -
+  fileid: "nkm.ks"
+  group: "khersonreg"
+  namestr: "Новокаховський міський суд Херсонської області"
+  siteurl: "http://nkm.ks.court.gov.ua/"
+  scheduleurl: "http://nkm.ks.court.gov.ua/sud2117/csz/"
+  code: "2117"
+
+ -
+  fileid: "nt.ks"
+  group: "khersonreg"
+  namestr: "Новотроїцький районний суд Херсонської області"
+  siteurl: "http://nt.ks.court.gov.ua/"
+  scheduleurl: "http://nt.ks.court.gov.ua/sud2118/csz/"
+  code: "2118"
+
+ -
+  fileid: "sk.ks"
+  group: "khersonreg"
+  namestr: "Скадовський районний суд Херсонської області"
+  siteurl: "http://sk.ks.court.gov.ua/"
+  scheduleurl: "http://sk.ks.court.gov.ua/sud2119/csz/"
+  code: "2119"
+
+ -
+  fileid: "cr.ks"
+  group: "khersonreg"
+  namestr: "Цюрупинський районний суд Херсонської області"
+  siteurl: "http://cr.ks.court.gov.ua/"
+  scheduleurl: "http://cr.ks.court.gov.ua/sud2121/csz/"
+  code: "2121"
+
+ -
+  fileid: "cp.ks"
+  group: "khersonreg"
+  namestr: "Чаплинський районний суд Херсонської області"
+  siteurl: "http://cp.ks.court.gov.ua/"
+  scheduleurl: "http://cp.ks.court.gov.ua/sud2122/csz/"
+  code: "2122"
+
+# Khmelnytskyi region ======================================= ===== ===== =====
+
+ -
+  fileid: "bg.km"
+  group: "khmelnytskyireg"
+  namestr: "Білогірський районний суд Хмельницької області"
+  siteurl: "http://bg.km.court.gov.ua/"
+  scheduleurl: "http://bg.km.court.gov.ua/sud2201/info/csz/"
+  code: "2201"
+
+ -
+  fileid: "vn.km"
+  group: "khmelnytskyireg"
+  namestr: "Віньковецький районний суд Хмельницької області"
+  siteurl: "http://vn.km.court.gov.ua/"
+  scheduleurl: "http://vn.km.court.gov.ua/sud2202//csz"
+  code: "2202"
+
+ -
+  fileid: "vl.km"
+  group: "khmelnytskyireg"
+  namestr: "Волочиський районний суд Хмельницької області"
+  siteurl: "http://vl.km.court.gov.ua/"
+  scheduleurl: "http://vl.km.court.gov.ua/sud2203/csz/"
+  code: "2203"
+
+ -
+  fileid: "gd.km"
+  group: "khmelnytskyireg"
+  namestr: "Городоцький районний суд Хмельницької області"
+  siteurl: "http://gd.km.court.gov.ua/"
+  scheduleurl: "http://gd.km.court.gov.ua/sud2204/spisok/csz/"
+  code: "2204"
+
+ -
+  fileid: "dg.km"
+  group: "khmelnytskyireg"
+  namestr: "Деражнянський районний суд Хмельницької області"
+  siteurl: "http://dg.km.court.gov.ua/"
+  scheduleurl: "http://dg.km.court.gov.ua/sud2205/csz/"
+  code: "2205"
+
+ -
+  fileid: "dv.km"
+  group: "khmelnytskyireg"
+  namestr: "Дунаєвецький районний суд Хмельницької області"
+  siteurl: "http://dv.km.court.gov.ua/"
+  scheduleurl: "http://dv.km.court.gov.ua/sud2206/csz/"
+  code: "2206"
+
+ -
+  fileid: "iz.km"
+  group: "khmelnytskyireg"
+  namestr: "Ізяславський районний суд Хмельницької області"
+  siteurl: "http://iz.km.court.gov.ua/"
+  scheduleurl: "http://iz.km.court.gov.ua/sud2207/csz/"
+  code: "2207"
+
+ -
+  fileid: "kpm.km"
+  group: "khmelnytskyireg"
+  namestr: "Кам'янець-Подільський міськрайонний суд Хмельницької області"
+  siteurl: "http://kpm.km.court.gov.ua/"
+  scheduleurl: "http://kpm.km.court.gov.ua/sud2208/csz/"
+  code: "2208"
+
+ -
+  fileid: "kr.km"
+  group: "khmelnytskyireg"
+  namestr: "Красилівський районний суд Хмельницької області"
+  siteurl: "http://kr.km.court.gov.ua/"
+  scheduleurl: "http://kr.km.court.gov.ua/sud2209//csz"
+  code: "2209"
+
+ -
+  fileid: "lt.km"
+  group: "khmelnytskyireg"
+  namestr: "Летичівський районний суд Хмельницької області"
+  siteurl: "http://lt.km.court.gov.ua/"
+  scheduleurl: "http://lt.km.court.gov.ua/sud2210/csz/"
+  code: "2210"
+
+ -
+  fileid: "nt.km"
+  group: "khmelnytskyireg"
+  namestr: "Нетішинський міський суд Хмельницької області"
+  siteurl: "http://nt.km.court.gov.ua/"
+  scheduleurl: "http://nt.km.court.gov.ua/sud2211/spysoksprav/"
+  code: "2211"
+
+ -
+  fileid: "nu.km"
+  group: "khmelnytskyireg"
+  namestr: "Новоушицький районний суд Хмельницької області"
+  siteurl: "http://nu.km.court.gov.ua/"
+  scheduleurl: "http://nu.km.court.gov.ua/sud2212/csz/"
+  code: "2212"
+
+ -
+  fileid: "pl.km"
+  group: "khmelnytskyireg"
+  namestr: "Полонський районний суд Хмельницької області"
+  siteurl: "http://pl.km.court.gov.ua/"
+  scheduleurl: "http://pl.km.court.gov.ua/sud2213//csz"
+  code: "2213"
+
+ -
+  fileid: "sl.km"
+  group: "khmelnytskyireg"
+  namestr: "Славутський міськрайонний суд Хмельницької області"
+  siteurl: "http://sl.km.court.gov.ua/"
+  scheduleurl: "http://sl.km.court.gov.ua/sud2214/csz/"
+  code: "2214"
+
+ -
+  fileid: "sk.km"
+  group: "khmelnytskyireg"
+  namestr: "Старокостянтинівський районний суд Хмельницької області"
+  siteurl: "http://sk.km.court.gov.ua/"
+  scheduleurl: "http://sk.km.court.gov.ua/sud2215/4/"
+  code: "2215"
+
+ -
+  fileid: "st.km"
+  group: "khmelnytskyireg"
+  namestr: "Старосинявський районний суд Хмельницької області"
+  siteurl: "http://st.km.court.gov.ua/"
+  scheduleurl: "http://st.km.court.gov.ua/sud2216/csz/"
+  code: "2216"
+
+ -
+  fileid: "tfp.km"
+  group: "khmelnytskyireg"
+  namestr: "Теофіпольський районний суд Хмельницької області"
+  siteurl: "http://tfp.km.court.gov.ua/"
+  scheduleurl: "http://tfp.km.court.gov.ua/sud2217/tax/csz/"
+  code: "2217"
+
+ -
+  fileid: "kmm.km"
+  group: "khmelnytskyireg"
+  namestr: "Хмельницький міськрайонний суд Хмельницької області"
+  siteurl: "http://kmm.km.court.gov.ua/"
+  scheduleurl: "http://kmm.km.court.gov.ua/sud2218/csz/"
+  code: "2218"
+
+ -
+  fileid: "cm.km"
+  group: "khmelnytskyireg"
+  namestr: "Чемеровецький районний суд Хмельницької області"
+  siteurl: "http://cm.km.court.gov.ua/"
+  scheduleurl: "http://cm.km.court.gov.ua/sud2219/zagalnainf/csz/"
+  code: "2219"
+
+ -
+  fileid: "sh.km"
+  group: "khmelnytskyireg"
+  namestr: "Шепетівський міськрайонний суд Хмельницької області"
+  siteurl: "http://sh.km.court.gov.ua/"
+  scheduleurl: "http://sh.km.court.gov.ua/sud2220/60/csz/"
+  code: "2220"
+
+ -
+  fileid: "ym.km"
+  group: "khmelnytskyireg"
+  namestr: "Ярмолинецький районний суд Хмельницької області"
+  siteurl: "http://ym.km.court.gov.ua/"
+  scheduleurl: "http://ym.km.court.gov.ua/sud2221/listright/csz/"
+  code: "2221"
+
 # Kiev ====================================================== ===== ===== =====
 
  -
@@ -1837,340 +2546,6 @@ courts:
   siteurl: "http://us.kr.court.gov.ua/"
   scheduleurl: "http://us.kr.court.gov.ua/sud1123/3/csz/"
   code: "1123"
-
-# Kharkiv =================================================== ===== ===== =====
-
- -
-  fileid: "dg.hr"
-  group: "kharkiv"
-  namestr: "Дзержинський районний суд м. Харкова"
-  siteurl: "http://dg.hr.court.gov.ua/"
-  scheduleurl: "http://dg.hr.court.gov.ua/sud2011//csz"
-  code: "2011"
-
- -
-  fileid: "jv.hr"
-  group: "kharkiv"
-  namestr: "Жовтневий районний суд м. Харкова"
-  siteurl: "http://jv.hr.court.gov.ua/"
-  scheduleurl: "http://jv.hr.court.gov.ua/sud2012/spra/csz/"
-  code: "2012"
-
- -
-  fileid: "ki.hr"
-  group: "kharkiv"
-  namestr: "Київський районний суд м. Харкова"
-  siteurl: "http://ki.hr.court.gov.ua/"
-  scheduleurl: "http://ki.hr.court.gov.ua/sud2018//csz"
-  code: "2018"
-
- -
-  fileid: "km.hr"
-  group: "kharkiv"
-  namestr: "Комінтернівський районний суд м. Харкова"
-  siteurl: "http://km.hr.court.gov.ua/"
-  scheduleurl: "http://km.hr.court.gov.ua/sud2020/csz/"
-  code: "2020"
-
- -
-  fileid: "ln.hr"
-  group: "kharkiv"
-  namestr: "Ленінський районний суд м. Харкова"
-  siteurl: "http://ln.hr.court.gov.ua/"
-  scheduleurl: "http://ln.hr.court.gov.ua/sud2024/csz/"
-  code: "2024"
-
- -
-  fileid: "ms.hr"
-  group: "kharkiv"
-  namestr: "Московський районний суд м. Харкова"
-  siteurl: "http://ms.hr.court.gov.ua/"
-  scheduleurl: "http://ms.hr.court.gov.ua/sud2027/csz/"
-  code: "2027"
-
- -
-  fileid: "og.hr"
-  group: "kharkiv"
-  namestr: "Орджонікідзевський районний суд м. Харкова"
-  siteurl: "http://og.hr.court.gov.ua/"
-  scheduleurl: "http://og.hr.court.gov.ua/sud2029/csz/"
-  code: "2029"
-
- -
-  fileid: "fr.hr"
-  group: "kharkiv"
-  namestr: "Фрунзенський районний суд м. Харкова"
-  siteurl: "http://fr.hr.court.gov.ua/"
-  scheduleurl: "http://fr.hr.court.gov.ua/sud2033/information/csz/"
-  code: "2033"
-
- -
-  fileid: "cz.hr"
-  group: "kharkiv"
-  namestr: "Червонозаводський районний суд м. Харкова"
-  siteurl: "http://cz.hr.court.gov.ua/"
-  scheduleurl: "http://cz.hr.court.gov.ua/sud2035/csz/"
-  code: "2035"
-
- -
-  fileid: "adm.hr"
-  group: "kharkiv"
-  namestr: "Харківський окружний адміністративний суд"
-  siteurl: "http://adm.hr.court.gov.ua/"
-  scheduleurl: "http://adm.hr.court.gov.ua/sud2070/csz/"
-  code: "2070"
-
-
-# Kharkiv region ============================================ ===== ===== =====
-
- -
-  fileid: "bll.hr"
-  group: "kharkivreg"
-  namestr: "Балаклійський районний суд Харківскої області"
-  siteurl: "http://bll.hr.court.gov.ua/"
-  scheduleurl: "http://bll.hr.court.gov.ua/sud2001/inf_for/csz/"
-  code: "2001"
-
- -
-  fileid: "brv.hr"
-  group: "kharkivreg"
-  namestr: "Барвінківський районний суд Харківської області"
-  siteurl: "http://brv.hr.court.gov.ua/"
-  scheduleurl: "http://brv.hr.court.gov.ua/sud2002/csz/"
-  code: "2002"
-
- -
-  fileid: "blk.hr"
-  group: "kharkivreg"
-  namestr: "Близнюківський районний суд Харківської області"
-  siteurl: "http://blk.hr.court.gov.ua/"
-  scheduleurl: "http://blk.hr.court.gov.ua/sud2003/csz/"
-  code: "2003"
-
- -
-  fileid: "bg.hr"
-  group: "kharkivreg"
-  namestr: "Богодухівський районний суд Харківської області"
-  siteurl: "http://bg.hr.court.gov.ua/"
-  scheduleurl: "http://bg.hr.court.gov.ua/sud2004/do_rozgliadu/csz/"
-  code: "2004"
-
- -
-  fileid: "br.hr"
-  group: "kharkivreg"
-  namestr: "Борівський районний суд Харківської області"
-  siteurl: "http://br.hr.court.gov.ua/"
-  scheduleurl: "http://br.hr.court.gov.ua/sud2005/csz/"
-  code: "2005"
-
- -
-  fileid: "vl.hr"
-  group: "kharkivreg"
-  namestr: "Валківський районний суд Харківської області"
-  siteurl: "http://vl.hr.court.gov.ua/"
-  scheduleurl: "http://vl.hr.court.gov.ua/sud2006/info/csz/"
-  code: "2006"
-
- -
-  fileid: "vb.hr"
-  group: "kharkivreg"
-  namestr: "Великобурлуцький районний суд Харківської області"
-  siteurl: "http://vb.hr.court.gov.ua/"
-  scheduleurl: "http://vb.hr.court.gov.ua/sud2007/csz/"
-  code: "2007"
-
- -
-  fileid: "vv.hr"
-  group: "kharkivreg"
-  namestr: "Вовчанський районний суд Харківської області"
-  siteurl: "http://vv.hr.court.gov.ua/"
-  scheduleurl: "http://vv.hr.court.gov.ua/sud2008/csz/"
-  code: "2008"
-
- -
-  fileid: "dv.hr"
-  group: "kharkivreg"
-  namestr: "Дворічанський районний суд Харківської області"
-  siteurl: "http://dv.hr.court.gov.ua/"
-  scheduleurl: "http://dv.hr.court.gov.ua/sud2009/csz/"
-  code: "2009"
-
- -
-  fileid: "dr.hr"
-  group: "kharkivreg"
-  namestr: "Дергачівський районний суд Харківської області"
-  siteurl: "http://dr.hr.court.gov.ua/"
-  scheduleurl: "http://dr.hr.court.gov.ua/sud2010/spis_sprav/csz/"
-  code: "2010"
-
- -
-  fileid: "zc.hr"
-  group: "kharkivreg"
-  namestr: "Зачепилівський районний суд Харківської області"
-  siteurl: "http://zc.hr.court.gov.ua/"
-  scheduleurl: "http://zc.hr.court.gov.ua/sud2013/csz/"
-  code: "2013"
-
- -
-  fileid: "zm.hr"
-  group: "kharkivreg"
-  namestr: "Зміївський районний суд Харківської області"
-  siteurl: "http://zm.hr.court.gov.ua/"
-  scheduleurl: "http://zm.hr.court.gov.ua/sud2014/csz/"
-  code: "2014"
-
- -
-  fileid: "zl.hr"
-  group: "kharkivreg"
-  namestr: "Золочівський районний суд Харківської області"
-  siteurl: "http://zl.hr.court.gov.ua/"
-  scheduleurl: "http://zl.hr.court.gov.ua/sud2015/csz/"
-  code: "2015"
-
-# -
-#  fileid: ""
-#  group: "kharkivreg"
-#  namestr: ""
-#  siteurl: "http://iz.hr.court.gov.ua/216894/"
-#  NOTE: maybe this should be "izm.hr" really
-#  scheduleurl: ""
-#  code: ""
-
- -
-  fileid: "izm.hr"
-  group: "kharkivreg"
-  namestr: "Ізюмський міськрайонний суд Харківської області"
-  siteurl: "http://izm.hr.court.gov.ua/"
-  scheduleurl: "http://izm.hr.court.gov.ua/sud2016/csz/"
-  code: "2016"
-
- -
-  fileid: "kg.hr"
-  group: "kharkivreg"
-  namestr: "Кегичівський районний суд Харківської області"
-  siteurl: "http://kg.hr.court.gov.ua/"
-  scheduleurl: "http://kg.hr.court.gov.ua/sud2017/csz/"
-  code: "2017"
-
- -
-  fileid: "kl.hr"
-  group: "kharkivreg"
-  namestr: "Коломацький районний суд Харківської області"
-  siteurl: "http://kl.hr.court.gov.ua/"
-  scheduleurl: "http://kl.hr.court.gov.ua/sud2019/cpisok/csz/"
-  code: "2019"
-
- -
-  fileid: "kr.hr"
-  group: "kharkivreg"
-  namestr: "Красноградський районний суд Харківської області"
-  siteurl: "http://kr.hr.court.gov.ua/"
-  scheduleurl: "http://kr.hr.court.gov.ua/sud2021/list_of_cases_assigned_to_review/csz/"
-  code: "2021"
-
- -
-  fileid: "kk.hr"
-  group: "kharkivreg"
-  namestr: "Краснокутський районний суд Харківської області"
-  siteurl: "http://kk.hr.court.gov.ua/"
-  scheduleurl: "http://kk.hr.court.gov.ua/sud2022/csz/"
-  code: "2022"
-
-# -
-#  fileid: ""
-#  group: "kharkivreg"
-#  namestr: ""
-#  siteurl: "http://kp.hr.court.gov.ua/"
-#  scheduleurl: ""
-#  code: ""
-#  NOTE: see the court below
- -
-  fileid: "kpm.hr"
-  group: "kharkivreg"
-  namestr: "Куп'янський міськрайонний суд Харківської області"
-  siteurl: "http://kpm.hr.court.gov.ua/"
-  scheduleurl: "http://kpm.hr.court.gov.ua/sud2023/csz/"
-  code: "2023"
-
-# -
-#  fileid: ""
-#  group: "kharkivreg"
-#  namestr: ""
-#  siteurl: "http://lz.hr.court.gov.ua/"
-#  scheduleurl: ""
-#  code: ""
-#  NOTE: see the court below
- -
-  fileid: "lzm.hr"
-  group: "kharkivreg"
-  namestr: "Лозівський міськрайонний суд Харківської області"
-  siteurl: "http://lzm.hr.court.gov.ua/"
-  scheduleurl: "http://lzm.hr.court.gov.ua/sud2025/csz/"
-  code: "2025"
-
- -
-  fileid: "lbt.hr"
-  group: "kharkivreg"
-  namestr: "Люботинський міський суд Харківської області"
-  siteurl: "http://lbt.hr.court.gov.ua/"
-  scheduleurl: "http://lbt.hr.court.gov.ua/sud2026/info/csz/"
-  code: "2026"
-
- -
-  fileid: "nv.hr"
-  group: "kharkivreg"
-  namestr: "Нововодолазький районний суд Харківської області"
-  siteurl: "http://nv.hr.court.gov.ua/"
-  scheduleurl: "http://nv.hr.court.gov.ua/sud2028/csz/"
-  code: "2028"
-
- -
-  fileid: "pm.hr"
-  group: "kharkivreg"
-  namestr: "Первомайський міськрайонний суд Харківської області"
-  siteurl: "http://pm.hr.court.gov.ua/"
-  scheduleurl: "http://pm.hr.court.gov.ua/sud2030/csz/"
-  code: "2030"
-
- -
-  fileid: "pc.hr"
-  group: "kharkivreg"
-  namestr: "Печенізький районний суд Харківської області"
-  siteurl: "http://pc.hr.court.gov.ua/"
-  scheduleurl: "http://pc.hr.court.gov.ua/sud2031/spravi/csz/"
-  code: "2031"
-
- -
-  fileid: "sv.hr"
-  group: "kharkivreg"
-  namestr: "Сахновщинський районний суд Харківської області"
-  siteurl: "http://sv.hr.court.gov.ua/"
-  scheduleurl: "http://sv.hr.court.gov.ua/sud2032/info/csz/"
-  code: "2032"
-
- -
-  fileid: "hr.hr"
-  group: "kharkivreg"
-  namestr: "Харківський районний суд Харківської області"
-  siteurl: "http://hr.hr.court.gov.ua/"
-  scheduleurl: "http://hr.hr.court.gov.ua/sud2034/csz/"
-  code: "2034"
-
- -
-  fileid: "cg.hr"
-  group: "kharkivreg"
-  namestr: "Чугуївський міський суд Харківської області"
-  siteurl: "http://cg.hr.court.gov.ua/"
-  scheduleurl: "http://cg.hr.court.gov.ua/sud2036/info/csz/"
-  code: "2036"
-
- -
-  fileid: "sh.hr"
-  group: "kharkivreg"
-  namestr: "Шевченківський  районний суд  Харківської області"
-  siteurl: "http://sh.hr.court.gov.ua/"
-  scheduleurl: "http://sh.hr.court.gov.ua/sud2037/csz/"
-  code: "2037"
 
 # Lviv ====================================================== ===== ===== =====
 
@@ -3564,6 +3939,145 @@ courts:
   siteurl: "http://shm.su.court.gov.ua/"
   scheduleurl: "http://shm.su.court.gov.ua/sud1819/csz/"
   code: "1819"
+
+
+# Ternopil region =========================================== ===== ===== =====
+
+ -
+  fileid: "bg.te"
+  group: "ternopilreg"
+  namestr: "Бережанський районний суд Тернопільської області"
+  siteurl: "http://bg.te.court.gov.ua/"
+  scheduleurl: "http://bg.te.court.gov.ua/sud1901/4/csz/"
+  code: "1901"
+
+ -
+  fileid: "bv.te"
+  group: "ternopilreg"
+  namestr: "Борщівський районний суд Тернопільської області"
+  siteurl: "http://bv.te.court.gov.ua/"
+  scheduleurl: "http://bv.te.court.gov.ua/sud1902/csz/"
+  code: "1902"
+
+ -
+  fileid: "bc.te"
+  group: "ternopilreg"
+  namestr: "Бучацький районний суд Тернопільської області"
+  siteurl: "http://bc.te.court.gov.ua/"
+  scheduleurl: "http://bc.te.court.gov.ua/sud1903/csz/"
+  code: "1903"
+
+ -
+  fileid: "gs.te"
+  group: "ternopilreg"
+  namestr: "Гусятинський районний суд Тернопільської області"
+  siteurl: "http://gs.te.court.gov.ua/"
+  scheduleurl: "http://gs.te.court.gov.ua/sud1904/13/csz/"
+  code: "1904"
+
+ -
+  fileid: "zl.te"
+  group: "ternopilreg"
+  namestr: "Заліщицький районний суд Тернопільської області"
+  siteurl: "http://zl.te.court.gov.ua/"
+  scheduleurl: "http://zl.te.court.gov.ua/sud1905//csz"
+  code: "1905"
+
+ -
+  fileid: "zbz.te"
+  group: "ternopilreg"
+  namestr: "Збаразький районний суд Тернопільської області"
+  siteurl: "http://zbz.te.court.gov.ua/"
+  scheduleurl: "http://zbz.te.court.gov.ua/sud1906/spysok_sprav/csz/"
+  code: "1906"
+
+ -
+  fileid: "zbv.te"
+  group: "ternopilreg"
+  namestr: "Зборівський районний суд Тернопільської області"
+  siteurl: "http://zbv.te.court.gov.ua/"
+  scheduleurl: "http://zbv.te.court.gov.ua/sud1907/csz/"
+  code: "1907"
+
+ -
+  fileid: "kz.te"
+  group: "ternopilreg"
+  namestr: "Козівський районний суд Тернопільської області"
+  siteurl: "http://kz.te.court.gov.ua/"
+  scheduleurl: "http://kz.te.court.gov.ua/sud1908/csz/"
+  code: "1908"
+
+ -
+  fileid: "kr.te"
+  group: "ternopilreg"
+  namestr: "Кременецький районний суд Тернопільської області"
+  siteurl: "http://kr.te.court.gov.ua/"
+  scheduleurl: "http://kr.te.court.gov.ua/sud1909/csz/"
+  code: "1909"
+
+ -
+  fileid: "ln.te"
+  group: "ternopilreg"
+  namestr: "Лановецький районний суд Тернопільської області"
+  siteurl: "http://ln.te.court.gov.ua/"
+  scheduleurl: "http://ln.te.court.gov.ua/sud1910/30/csz/"
+  code: "1910"
+
+ -
+  fileid: "mn.te"
+  group: "ternopilreg"
+  namestr: "Монастириський районний суд Тернопільської області"
+  siteurl: "http://mn.te.court.gov.ua/"
+  scheduleurl: "http://mn.te.court.gov.ua/sud1911/csz/"
+  code: "1911"
+
+ -
+  fileid: "pv.te"
+  group: "ternopilreg"
+  namestr: "Підволочиський районний суд Тернопільської області"
+  siteurl: "http://pv.te.court.gov.ua/"
+  scheduleurl: "http://pv.te.court.gov.ua/sud1912/csz/"
+  code: "1912"
+
+ -
+  fileid: "pg.te"
+  group: "ternopilreg"
+  namestr: "Підгаєцький районний суд Тернопільської області"
+  siteurl: "http://pg.te.court.gov.ua/"
+  scheduleurl: "http://pg.te.court.gov.ua/sud1913/sps/csz/"
+  code: "1913"
+
+ -
+  fileid: "tr.te"
+  group: "ternopilreg"
+  namestr: "Теребовлянський районний суд Тернопільської області"
+  siteurl: "http://tr.te.court.gov.ua/"
+  scheduleurl: "http://tr.te.court.gov.ua/sud1914/home/csz/"
+  code: "1914"
+
+ -
+  fileid: "tem.te"
+  group: "ternopilreg"
+  namestr: "Тернопільський міськрайонний суд Тернопільської області"
+  siteurl: "http://tem.te.court.gov.ua/"
+  scheduleurl: "http://tem.te.court.gov.ua/sud1915//csz"
+  code: "1915"
+
+ -
+  fileid: "crt.te"
+  group: "ternopilreg"
+  namestr: "Чортківський районний суд Тернопільської області"
+  siteurl: "http://crt.te.court.gov.ua/"
+  scheduleurl: "http://crt.te.court.gov.ua/sud1916/jhghjg/csz/"
+  code: "1916"
+
+ -
+  fileid: "sh.te"
+  group: "ternopilreg"
+  namestr: "Шумський районний суд Тернопільської області"
+  siteurl: "http://sh.te.court.gov.ua/"
+  scheduleurl: "http://sh.te.court.gov.ua/sud1917/inform/csz/"
+  code: "1917"
 
 # Vinnytsia region ========================================== ===== ===== =====
 
