@@ -21,7 +21,7 @@ program
   .option('-i, --courtId [courtId]'
          ,'(optional) Script will request data only for specified court'
           + '(like \'pc.ki\')')
-  
+
   .parse(process.argv);
 
 if (!program.courts) {
@@ -152,6 +152,54 @@ function transformData(jsonData) {
 }
 
 // ============================================================================
+//  Prepares the name of the file
+// The name includes current date (year, month, day, "_", hours, minutes,
+// seconds) and given court id
+// For example, fo
+function prepareFilename(courtFileId) {
+  var dt = new Date();
+  //var dt = new Date( 2007, 9, 16, 16, 5, 0 );
+
+  var sYear = dt.getFullYear().toString() ;
+
+  var nMonth = dt.getMonth() +1;
+  var sMonth = nMonth.toString();
+  if (nMonth<10) {
+    sMonth = '0' + sMonth;
+  }
+
+  var nday = dt.getDate();
+  var sday = nday.toString();
+  if(nday < 10) {
+    sday = '0' + sday;
+  }
+
+  var nhour = dt.getHours();
+  var shour = nhour.toString();
+  if (nhour<10) {
+    shour = '0' + shour;
+  }
+
+  var nminutes = dt.getMinutes();
+  var sminutes = nminutes.toString();
+  if (nminutes<10) {
+    sminutes = '0' + sminutes;
+  }
+
+  var nseconds = dt.getHours();
+  var sseconds = nseconds.toString();
+  if (nseconds<10) {
+    sseconds = '0' + sseconds;
+  }
+
+  var result = 'e' + sYear + sMonth + sday +
+               '_' + shour + sminutes + sseconds +
+               '.' + courtFileId + '.json';
+
+  return result;
+}
+
+// ============================================================================
 // Performs all actions needed to process one court
 //Actually we'll only send a post request for data here; all other actions will
 //be done in callbacks
@@ -218,7 +266,7 @@ function processOneCourt(court) {
       var tsd = new Date();
       var tss = 'd' + tsd.getFullYear() + tsd.getMonth() + tsd.getDay() +
                 '_' + tsd.getHours() + tsd.getMinutes() + tsd.getSeconds();
-      var afn = program.archive + '/' + tss + '.' + court.fileid + '.json';
+      var afn = program.archive + '/' + prepareFilename(court.fileid) ;
       fs.writeFile(afn, pdstr, function (err) {
         if (err) {
           console.log( 'Failed to write data to archive for %s : %s ', respCourtId, err.toString()) ;
@@ -268,7 +316,7 @@ if (program.courtId) {
       break;
     }
   }
-  
+
   if (cidx>=0) {
     console.log('Court paramaters found, starting processing for %s',
                 program.courtId);
@@ -281,7 +329,7 @@ if (program.courtId) {
 else {
   var timeoutIndex = 0;
   for (var ci=0; ci<courts.length; ci++) {
-    if ( ((program.regionId)&&(courts[ci].group== program.regionId)) 
+    if ( ((program.regionId)&&(courts[ci].group== program.regionId))
          || (!program.regionId) ) {
       // Some timeout to reduce load of the courts website
       setTimeout(processOneCourt, 9*1000*timeoutIndex, courts[ci]);
@@ -289,11 +337,8 @@ else {
       console.log('Will process %s', courts[ci].fileid);
     }
   }
-}     
-  
+}
+
 //processOneCourt(courts[0]); // this line is for debug purposes only
 //processOneCourt(courts[1]);
 //console.log ("taskStart: done");
-
-
-
