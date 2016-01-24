@@ -217,7 +217,7 @@ courts:
   group: "сherkasyreg"
   namestr: "Корсунь-Шевченківський районний суд Черкаської області"
   siteurl: "http://ks.ck.court.gov.ua/"
-  scheduleurl: "http://ck.court.gov.ua/sud2310/inform/csz/"
+  scheduleurl: "http://ks.ck.court.gov.ua/sud2310/inform/csz/"
   code: "2310"
 
  -
@@ -3427,7 +3427,7 @@ courts:
   namestr: "Гребінківський районний суд Полтавської області"
   siteurl: "http://gr.pl.court.gov.ua/"
   scheduleurl: "http://gr.pl.court.gov.ua/sud1605/csz/"
-  code: "sud1605"
+  code: "1605"
 
  -
   fileid: "dk.pl"
