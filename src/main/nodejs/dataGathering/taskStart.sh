@@ -96,13 +96,32 @@ errorFileName=$scriptFolder"/err.txt"
 # most of work
 node $scriptFolder/taskStart.js --courts $courtsFileName --archive $archiveDataPath --recent $recentDataPath --ef $errorFileName
 
-# archive all newly received files
+
+# add file contents to sqlite database
+newFilesListFilename=$scriptFolder"/nfl.txt"
 for fn in `find $archiveDataPath -name "*.json"`
 do
- #echo "file is $fn"
- tar -czf $fn".tgz" $fn
- rm $fn
+  echo $fn >> $newFilesListFilename
 done
+execStr="java -jar ./frozenYard-0.0.3.jar "
+execStr=${execStr}" --db $scriptFolder/pb.sqlite "
+execStr=${execStr}" --list $newFilesListFilename"
+execStr=${execStr}" -l INFO"
+${execStr}
+
+rm -f $newFilesListFilename
+
+# archive all newly received files
+newFilesListFilename=$scriptFolder"/nfl.txt"
+for fn in `find $archiveDataPath -name "*.json"`
+do
+  #echo "file is $fn"
+  tar -czf $fn".tgz" $fn
+  rm $fn
+done
+
+
+
 
 # update timestamp for website
 echo $dateStampStr > $recentDataPath"/date.txt"
