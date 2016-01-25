@@ -91,9 +91,10 @@ fi
 
 #------------------------------------------------------------------------------
 # Finally ---------------------------------------------------------------------
+errorFileName=$scriptFolder"/err.txt"
 
 # most of work
-node $scriptFolder/taskStart.js --courts $courtsFileName --archive $archiveDataPath --recent $recentDataPath
+node $scriptFolder/taskStart.js --courts $courtsFileName --archive $archiveDataPath --recent $recentDataPath --ef $errorFileName
 
 # archive all newly received files
 for fn in `find $archiveDataPath -name "*.json"`
@@ -105,3 +106,12 @@ done
 
 # update timestamp for website
 echo $dateStampStr > $recentDataPath"/date.txt"
+
+# Send errors report (if there were any)
+if [ -s $errorFileName ]
+then
+  echo "Some errors appeared, will send email"
+  mutt -s "allcourts.tk update errors" oleksii.bilianskyi@yahoo.com < $errorFileName
+fi
+
+rm -f $errorFileName

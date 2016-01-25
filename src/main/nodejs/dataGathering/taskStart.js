@@ -21,6 +21,9 @@ program
   .option('-i, --courtId [courtId]'
          ,'(optional) Script will request data only for specified court'
           + '(like \'pc.ki\')')
+  .option('-e, --ef [errorFile]'
+                 ,'(optional) File to store error messages '
+                  + '(will be rewritten if exists)')
 
   .parse(process.argv);
 
@@ -42,6 +45,25 @@ if (!program.recent) {
 // ============================================================================
 // Functions ==================================================================
 // ============================================================================
+
+// ============================================================================
+//  Adds error message to the error file, if it was specified
+function addErrorMessage(errMessage) {
+  if (!errorFile) {
+    return;
+  }
+
+  try {
+    console.log("Writing to file:" + errMessage)
+    fs.writeSync(errorFile, errMessage, 'a');
+    fs.writeSync(errorFile, '\n', 'a');
+  }
+  catch (e) {
+    console.log("Failed to write file " + program.ef);
+    console.log(e);
+  }
+}
+
 
 // ============================================================================
 //  Replaces "type of the case" with it's shortened variant if possible.
@@ -93,7 +115,8 @@ function transformData(jsonData) {
     rawObj = JSON.parse(jsonData);
   }
   catch (e) {
-    console.log(e);
+    console.log("transformData ERR:" + e);
+    addErrorMessage(e.message);
     return courtData ;
   }
 
@@ -249,6 +272,10 @@ function processOneCourt(court) {
 
     res.on('end', function() {
 //      console.log('No more data in response for ' + respCourtId)
+      if (respWholeStr.length==0) {
+        addErrorMessage("Got nothing for " + respCourtId);
+        return;
+      }
 
       var pd = transformData(respWholeStr);
       var pdstr = JSON.stringify(pd, null, ' ');
@@ -264,8 +291,6 @@ function processOneCourt(court) {
 
       // also save a copy of data to archive folder
       var tsd = new Date();
-      var tss = 'd' + tsd.getFullYear() + tsd.getMonth() + tsd.getDay() +
-                '_' + tsd.getHours() + tsd.getMinutes() + tsd.getSeconds();
       var afn = program.archive + '/' + prepareFilename(court.fileid) ;
       fs.writeFile(afn, pdstr, function (err) {
         if (err) {
@@ -280,8 +305,12 @@ function processOneCourt(court) {
 
   req.on('error', function(err) {
     var respCourtId = court.fileid ;
-    console.log('problem with request for %s:' , respCourtId);
+    var em = 'problem with request for ' + respCourtId + '.'
+    console.log(em);
+    em += '\n';
     console.log( err.message);
+    em += err.message + '\n';
+    addErrorMessage(em);
   });
 
   // write data to request body
@@ -292,6 +321,18 @@ function processOneCourt(court) {
 // ============================================================================
 // == Main ====================================================================
 // ============================================================================
+
+//First, open (and rewrite) the error file
+var errorFile = null;
+if (program.ef) {
+  try {
+    errorFile= fs.openSync(program.ef, 'w');
+  }
+  catch (e) {
+    console.log("Failed to open file " + program.ef);
+    console.log(e);
+  }
+}
 
 var courtsFileName = program.courts ;
 
@@ -339,6 +380,21 @@ else {
   }
 }
 
+// Close error file after all data will be processed
+setTimeout(function () {
+  if (errorFile) {
+    try {
+      fs.closeSync(errorFile);
+    }
+    catch (e) {
+      console.log("Failed to close file " + program.ef);
+      console.log(e);
+    }
+  }
+}, 9*1000*courts.length + 5)
+
+
 //processOneCourt(courts[0]); // this line is for debug purposes only
 //processOneCourt(courts[1]);
+
 //console.log ("taskStart: done");
