@@ -103,7 +103,7 @@ for fn in `find $archiveDataPath -name "*.json"`
 do
   echo $fn >> $newFilesListFilename
 done
-execStr="java -jar $scriptFolder/frozenYard-0.0.3.jar "
+execStr="java -Dfile.encoding=UTF-8 -jar $scriptFolder/frozenYard-0.0.3.jar "
 execStr=${execStr}" --db $scriptFolder/pb.sqlite "
 execStr=${execStr}" --list $newFilesListFilename"
 execStr=${execStr}" -l INFO"
