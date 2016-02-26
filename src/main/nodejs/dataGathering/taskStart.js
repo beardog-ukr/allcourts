@@ -102,7 +102,7 @@ function makeTypeShort(caseStr) {
 
 // ============================================================================
 // Transforms incoming raw JSON data to more compact form
-function transformData(jsonData) {
+function transformData(jsonData, errorFileName) {
   var rawObj ;
 
   var courtData = {};
@@ -117,6 +117,15 @@ function transformData(jsonData) {
   catch (e) {
     console.log("transformData ERR:" + e);
     addErrorMessage(e.message);
+    
+    fs.writeFile(errorFileName, jsonData, function (err) {
+      if (err) {
+        console.log( 'Failed to write bad data to archive for %s : %s', errorFileName, err.toString()) ;
+        return ;
+      };
+      console.log('Saved bad data to archive as '+errorFileName);
+    });
+    
     return courtData ;
   }
 
@@ -277,7 +286,8 @@ function processOneCourt(court) {
         return;
       }
 
-      var pd = transformData(respWholeStr);
+      var errFn = program.archive + '/' + prepareFilename(court.fileid) + ".err" ;
+      var pd = transformData(respWholeStr, errFn);
       var pdstr = JSON.stringify(pd, null, ' ');
 
       var recentFileName= program.recent + '/' + respCourtId + '.json';
